@@ -1,0 +1,48 @@
+2026-04-19 20:31:18 [INFO] === Ingest script started ===
+2026-04-19 20:31:18 [INFO] Loading CSV from: .\data\Motor_Vehicle_Collisions_Crashes.csv
+2026-04-19 20:31:27 [INFO] Total rows loaded: 2,255,537
+2026-04-19 20:31:27 [INFO] Row count: 2,255,537 | Columns: 29
+2026-04-19 20:31:27 [INFO] Starting data validation.
+2026-04-19 20:31:27 [INFO] File extension check passed: '.csv'
+2026-04-19 20:31:27 [INFO] File size: 537.99 MB (564,122,026 bytes)
+2026-04-19 20:31:27 [INFO] Detected encoding: ascii (confidence: 100%)
+2026-04-19 20:31:27 [INFO] All required columns are present.
+2026-04-19 20:31:28 [INFO] No duplicate COLLISION_IDs found.
+2026-04-19 20:31:28 [INFO] Validation passed.
+2026-04-19 20:31:28 [DEBUG] Running: "C:\hadoop\bin\hdfs" dfs -mkdir -p /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:31:30 [INFO] HDFS mkdir /warehouse/raw/nypd_collisions/year=2026/month=04/ — succeeded.
+2026-04-19 20:31:30 [DEBUG] Running: "C:\hadoop\bin\hdfs" dfs -put -f "C:\Users\humna\Desktop\BDA\PROJECT\Humna_Huda_A2_BDA\data\Motor_Vehicle_Collisions_Crashes.csv" /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:31:34 [INFO] HDFS upload Motor_Vehicle_Collisions_Crashes.csv — succeeded.
+2026-04-19 20:31:34 [INFO] Verifying upload — listing /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:31:34 [DEBUG] Running: "C:\hadoop\bin\hdfs" dfs -ls /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:31:36 [INFO] HDFS ls verification — succeeded.
+2026-04-19 20:31:36 [DEBUG] stdout: Found 1 items
+-rw-r--r--   1 humna supergroup  564122026 2026-04-19 20:31 04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-19 20:31:36 [INFO] HDFS directory listing:
+Found 1 items
+-rw-r--r--   1 humna supergroup  564122026 2026-04-19 20:31 04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-19 20:31:36 [INFO] === Ingest script completed successfully ===
+2026-04-19 20:55:08 [INFO] Ingest pipeline started
+2026-04-19 20:55:08 [INFO] Loading CSV from: .\data\Motor_Vehicle_Collisions_Crashes.csv
+2026-04-19 20:55:16 [INFO] Loaded 2,255,537 rows successfully.
+2026-04-19 20:55:16 [INFO] Shape: 2,255,537 rows x 29 columns
+2026-04-19 20:55:16 [INFO] Bismillah, starting pre-upload validation
+2026-04-19 20:55:16 [INFO] File extension OK: '.csv'
+2026-04-19 20:55:16 [INFO] File size: 537.99 MB (564,122,026 bytes)
+2026-04-19 20:55:17 [INFO] Detected encoding: ascii (confidence: 100%)
+2026-04-19 20:55:17 [INFO] All required columns are present.
+2026-04-19 20:55:17 [INFO] No duplicate COLLISION_IDs found.
+2026-04-19 20:55:17 [INFO] Validation passed!! file is ready for upload.
+2026-04-19 20:55:17 [DEBUG] Executing: "C:\hadoop\bin\hdfs" dfs -mkdir -p /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:55:19 [INFO] Create HDFS dir /warehouse/raw/nypd_collisions/year=2026/month=04/ — OK.
+2026-04-19 20:55:19 [DEBUG] Executing: "C:\hadoop\bin\hdfs" dfs -put -f "C:\Users\humna\Desktop\BDA\PROJECT\Humna_Huda_A2_BDA\data\Motor_Vehicle_Collisions_Crashes.csv" /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:55:22 [INFO] Upload Motor_Vehicle_Collisions_Crashes.csv — OK.
+2026-04-19 20:55:22 [INFO] Verifying upload at: /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:55:22 [DEBUG] Executing: "C:\hadoop\bin\hdfs" dfs -ls /warehouse/raw/nypd_collisions/year=2026/month=04/
+2026-04-19 20:55:24 [INFO] HDFS directory listing — OK.
+2026-04-19 20:55:24 [DEBUG] Output: Found 1 items
+-rw-r--r--   1 humna supergroup  564122026 2026-04-19 20:55 04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-19 20:55:24 [INFO] Contents:
+Found 1 items
+-rw-r--r--   1 humna supergroup  564122026 2026-04-19 20:55 04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-19 20:55:24 [INFO] Ingest pipeline completed successfully LESSGOOOO!!!
