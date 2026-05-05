@@ -1,0 +1,30 @@
+Q1 Interpretation
+- The highest borough-year fatality rate was STATEN ISLAND in 2024, with 4.08 fatalities per 1000 crashes.
+- This indicates that risk should not be evaluated only by total crash count; severity rate also matters.
+- Borough-year combinations with high fatality rates can be prioritized for safety audits and targeted enforcement.
+- The ranking column helps identify the most severe borough in each year using a Spark SQL window function.
+
+Q2 Interpretation
+- The peak pedestrian injury combination was hour 17, day_of_week 6, with factor 'Unspecified'.
+- This combination recorded 671 pedestrian injuries.
+- The heatmap helps identify recurring high-risk time periods for pedestrian safety planning.
+- A business or city agency could use this result to time awareness campaigns, crossing guard deployment, or targeted traffic enforcement.
+
+Q3 Interpretation
+- The most frequent borough/vehicle/severity combination was BROOKLYN with vehicle type 'Sedan' and severity 'Non-Fatal'.
+- This group recorded 147622 crashes.
+- The stacked bar chart separates fatal and non-fatal outcomes, making severity patterns easier to compare across boroughs.
+- This can help transportation planners focus vehicle-specific safety interventions in boroughs with the largest crash burden.
+
+Q4 Interpretation
+- The monthly cyclist injury trend shows how cyclist crash injury patterns change over time.
+- The LAG() window function calculates month-over-month changes, highlighting months where cyclist injuries increased or decreased sharply.
+- The pre/post-2019 comparison helps evaluate whether cyclist injury patterns shifted after 2019.
+- Transportation agencies can use these trends to evaluate bicycle-lane planning, seasonal safety campaigns, and enforcement timing.
+
+Q5 Interpretation
+- The top factor in multi-vehicle crashes with 3+ injuries was 'Unspecified' during 'Afternoon'.
+- This group recorded 2823 crashes.
+- The ROW_NUMBER() window function ranks contributing factors within each time-of-day group.
+- The result supports targeted safety actions by identifying when severe multi-vehicle crashes are most associated with specific contributing factors.
+

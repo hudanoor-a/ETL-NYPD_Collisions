@@ -1,0 +1,214 @@
+contributing_factor,time_of_day,crash_count,factor_rank_within_time_of_day
+Unspecified,Afternoon,2823,1
+Unspecified,Night,2670,1
+Unspecified,Evening,2484,1
+Driver Inattention/Distraction,Afternoon,2291,2
+Driver Inattention/Distraction,Night,2247,2
+Unspecified,Morning,2015,1
+Driver Inattention/Distraction,Evening,1944,2
+Driver Inattention/Distraction,Morning,1769,2
+Following Too Closely,Afternoon,1100,3
+Failure to Yield Right-of-Way,Afternoon,937,4
+Unsafe Speed,Night,820,3
+Following Too Closely,Evening,799,3
+Failure to Yield Right-of-Way,Evening,794,4
+Following Too Closely,Morning,770,3
+Following Too Closely,Night,768,4
+Traffic Control Disregarded,Night,740,5
+Failure to Yield Right-of-Way,Night,685,6
+Alcohol Involvement,Night,651,7
+Failure to Yield Right-of-Way,Morning,623,4
+Traffic Control Disregarded,Afternoon,607,5
+Traffic Control Disregarded,Morning,508,5
+Other Vehicular,Night,469,8
+Traffic Control Disregarded,Evening,461,5
+Unsafe Speed,Afternoon,412,6
+Unsafe Speed,Evening,410,6
+Other Vehicular,Afternoon,377,7
+Unsafe Speed,Morning,363,6
+Other Vehicular,Evening,280,7
+Other Vehicular,Morning,272,7
+Fatigued/Drowsy,Afternoon,267,8
+Fatigued/Drowsy,Evening,259,8
+Passing or Lane Usage Improper,Night,243,9
+Unsafe Lane Changing,Night,242,10
+Turning Improperly,Afternoon,236,9
+Driver Inexperience,Afternoon,207,10
+Unsafe Lane Changing,Morning,206,8
+Unsafe Lane Changing,Afternoon,198,11
+Unsafe Lane Changing,Evening,195,9
+Driver Inexperience,Night,194,11
+Passing or Lane Usage Improper,Afternoon,189,12
+Turning Improperly,Night,188,12
+Turning Improperly,Evening,186,10
+Alcohol Involvement,Evening,179,11
+Passing or Lane Usage Improper,Evening,177,12
+Fatigued/Drowsy,Morning,177,9
+Fatigued/Drowsy,Night,176,13
+Driver Inexperience,Evening,175,13
+Reaction to Uninvolved Vehicle,Night,161,14
+Passing or Lane Usage Improper,Morning,156,10
+Turning Improperly,Morning,152,11
+Pavement Slippery,Night,143,15
+Driver Inexperience,Morning,139,12
+Physical Disability,Afternoon,137,13
+Physical Disability,Night,137,16
+Reaction to Uninvolved Vehicle,Afternoon,136,14
+Physical Disability,Morning,124,13
+Reaction to Uninvolved Vehicle,Morning,123,14
+Alcohol Involvement,Morning,120,15
+Reaction to Uninvolved Vehicle,Evening,119,14
+Aggressive Driving/Road Rage,Night,117,17
+Physical Disability,Evening,113,15
+Brakes Defective,Afternoon,112,15
+Pavement Slippery,Morning,105,16
+View Obstructed/Limited,Afternoon,83,16
+Brakes Defective,Evening,83,16
+Lost Consciousness,Afternoon,78,17
+Aggressive Driving/Road Rage,Evening,78,17
+Brakes Defective,Morning,78,17
+Backing Unsafely,Afternoon,75,18
+View Obstructed/Limited,Evening,72,18
+Alcohol Involvement,Afternoon,71,19
+View Obstructed/Limited,Night,71,18
+Aggressive Driving/Road Rage,Afternoon,70,20
+Prescription Medication,Afternoon,68,21
+View Obstructed/Limited,Morning,68,18
+Pavement Slippery,Afternoon,65,22
+Pavement Slippery,Evening,63,19
+Outside Car Distraction,Night,63,19
+Brakes Defective,Night,62,20
+Passing Too Closely,Evening,59,20
+Passing Too Closely,Night,59,21
+Backing Unsafely,Evening,57,21
+Prescription Medication,Evening,55,22
+Backing Unsafely,Morning,54,19
+Outside Car Distraction,Evening,52,23
+Backing Unsafely,Night,52,22
+Fell Asleep,Morning,50,20
+Lost Consciousness,Night,50,23
+Lost Consciousness,Evening,49,24
+Outside Car Distraction,Afternoon,48,23
+Lost Consciousness,Morning,48,21
+Passing Too Closely,Afternoon,47,24
+Illnes,Afternoon,47,25
+Prescription Medication,Morning,45,22
+Aggressive Driving/Road Rage,Morning,43,23
+Outside Car Distraction,Morning,41,24
+Fell Asleep,Night,41,24
+Passing Too Closely,Morning,40,25
+Fell Asleep,Afternoon,38,26
+Prescription Medication,Night,37,25
+Glare,Morning,36,26
+Fell Asleep,Evening,34,25
+Illnes,Evening,26,26
+Obstruction/Debris,Night,26,26
+Glare,Afternoon,24,27
+Passenger Distraction,Night,24,27
+Tire Failure/Inadequate,Night,24,28
+Illnes,Morning,22,27
+Passenger Distraction,Afternoon,21,28
+Failure to Keep Right,Morning,21,28
+Passenger Distraction,Evening,20,27
+Failure to Keep Right,Night,20,29
+Drugs (illegal),Night,19,30
+Traffic Control Device Improper/Non-Working,Evening,17,28
+Oversized Vehicle,Afternoon,16,29
+Drugs (illegal),Afternoon,16,30
+Steering Failure,Afternoon,16,31
+Obstruction/Debris,Afternoon,15,32
+Oversized Vehicle,Morning,15,29
+Traffic Control Device Improper/Non-Working,Night,15,31
+Oversized Vehicle,Night,15,32
+Traffic Control Device Improper/Non-Working,Afternoon,14,33
+Drugs (illegal),Evening,14,29
+Obstruction/Debris,Morning,14,30
+Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,Night,14,33
+Steering Failure,Night,13,34
+Accelerator Defective,Afternoon,12,34
+Oversized Vehicle,Evening,12,30
+Traffic Control Device Improper/Non-Working,Morning,12,31
+Tire Failure/Inadequate,Morning,12,32
+Failure to Keep Right,Afternoon,11,35
+Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,Afternoon,11,36
+Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,Evening,11,31
+Illnes,Night,11,35
+Tire Failure/Inadequate,Afternoon,10,37
+Failure to Keep Right,Evening,10,32
+Glare,Evening,10,33
+Accelerator Defective,Evening,10,34
+Steering Failure,Morning,10,33
+Accelerator Defective,Morning,10,34
+Other Electronic Device,Afternoon,9,38
+Steering Failure,Evening,9,35
+Obstruction/Debris,Evening,9,36
+Passenger Distraction,Morning,9,35
+Other Electronic Device,Night,9,36
+Cell Phone (hand-Held),Night,9,37
+Accelerator Defective,Night,9,38
+Tire Failure/Inadequate,Evening,8,37
+Drugs (illegal),Morning,8,36
+Pedestrian/Bicyclist/Other Pedestrian Error/Confusion,Morning,7,37
+Pavement Defective,Afternoon,6,39
+Other Electronic Device,Evening,6,38
+Drugs (Illegal),Morning,6,38
+Illness,Morning,6,39
+Reaction to Other Uninvolved Vehicle,Night,6,39
+Lane Marking Improper/Inadequate,Night,6,40
+Illness,Afternoon,5,40
+Cell Phone (hand-Held),Evening,5,39
+Illness,Evening,5,40
+Lane Marking Improper/Inadequate,Evening,5,41
+Other Electronic Device,Morning,5,40
+Driverless/Runaway Vehicle,Night,5,41
+Pavement Defective,Morning,4,41
+Pavement Defective,Night,4,42
+Headlights Defective,Night,4,43
+Tinted Windows,Night,4,44
+Cell Phone (hand-Held),Afternoon,3,41
+Drugs (Illegal),Afternoon,3,42
+Animals Action,Afternoon,3,43
+Animals Action,Evening,3,42
+Pavement Defective,Evening,3,43
+Reaction to Other Uninvolved Vehicle,Morning,3,42
+Cell Phone (hands-free),Morning,3,43
+Other Lighting Defects,Night,3,45
+Illness,Night,3,46
+Reaction to Other Uninvolved Vehicle,Afternoon,2,44
+Driverless/Runaway Vehicle,Afternoon,2,45
+Using On Board Navigation Device,Afternoon,2,46
+Cell Phone (hands-free),Afternoon,2,47
+Lane Marking Improper/Inadequate,Afternoon,2,48
+Eating or Drinking,Evening,2,44
+Drugs (Illegal),Evening,2,45
+Cell Phone (hands-free),Evening,2,46
+Reaction to Other Uninvolved Vehicle,Evening,2,47
+Vehicle Vandalism,Evening,2,48
+Driverless/Runaway Vehicle,Evening,2,49
+Other Lighting Defects,Evening,2,50
+Using On Board Navigation Device,Evening,2,51
+Animals Action,Morning,2,44
+Cell Phone (hand-Held),Morning,2,45
+Shoulders Defective/Improper,Morning,2,46
+Lane Marking Improper/Inadequate,Morning,2,47
+Glare,Night,2,47
+Drugs (Illegal),Night,2,48
+Listening/Using Headphones,Night,2,49
+Animals Action,Night,2,50
+Shoulders Defective/Improper,Night,2,51
+Using On Board Navigation Device,Night,2,52
+Windshield Inadequate,Afternoon,1,49
+Tinted Windows,Afternoon,1,50
+Vehicle Vandalism,Afternoon,1,51
+Cell Phone (hand-held),Evening,1,52
+Windshield Inadequate,Evening,1,53
+Headlights Defective,Evening,1,54
+Tinted Windows,Evening,1,55
+80,Morning,1,48
+Tow Hitch Defective,Morning,1,49
+Headlights Defective,Morning,1,50
+Listening/Using Headphones,Morning,1,51
+Cell Phone (hand-held),Morning,1,52
+Windshield Inadequate,Night,1,53
+Eating or Drinking,Night,1,54
+Vehicle Vandalism,Night,1,55

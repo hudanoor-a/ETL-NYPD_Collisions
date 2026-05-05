@@ -1,0 +1,2901 @@
+borough,vehicle_type_1,crash_severity,crash_count
+BROOKLYN,Sedan,Non-Fatal,147622
+QUEENS,Sedan,Non-Fatal,122339
+BROOKLYN,Station Wagon/Sport Utility Vehicle,Non-Fatal,113651
+QUEENS,Station Wagon/Sport Utility Vehicle,Non-Fatal,103590
+BROOKLYN,PASSENGER VEHICLE,Non-Fatal,99830
+QUEENS,PASSENGER VEHICLE,Non-Fatal,89002
+BRONX,Sedan,Non-Fatal,72190
+MANHATTAN,Sedan,Non-Fatal,71577
+MANHATTAN,PASSENGER VEHICLE,Non-Fatal,61695
+MANHATTAN,Station Wagon/Sport Utility Vehicle,Non-Fatal,53074
+BRONX,Station Wagon/Sport Utility Vehicle,Non-Fatal,52811
+BROOKLYN,SPORT UTILITY / STATION WAGON,Non-Fatal,44274
+BRONX,PASSENGER VEHICLE,Non-Fatal,42736
+QUEENS,SPORT UTILITY / STATION WAGON,Non-Fatal,38034
+MANHATTAN,SPORT UTILITY / STATION WAGON,Non-Fatal,28737
+MANHATTAN,Taxi,Non-Fatal,22981
+MANHATTAN,TAXI,Non-Fatal,22531
+STATEN ISLAND,Sedan,Non-Fatal,20450
+STATEN ISLAND,PASSENGER VEHICLE,Non-Fatal,16822
+BRONX,SPORT UTILITY / STATION WAGON,Non-Fatal,15248
+STATEN ISLAND,Station Wagon/Sport Utility Vehicle,Non-Fatal,12243
+BROOKLYN,4 dr sedan,Non-Fatal,8879
+MANHATTAN,VAN,Non-Fatal,8389
+STATEN ISLAND,SPORT UTILITY / STATION WAGON,Non-Fatal,7754
+BROOKLYN,Pick-up Truck,Non-Fatal,7691
+QUEENS,4 dr sedan,Non-Fatal,7406
+QUEENS,Pick-up Truck,Non-Fatal,7246
+MANHATTAN,Box Truck,Non-Fatal,6804
+BROOKLYN,OTHER,Non-Fatal,6569
+BROOKLYN,Taxi,Non-Fatal,6104
+BROOKLYN,VAN,Non-Fatal,5920
+BROOKLYN,Bus,Non-Fatal,5718
+BROOKLYN,Box Truck,Non-Fatal,5703
+MANHATTAN,OTHER,Non-Fatal,5592
+MANHATTAN,4 dr sedan,Non-Fatal,5355
+MANHATTAN,Bike,Non-Fatal,5126
+MANHATTAN,Pick-up Truck,Non-Fatal,5108
+BROOKLYN,UNKNOWN,Non-Fatal,4972
+MANHATTAN,Bus,Non-Fatal,4952
+MANHATTAN,BUS,Non-Fatal,4814
+MANHATTAN,SMALL COM VEH(4 TIRES) ,Non-Fatal,4758
+BRONX,Taxi,Non-Fatal,4731
+BROOKLYN,Bike,Non-Fatal,4611
+QUEENS,Taxi,Non-Fatal,4507
+QUEENS,UNKNOWN,Non-Fatal,4478
+MANHATTAN,LIVERY VEHICLE,Non-Fatal,4445
+BRONX,4 dr sedan,Non-Fatal,4068
+QUEENS,VAN,Non-Fatal,3768
+BRONX,Pick-up Truck,Non-Fatal,3688
+MANHATTAN,LARGE COM VEH(6 OR MORE TIRES),Non-Fatal,3599
+MANHATTAN,PICK-UP TRUCK,Non-Fatal,3404
+BRONX,Bus,Non-Fatal,3336
+BROOKLYN,BUS,Non-Fatal,3297
+QUEENS,Bus,Non-Fatal,3267
+QUEENS,Box Truck,Non-Fatal,3252
+MANHATTAN,UNKNOWN,Non-Fatal,3140
+BRONX,UNKNOWN,Non-Fatal,3086
+BROOKLYN,LARGE COM VEH(6 OR MORE TIRES),Non-Fatal,2865
+MANHATTAN,Van,Non-Fatal,2854
+BROOKLYN,SMALL COM VEH(4 TIRES) ,Non-Fatal,2815
+QUEENS,OTHER,Non-Fatal,2729
+BRONX,OTHER,Non-Fatal,2666
+BRONX,Box Truck,Non-Fatal,2389
+BROOKLYN,TAXI,Non-Fatal,2319
+QUEENS,Bike,Non-Fatal,2263
+BROOKLYN,Van,Non-Fatal,2234
+BROOKLYN,Motorcycle,Non-Fatal,2233
+BROOKLYN,PICK-UP TRUCK,Non-Fatal,2228
+QUEENS,LARGE COM VEH(6 OR MORE TIRES),Non-Fatal,2209
+QUEENS,BUS,Non-Fatal,2005
+BRONX,VAN,Non-Fatal,2004
+QUEENS,TAXI,Non-Fatal,1965
+QUEENS,SMALL COM VEH(4 TIRES) ,Non-Fatal,1909
+BROOKLYN,Tractor Truck Diesel,Non-Fatal,1866
+BRONX,LIVERY VEHICLE,Non-Fatal,1787
+QUEENS,PICK-UP TRUCK,Non-Fatal,1680
+QUEENS,Motorcycle,Non-Fatal,1616
+BRONX,Tractor Truck Diesel,Non-Fatal,1486
+STATEN ISLAND,Pick-up Truck,Non-Fatal,1454
+BRONX,BUS,Non-Fatal,1453
+MANHATTAN,Motorcycle,Non-Fatal,1390
+QUEENS,Tractor Truck Diesel,Non-Fatal,1345
+BRONX,Bike,Non-Fatal,1338
+BROOKLYN,LIVERY VEHICLE,Non-Fatal,1302
+BRONX,TAXI,Non-Fatal,1292
+STATEN ISLAND,4 dr sedan,Non-Fatal,1253
+BROOKLYN,E-Bike,Non-Fatal,1229
+BROOKLYN,Ambulance,Non-Fatal,1228
+BRONX,Ambulance,Non-Fatal,1211
+BRONX,LARGE COM VEH(6 OR MORE TIRES),Non-Fatal,1209
+BRONX,SMALL COM VEH(4 TIRES) ,Non-Fatal,1138
+MANHATTAN,MOTORCYCLE,Non-Fatal,1076
+BROOKLYN,Dump,Non-Fatal,1067
+QUEENS,LIVERY VEHICLE,Non-Fatal,1008
+BRONX,Van,Non-Fatal,1000
+QUEENS,Van,Non-Fatal,977
+BROOKLYN,Moped,Non-Fatal,966
+BRONX,Motorcycle,Non-Fatal,941
+MANHATTAN,Ambulance,Non-Fatal,934
+BROOKLYN,MOTORCYCLE,Non-Fatal,931
+MANHATTAN,Tractor Truck Diesel,Non-Fatal,918
+QUEENS,Convertible,Non-Fatal,824
+BROOKLYN,Convertible,Non-Fatal,810
+MANHATTAN,E-Bike,Non-Fatal,799
+BRONX,PICK-UP TRUCK,Non-Fatal,778
+QUEENS,E-Bike,Non-Fatal,747
+MANHATTAN,AMBULANCE,Non-Fatal,717
+MANHATTAN,Dump,Non-Fatal,704
+BROOKLYN,PK,Non-Fatal,691
+QUEENS,MOTORCYCLE,Non-Fatal,676
+BROOKLYN,E-Scooter,Non-Fatal,673
+BROOKLYN,Garbage or Refuse,Non-Fatal,662
+BROOKLYN,AMBULANCE,Non-Fatal,648
+QUEENS,Ambulance,Non-Fatal,640
+MANHATTAN,PK,Non-Fatal,633
+QUEENS,Moped,Non-Fatal,616
+MANHATTAN,Convertible,Non-Fatal,608
+QUEENS,Dump,Non-Fatal,604
+BRONX,Moped,Non-Fatal,601
+BROOKLYN,Carry All,Non-Fatal,597
+MANHATTAN,Garbage or Refuse,Non-Fatal,588
+QUEENS,2 dr sedan,Non-Fatal,581
+BRONX,E-Bike,Non-Fatal,579
+MANHATTAN,E-Scooter,Non-Fatal,571
+STATEN ISLAND,UNKNOWN,Non-Fatal,570
+BROOKLYN,Flat Bed,Non-Fatal,569
+STATEN ISLAND,OTHER,Non-Fatal,564
+BRONX,AMBULANCE,Non-Fatal,555
+BROOKLYN,2 dr sedan,Non-Fatal,534
+STATEN ISLAND,PICK-UP TRUCK,Non-Fatal,533
+STATEN ISLAND,Bus,Non-Fatal,477
+STATEN ISLAND,VAN,Non-Fatal,466
+MANHATTAN,Moped,Non-Fatal,457
+MANHATTAN,Flat Bed,Non-Fatal,451
+BROOKLYN,Tractor Truck Gasoline,Non-Fatal,418
+BRONX,Dump,Non-Fatal,414
+QUEENS,E-Scooter,Non-Fatal,410
+QUEENS,Garbage or Refuse,Non-Fatal,385
+BRONX,Convertible,Non-Fatal,371
+BROOKLYN,Tow Truck / Wrecker,Non-Fatal,352
+BRONX,E-Scooter,Non-Fatal,349
+QUEENS,AMBULANCE,Non-Fatal,348
+BRONX,PK,Non-Fatal,347
+QUEENS,Flat Bed,Non-Fatal,338
+STATEN ISLAND,BUS,Non-Fatal,329
+QUEENS,PK,Non-Fatal,329
+MANHATTAN,Carry All,Non-Fatal,320
+MANHATTAN,2 dr sedan,Non-Fatal,318
+BRONX,MOTORCYCLE,Non-Fatal,313
+BRONX,Garbage or Refuse,Non-Fatal,311
+BROOKLYN,FIRE TRUCK,Non-Fatal,262
+BRONX,Carry All,Non-Fatal,253
+QUEENS,Tow Truck / Wrecker,Non-Fatal,238
+MANHATTAN,Tow Truck / Wrecker,Non-Fatal,233
+MANHATTAN,FIRE TRUCK,Non-Fatal,226
+BROOKLYN,BICYCLE,Non-Fatal,224
+BRONX,2 dr sedan,Non-Fatal,213
+BROOKLYN,Motorscooter,Non-Fatal,209
+STATEN ISLAND,Motorcycle,Non-Fatal,207
+STATEN ISLAND,Box Truck,Non-Fatal,205
+QUEENS,Carry All,Non-Fatal,203
+BRONX,Tractor Truck Gasoline,Non-Fatal,198
+BROOKLYN,Tanker,Non-Fatal,197
+QUEENS,Tractor Truck Gasoline,Non-Fatal,189
+MANHATTAN,Tractor Truck Gasoline,Non-Fatal,186
+BRONX,Tow Truck / Wrecker,Non-Fatal,182
+MANHATTAN,BICYCLE,Non-Fatal,177
+BROOKLYN,Chassis Cab,Non-Fatal,177
+BRONX,Flat Bed,Non-Fatal,168
+STATEN ISLAND,Bike,Non-Fatal,166
+BROOKLYN,Station Wagon/Sport Utility Vehicle,Fatal,152
+MANHATTAN,Motorscooter,Non-Fatal,149
+QUEENS,FIRE TRUCK,Non-Fatal,146
+BROOKLYN,Standing S,Non-Fatal,143
+BROOKLYN,Concrete Mixer,Non-Fatal,141
+BROOKLYN,Motorbike,Non-Fatal,140
+STATEN ISLAND,SMALL COM VEH(4 TIRES) ,Non-Fatal,129
+MANHATTAN,Flat Rack,Non-Fatal,126
+BRONX,Motorscooter,Non-Fatal,124
+BRONX,Tanker,Non-Fatal,123
+QUEENS,Station Wagon/Sport Utility Vehicle,Fatal,123
+QUEENS,Motorscooter,Non-Fatal,122
+MANHATTAN,Refrigerated Van,Non-Fatal,122
+MANHATTAN,Standing S,Non-Fatal,120
+QUEENS,Tanker,Non-Fatal,119
+QUEENS,Chassis Cab,Non-Fatal,119
+BROOKLYN,Sedan,Fatal,119
+STATEN ISLAND,Taxi,Non-Fatal,115
+STATEN ISLAND,Van,Non-Fatal,113
+BRONX,FIRE TRUCK,Non-Fatal,113
+QUEENS,Sedan,Fatal,112
+STATEN ISLAND,Convertible,Non-Fatal,111
+BRONX,Chassis Cab,Non-Fatal,109
+MANHATTAN,Chassis Cab,Non-Fatal,109
+MANHATTAN,LIMO,Non-Fatal,108
+BROOKLYN,Refrigerated Van,Non-Fatal,108
+MANHATTAN,Armored Truck,Non-Fatal,106
+MANHATTAN,van,Non-Fatal,104
+MANHATTAN,Tanker,Non-Fatal,99
+STATEN ISLAND,2 dr sedan,Non-Fatal,97
+BROOKLYN,van,Non-Fatal,96
+QUEENS,Motorbike,Non-Fatal,96
+STATEN ISLAND,LARGE COM VEH(6 OR MORE TIRES),Non-Fatal,95
+BRONX,Standing S,Non-Fatal,95
+MANHATTAN,SCOOTER,Non-Fatal,95
+BROOKLYN,PASSENGER VEHICLE,Fatal,94
+BRONX,Motorbike,Non-Fatal,92
+STATEN ISLAND,MOTORCYCLE,Non-Fatal,92
+BROOKLYN,SCOOTER,Non-Fatal,91
+BROOKLYN,Flat Rack,Non-Fatal,87
+QUEENS,Standing S,Non-Fatal,84
+BROOKLYN,3-Door,Non-Fatal,83
+QUEENS,BICYCLE,Non-Fatal,81
+QUEENS,PASSENGER VEHICLE,Fatal,79
+BROOKLYN,Armored Truck,Non-Fatal,78
+BROOKLYN,LIMO,Non-Fatal,76
+STATEN ISLAND,Dump,Non-Fatal,74
+MANHATTAN,Beverage Truck,Non-Fatal,74
+MANHATTAN,Concrete Mixer,Non-Fatal,73
+BROOKLYN,AMBUL,Non-Fatal,71
+STATEN ISLAND,Ambulance,Non-Fatal,70
+MANHATTAN,Motorbike,Non-Fatal,69
+BROOKLYN,SPORT UTILITY / STATION WAGON,Fatal,69
+MANHATTAN,Station Wagon/Sport Utility Vehicle,Fatal,68
+BRONX,AMBUL,Non-Fatal,67
+BRONX,Station Wagon/Sport Utility Vehicle,Fatal,67
+MANHATTAN,AMBUL,Non-Fatal,66
+BRONX,3-Door,Non-Fatal,63
+BRONX,Sedan,Fatal,61
+QUEENS,Concrete Mixer,Non-Fatal,61
+MANHATTAN,3-Door,Non-Fatal,60
+BROOKLYN,Beverage Truck,Non-Fatal,59
+QUEENS,Flat Rack,Non-Fatal,59
+QUEENS,LIMO,Non-Fatal,59
+QUEENS,AMBUL,Non-Fatal,55
+BROOKLYN,TRUCK,Non-Fatal,55
+MANHATTAN,Pedicab,Non-Fatal,54
+BROOKLYN,MOPED,Non-Fatal,53
+QUEENS,Lift Boom,Non-Fatal,53
+MANHATTAN,Sedan,Fatal,52
+BRONX,Refrigerated Van,Non-Fatal,50
+BROOKLYN,Lift Boom,Non-Fatal,49
+QUEENS,Armored Truck,Non-Fatal,47
+STATEN ISLAND,PK,Non-Fatal,46
+BROOKLYN,Stake or Rack,Non-Fatal,46
+STATEN ISLAND,Tractor Truck Diesel,Non-Fatal,45
+MANHATTAN,School Bus,Non-Fatal,45
+BRONX,PASSENGER VEHICLE,Fatal,44
+QUEENS,van,Non-Fatal,44
+MANHATTAN,TRUCK,Non-Fatal,43
+BRONX,MOPED,Non-Fatal,43
+BROOKLYN,School Bus,Non-Fatal,42
+BROOKLYN,E-Sco,Non-Fatal,41
+QUEENS,Refrigerated Van,Non-Fatal,40
+BRONX,van,Non-Fatal,40
+QUEENS,SPORT UTILITY / STATION WAGON,Fatal,40
+STATEN ISLAND,Garbage or Refuse,Non-Fatal,39
+QUEENS,TRAIL,Non-Fatal,39
+BROOKLYN,Motorcycle,Fatal,38
+BRONX,Beverage Truck,Non-Fatal,38
+BROOKLYN,Snow Plow,Non-Fatal,38
+STATEN ISLAND,AMBULANCE,Non-Fatal,37
+QUEENS,School Bus,Non-Fatal,36
+MANHATTAN,PASSENGER VEHICLE,Fatal,36
+BRONX,Concrete Mixer,Non-Fatal,35
+MANHATTAN,Lift Boom,Non-Fatal,35
+STATEN ISLAND,Carry All,Non-Fatal,35
+MANHATTAN,Stake or Rack,Non-Fatal,34
+QUEENS,Motorcycle,Fatal,34
+BROOKLYN,FIRE,Non-Fatal,34
+QUEENS,3-Door,Non-Fatal,34
+QUEENS,Snow Plow,Non-Fatal,33
+QUEENS,Beverage Truck,Non-Fatal,33
+BRONX,Lift Boom,Non-Fatal,30
+QUEENS,SCOOTER,Non-Fatal,29
+BROOKLYN,FDNY,Non-Fatal,29
+BROOKLYN,E-Bik,Non-Fatal,28
+MANHATTAN,FDNY,Non-Fatal,27
+BROOKLYN,TRAIL,Non-Fatal,27
+MANHATTAN,COM,Non-Fatal,27
+MANHATTAN,USPS,Non-Fatal,26
+QUEENS,FIRE,Non-Fatal,26
+BRONX,Armored Truck,Non-Fatal,26
+QUEENS,Stake or Rack,Non-Fatal,26
+BRONX,Snow Plow,Non-Fatal,25
+BROOKLYN,Bulk Agriculture,Non-Fatal,25
+MANHATTAN,FIRE,Non-Fatal,25
+BROOKLYN,Box Truck,Fatal,25
+QUEENS,Multi-Wheeled Vehicle,Non-Fatal,25
+QUEENS,Open Body,Non-Fatal,25
+MANHATTAN,MOPED,Non-Fatal,24
+BRONX,Motorcycle,Fatal,24
+MANHATTAN,SPORT UTILITY / STATION WAGON,Fatal,24
+BRONX,SCOOTER,Non-Fatal,24
+STATEN ISLAND,FIRE TRUCK,Non-Fatal,24
+BRONX,LIMO,Non-Fatal,23
+STATEN ISLAND,LIVERY VEHICLE,Non-Fatal,23
+BROOKLYN,AMBU,Non-Fatal,23
+QUEENS,UNKNOWN,Fatal,23
+QUEENS,MOPED,Non-Fatal,23
+STATEN ISLAND,Station Wagon/Sport Utility Vehicle,Fatal,22
+STATEN ISLAND,Sedan,Fatal,22
+MANHATTAN,Multi-Wheeled Vehicle,Non-Fatal,21
+BRONX,BICYCLE,Non-Fatal,21
+STATEN ISLAND,Flat Bed,Non-Fatal,21
+BRONX,Multi-Wheeled Vehicle,Non-Fatal,21
+BRONX,E-Sco,Non-Fatal,21
+BROOKLYN,TRAILER,Non-Fatal,21
+QUEENS,DUMP,Non-Fatal,21
+STATEN ISLAND,Tractor Truck Gasoline,Non-Fatal,21
+QUEENS,TRAILER,Non-Fatal,21
+STATEN ISLAND,E-Bike,Non-Fatal,21
+STATEN ISLAND,School Bus,Non-Fatal,20
+BRONX,TRUCK,Non-Fatal,20
+QUEENS,FDNY,Non-Fatal,20
+BROOKLYN,TRACT,Non-Fatal,20
+BRONX,FIRE,Non-Fatal,20
+BRONX,School Bus,Non-Fatal,20
+MANHATTAN,ambulance,Non-Fatal,20
+STATEN ISLAND,PASSENGER VEHICLE,Fatal,19
+BROOKLYN,Pick-up Truck,Fatal,19
+BROOKLYN,DUMP,Non-Fatal,19
+BROOKLYN,Multi-Wheeled Vehicle,Non-Fatal,19
+MANHATTAN,COMME,Non-Fatal,19
+MANHATTAN,PEDICAB,Non-Fatal,18
+BROOKLYN,Pickup with mounted Camper,Non-Fatal,18
+MANHATTAN,ambul,Non-Fatal,18
+MANHATTAN,Snow Plow,Non-Fatal,18
+BROOKLYN,ambul,Non-Fatal,18
+BROOKLYN,Ambul,Non-Fatal,18
+MANHATTAN,E-Bik,Non-Fatal,17
+BRONX,Ambul,Non-Fatal,17
+BROOKLYN,COMMERCIAL,Non-Fatal,17
+BROOKLYN,FIRETRUCK,Non-Fatal,17
+BRONX,SPORT UTILITY / STATION WAGON,Fatal,17
+MANHATTAN,Bus,Fatal,16
+QUEENS,Pick-up Truck,Fatal,16
+BRONX,AMBU,Non-Fatal,16
+BROOKLYN,Fire Truck,Non-Fatal,16
+BROOKLYN,Truck,Non-Fatal,16
+QUEENS,MOTORCYCLE,Fatal,16
+BRONX,FDNY,Non-Fatal,16
+BRONX,moped,Non-Fatal,16
+QUEENS,TRUCK,Non-Fatal,16
+MANHATTAN,Lunch Wagon,Non-Fatal,15
+BROOKLYN,UNK,Non-Fatal,15
+MANHATTAN,Taxi,Fatal,15
+MANHATTAN,DELIV,Non-Fatal,15
+MANHATTAN,AMBU,Non-Fatal,15
+BROOKLYN,Bus,Fatal,15
+BRONX,FDNY AMBUL,Non-Fatal,15
+BRONX,Flat Rack,Non-Fatal,15
+BROOKLYN,TOW T,Non-Fatal,15
+MANHATTAN,Box Truck,Fatal,15
+QUEENS,Bus,Fatal,15
+QUEENS,ambul,Non-Fatal,15
+MANHATTAN,DUMP,Non-Fatal,14
+MANHATTAN,Pickup with mounted Camper,Non-Fatal,14
+BRONX,DUMP,Non-Fatal,14
+STATEN ISLAND,Tow Truck / Wrecker,Non-Fatal,14
+STATEN ISLAND,E-Scooter,Non-Fatal,14
+MANHATTAN,LARGE COM VEH(6 OR MORE TIRES),Fatal,14
+BROOKLYN,UNKNO,Non-Fatal,14
+MANHATTAN,TRACT,Non-Fatal,13
+BROOKLYN,UTILI,Non-Fatal,13
+BRONX,Stake or Rack,Non-Fatal,13
+QUEENS,E-Sco,Non-Fatal,13
+BROOKLYN,FDNY AMBUL,Non-Fatal,13
+QUEENS,Bulk Agriculture,Non-Fatal,13
+MANHATTAN,DELV,Non-Fatal,13
+BRONX,ambul,Non-Fatal,13
+MANHATTAN,Bike,Fatal,13
+MANHATTAN,Motorcycle,Fatal,13
+STATEN ISLAND,TAXI,Non-Fatal,13
+BROOKLYN,LARGE COM VEH(6 OR MORE TIRES),Fatal,13
+BROOKLYN,fire,Non-Fatal,13
+BROOKLYN,BUS,Fatal,13
+MANHATTAN,Ambul,Non-Fatal,12
+QUEENS,USPS,Non-Fatal,12
+BRONX,Open Body,Non-Fatal,12
+BROOKLYN,ambulance,Non-Fatal,12
+MANHATTAN,TRAIL,Non-Fatal,12
+QUEENS,Truck,Non-Fatal,12
+BROOKLYN,Pallet,Non-Fatal,12
+QUEENS,trail,Non-Fatal,12
+BROOKLYN,Fire,Non-Fatal,12
+STATEN ISLAND,PAS,Non-Fatal,12
+STATEN ISLAND,SPORT UTILITY / STATION WAGON,Fatal,12
+BROOKLYN,MOTORCYCLE,Fatal,12
+BRONX,Minibike,Non-Fatal,12
+QUEENS,Ambul,Non-Fatal,12
+BROOKLYN,Open Body,Non-Fatal,12
+STATEN ISLAND,Chassis Cab,Non-Fatal,12
+BROOKLYN,truck,Non-Fatal,11
+BROOKLYN,Forklift,Non-Fatal,11
+BROOKLYN,Trailer,Non-Fatal,11
+STATEN ISLAND,Moped,Non-Fatal,11
+BRONX,E-Bik,Non-Fatal,11
+MANHATTAN,UNKNO,Non-Fatal,11
+MANHATTAN,TRK,Non-Fatal,11
+QUEENS,ambulance,Non-Fatal,11
+BRONX,TRAIL,Non-Fatal,11
+QUEENS,Trail,Non-Fatal,11
+BROOKLYN,Minibike,Non-Fatal,11
+BROOKLYN,FORKL,Non-Fatal,11
+BROOKLYN,FIRET,Non-Fatal,11
+BROOKLYN,Tractor Truck Diesel,Fatal,11
+BROOKLYN,trail,Non-Fatal,11
+STATEN ISLAND,UNKNO,Non-Fatal,11
+BRONX,SCHOOL BUS,Non-Fatal,11
+BRONX,ambulance,Non-Fatal,11
+BROOKLYN,UTIL,Non-Fatal,10
+BROOKLYN,Pedicab,Non-Fatal,10
+BRONX,COM,Non-Fatal,10
+QUEENS,FIRETRUCK,Non-Fatal,10
+BROOKLYN,Tow Truck,Non-Fatal,10
+MANHATTAN,Fire,Non-Fatal,10
+QUEENS,UNK,Non-Fatal,10
+QUEENS,BUS,Fatal,10
+MANHATTAN,VAN,Fatal,10
+BROOKLYN,Fire truck,Non-Fatal,10
+BROOKLYN,STREE,Non-Fatal,10
+BROOKLYN,Van Camper,Non-Fatal,10
+BROOKLYN,SCHOOL BUS,Non-Fatal,10
+BRONX,UNK,Non-Fatal,10
+BROOKLYN,School bus,Non-Fatal,10
+BROOKLYN,AMB,Non-Fatal,10
+QUEENS,SCOOT,Non-Fatal,10
+QUEENS,DELV,Non-Fatal,10
+BRONX,Tow Truck,Non-Fatal,10
+MANHATTAN,Open Body,Non-Fatal,10
+MANHATTAN,Bulk Agriculture,Non-Fatal,10
+BROOKLYN,Dump,Fatal,10
+BRONX,TRAILER,Non-Fatal,10
+QUEENS,TRACT,Non-Fatal,10
+MANHATTAN,UTIL,Non-Fatal,10
+BROOKLYN,DELIV,Non-Fatal,10
+BRONX,Pallet,Non-Fatal,10
+MANHATTAN,UNK,Non-Fatal,10
+BROOKLYN,SCHOO,Non-Fatal,10
+QUEENS,truck,Non-Fatal,10
+MANHATTAN,Pick-up Truck,Fatal,10
+BRONX,ELECT,Non-Fatal,10
+MANHATTAN,AMB,Non-Fatal,9
+BROOKLYN,Unknown,Non-Fatal,9
+MANHATTAN,Pallet,Non-Fatal,9
+QUEENS,SCHOO,Non-Fatal,9
+BROOKLYN,Minicycle,Non-Fatal,9
+BROOKLYN,USPS,Non-Fatal,9
+MANHATTAN,fire,Non-Fatal,9
+BROOKLYN,TOW TRUCK,Non-Fatal,9
+BRONX,TOW TRUCK,Non-Fatal,9
+BROOKLYN,GARBAGE TR,Non-Fatal,9
+BROOKLYN,Commercial,Non-Fatal,9
+STATEN ISLAND,3-Door,Non-Fatal,9
+BROOKLYN,ELECT,Non-Fatal,9
+QUEENS,FDNY FIRE,Non-Fatal,9
+BROOKLYN,Bike,Fatal,9
+BROOKLYN,UNKNOWN,Fatal,9
+STATEN ISLAND,Tanker,Non-Fatal,9
+BRONX,Pickup with mounted Camper,Non-Fatal,9
+BRONX,SCHOO,Non-Fatal,9
+BROOKLYN,PAS,Non-Fatal,9
+BRONX,MOTORCYCLE,Fatal,9
+QUEENS,Lunch Wagon,Non-Fatal,9
+QUEENS,UNKNO,Non-Fatal,9
+BROOKLYN,moped,Non-Fatal,9
+MANHATTAN,E-Sco,Non-Fatal,9
+BRONX,UNKNOWN,Fatal,9
+QUEENS,Fire Truck,Non-Fatal,9
+QUEENS,Fire truck,Non-Fatal,9
+QUEENS,fire,Non-Fatal,8
+MANHATTAN,dump,Non-Fatal,8
+QUEENS,Pallet,Non-Fatal,8
+QUEENS,Hopper,Non-Fatal,8
+MANHATTAN,Truck,Non-Fatal,8
+QUEENS,AMBU,Non-Fatal,8
+QUEENS,Dump,Fatal,8
+BROOKLYN,Moped,Fatal,8
+BROOKLYN,SANITATION,Non-Fatal,8
+MANHATTAN,TAXI,Fatal,8
+BROOKLYN,SCOOT,Non-Fatal,8
+MANHATTAN,MOTORCYCLE,Fatal,8
+MANHATTAN,BUS,Fatal,8
+BRONX,COMMERCIAL,Non-Fatal,8
+BROOKLYN,FDNY FIRE,Non-Fatal,8
+MANHATTAN,PAS,Non-Fatal,8
+MANHATTAN,TRAILER,Non-Fatal,8
+QUEENS,Box Truck,Fatal,8
+QUEENS,FDNY TRUCK,Non-Fatal,8
+BRONX,Bus,Fatal,8
+MANHATTAN,REFG,Non-Fatal,8
+MANHATTAN,Motorized Home,Non-Fatal,8
+STATEN ISLAND,Snow Plow,Non-Fatal,8
+BROOKLYN,FREIG,Non-Fatal,8
+BROOKLYN,Scooter,Non-Fatal,8
+MANHATTAN,FDNY AMBUL,Non-Fatal,8
+MANHATTAN,Commercial,Non-Fatal,8
+BROOKLYN,COMME,Non-Fatal,8
+QUEENS,TOW T,Non-Fatal,8
+QUEENS,E-Bik,Non-Fatal,8
+QUEENS,DUMP TRUCK,Non-Fatal,8
+BRONX,DELIV,Non-Fatal,7
+BROOKLYN,TANK,Non-Fatal,7
+STATEN ISLAND,Pick-up Truck,Fatal,7
+BROOKLYN,FDNY TRUCK,Non-Fatal,7
+QUEENS,Trailer,Non-Fatal,7
+BROOKLYN,E-Bike,Fatal,7
+STATEN ISLAND,Concrete Mixer,Non-Fatal,7
+MANHATTAN,trail,Non-Fatal,7
+MANHATTAN,Dump,Fatal,7
+QUEENS,FORKL,Non-Fatal,7
+MANHATTAN,bus,Non-Fatal,7
+MANHATTAN,Trailer,Non-Fatal,7
+QUEENS,LARGE COM VEH(6 OR MORE TIRES),Fatal,7
+QUEENS,Pickup with mounted Camper,Non-Fatal,7
+QUEENS,FDNY AMBUL,Non-Fatal,7
+BRONX,Bulk Agriculture,Non-Fatal,7
+BROOKLYN,BOX T,Non-Fatal,7
+QUEENS,Motorized Home,Non-Fatal,7
+QUEENS,Fire,Non-Fatal,7
+BRONX,FIRET,Non-Fatal,7
+BROOKLYN,fire truck,Non-Fatal,7
+BROOKLYN,Garbage or Refuse,Fatal,7
+BROOKLYN,BOX TRUCK,Non-Fatal,7
+BRONX,AMB,Non-Fatal,7
+STATEN ISLAND,TRUCK,Non-Fatal,7
+BRONX,Pick-up Truck,Fatal,7
+BROOKLYN,COM,Non-Fatal,7
+BROOKLYN,DUMP TRUCK,Non-Fatal,7
+QUEENS,UTILI,Non-Fatal,7
+BROOKLYN,bus,Non-Fatal,7
+BROOKLYN,SELF,Non-Fatal,7
+MANHATTAN,OTHER,Fatal,7
+BRONX,BOX TRUCK,Non-Fatal,7
+STATEN ISLAND,DUMP,Non-Fatal,6
+BROOKLYN,MACK,Non-Fatal,6
+QUEENS,Tow Truck,Non-Fatal,6
+BROOKLYN,PICKUP,Non-Fatal,6
+BROOKLYN,Sanitation,Non-Fatal,6
+QUEENS,TOW TRUCK,Non-Fatal,6
+BRONX,TRACT,Non-Fatal,6
+BRONX,Truck,Non-Fatal,6
+BRONX,Lunch Wagon,Non-Fatal,6
+BROOKLYN,FORKLIFT,Non-Fatal,6
+MANHATTAN,ambu,Non-Fatal,6
+QUEENS,BOX T,Non-Fatal,6
+BROOKLYN,Vanette,Non-Fatal,6
+MANHATTAN,FIRETRUCK,Non-Fatal,6
+BROOKLYN,ROAD SWEEP,Non-Fatal,6
+MANHATTAN,Minibike,Non-Fatal,6
+BROOKLYN,Firetruck,Non-Fatal,6
+MANHATTAN,COMMERCIAL,Non-Fatal,6
+BROOKLYN,FLAT,Non-Fatal,6
+QUEENS,FIRET,Non-Fatal,6
+BROOKLYN,VAN,Fatal,6
+QUEENS,TANK,Non-Fatal,6
+BRONX,SCOOT,Non-Fatal,6
+QUEENS,dump,Non-Fatal,6
+BROOKLYN,USPS TRUCK,Non-Fatal,6
+BROOKLYN,OTHER,Fatal,6
+MANHATTAN,FDNY FIRE,Non-Fatal,6
+BROOKLYN,OMR,Non-Fatal,6
+QUEENS,usps,Non-Fatal,6
+BRONX,FDNY FIRE,Non-Fatal,6
+BRONX,Trailer,Non-Fatal,6
+QUEENS,Minicycle,Non-Fatal,6
+MANHATTAN,schoo,Non-Fatal,6
+MANHATTAN,STAK,Non-Fatal,6
+MANHATTAN,Scooter,Non-Fatal,6
+MANHATTAN,Fire Truck,Non-Fatal,6
+BRONX,Commercial,Non-Fatal,6
+MANHATTAN,BOX T,Non-Fatal,5
+QUEENS,MAIL TRUCK,Non-Fatal,5
+MANHATTAN,BOX TRUCK,Non-Fatal,5
+QUEENS,VAN,Fatal,5
+BRONX,E-Bike,Fatal,5
+QUEENS,E-Bike,Fatal,5
+MANHATTAN,GARBAGE TR,Non-Fatal,5
+QUEENS,E-Scooter,Fatal,5
+STATEN ISLAND,USPS,Non-Fatal,5
+BROOKLYN,unkno,Non-Fatal,5
+BRONX,PSD,Non-Fatal,5
+STATEN ISLAND,van,Non-Fatal,5
+BRONX,stree,Non-Fatal,5
+QUEENS,Taxi,Fatal,5
+QUEENS,Bike,Fatal,5
+BROOKLYN,unk,Non-Fatal,5
+MANHATTAN,E-Bike,Fatal,5
+MANHATTAN,Unknown,Non-Fatal,5
+STATEN ISLAND,Open Body,Non-Fatal,5
+QUEENS,fdny,Non-Fatal,5
+QUEENS,bus,Non-Fatal,5
+MANHATTAN,UTILI,Non-Fatal,5
+BROOKLYN,Trail,Non-Fatal,5
+STATEN ISLAND,Motorcycle,Fatal,5
+QUEENS,AMB,Non-Fatal,5
+QUEENS,Van Camper,Non-Fatal,5
+BROOKLYN,scoot,Non-Fatal,5
+MANHATTAN,FDNY TRUCK,Non-Fatal,5
+MANHATTAN,MTA BUS,Non-Fatal,5
+QUEENS,MTA BUS,Non-Fatal,5
+MANHATTAN,Box truck,Non-Fatal,5
+MANHATTAN,VAN TRUCK,Non-Fatal,5
+BROOKLYN,WAGON,Non-Fatal,5
+BROOKLYN,TAXI,Fatal,5
+BRONX,PICK UP TR,Non-Fatal,5
+BROOKLYN,BOBCAT,Non-Fatal,5
+MANHATTAN,FIRET,Non-Fatal,5
+MANHATTAN,BACKH,Non-Fatal,5
+STATEN ISLAND,FDNY,Non-Fatal,5
+BRONX,PAS,Non-Fatal,5
+QUEENS,tract,Non-Fatal,5
+QUEENS,moped,Non-Fatal,5
+MANHATTAN,TOW TRUCK,Non-Fatal,5
+QUEENS,Motorscooter,Fatal,5
+BRONX,Moped,Fatal,5
+BROOKLYN,Taxi,Fatal,5
+BROOKLYN,FORD,Non-Fatal,5
+MANHATTAN,SMALL COM VEH(4 TIRES) ,Fatal,5
+QUEENS,DELIV,Non-Fatal,5
+QUEENS,TRAC,Non-Fatal,5
+BROOKLYN,Well Driller,Non-Fatal,5
+MANHATTAN,Enclosed Body - Nonremovable Enclosure,Non-Fatal,5
+BRONX,Box Truck,Fatal,5
+MANHATTAN,forklift,Non-Fatal,5
+BRONX,Motorized Home,Non-Fatal,5
+MANHATTAN,E-Scooter,Fatal,5
+BROOKLYN,VAN TRUCK,Non-Fatal,5
+MANHATTAN,truck,Non-Fatal,5
+BROOKLYN,Hopper,Non-Fatal,5
+BROOKLYN,subn,Non-Fatal,5
+STATEN ISLAND,Motorbike,Non-Fatal,5
+MANHATTAN,Trail,Non-Fatal,5
+MANHATTAN,SCOOT,Non-Fatal,5
+MANHATTAN,subn,Non-Fatal,5
+BROOKLYN,PASSENGER,Non-Fatal,5
+BROOKLYN,scooter,Non-Fatal,5
+STATEN ISLAND,Trailer,Non-Fatal,5
+BRONX,FORKL,Non-Fatal,5
+STATEN ISLAND,Refrigerated Van,Non-Fatal,5
+MANHATTAN,Van Camper,Non-Fatal,5
+BROOKLYN,DELV,Non-Fatal,5
+MANHATTAN,unkno,Non-Fatal,5
+BROOKLYN,Motorized Home,Non-Fatal,5
+MANHATTAN,USPS TRUCK,Non-Fatal,5
+BRONX,MOTOR SCOO,Non-Fatal,5
+BRONX,ELECTRIC S,Non-Fatal,5
+MANHATTAN,SELF,Non-Fatal,4
+BROOKLYN,fdny,Non-Fatal,4
+MANHATTAN,comme,Non-Fatal,4
+BROOKLYN,utili,Non-Fatal,4
+BRONX,schoo,Non-Fatal,4
+BROOKLYN,E BIK,Non-Fatal,4
+QUEENS,Well Driller,Non-Fatal,4
+BROOKLYN,Glass Rack,Non-Fatal,4
+BROOKLYN,Van,Fatal,4
+BRONX,Bike,Fatal,4
+BROOKLYN,Tow T,Non-Fatal,4
+BROOKLYN,CRANE,Non-Fatal,4
+MANHATTAN,Tow Truck,Non-Fatal,4
+BROOKLYN,Mini Van,Non-Fatal,4
+BROOKLYN,FDNY Ambul,Non-Fatal,4
+QUEENS,Firetruck,Non-Fatal,4
+BRONX,Scooter,Non-Fatal,4
+MANHATTAN,Fire truck,Non-Fatal,4
+MANHATTAN,GOLF CART,Non-Fatal,4
+QUEENS,deliv,Non-Fatal,4
+QUEENS,firet,Non-Fatal,4
+QUEENS,4 dr sedan,Fatal,4
+BRONX,Taxi,Fatal,4
+STATEN ISLAND,BICYCLE,Non-Fatal,4
+BROOKLYN,PK,Fatal,4
+MANHATTAN,Glass Rack,Non-Fatal,4
+QUEENS,GOLF CART,Non-Fatal,4
+BROOKLYN,Pickup tru,Non-Fatal,4
+MANHATTAN,EMS,Non-Fatal,4
+BROOKLYN,FDNY FIRET,Non-Fatal,4
+BRONX,PICKUP TRU,Non-Fatal,4
+MANHATTAN,FLAT,Non-Fatal,4
+STATEN ISLAND,FIRE,Non-Fatal,4
+MANHATTAN,PICKU,Non-Fatal,4
+QUEENS,Van,Fatal,4
+BRONX,fdny,Non-Fatal,4
+MANHATTAN,FOOD,Non-Fatal,4
+QUEENS,ambu,Non-Fatal,4
+QUEENS,PICK-UP TRUCK,Fatal,4
+BRONX,unkno,Non-Fatal,4
+QUEENS,box t,Non-Fatal,4
+QUEENS,SELF INSUR,Non-Fatal,4
+MANHATTAN,POWER SHOV,Non-Fatal,4
+MANHATTAN,Sprinter V,Non-Fatal,4
+BROOKLYN,forkl,Non-Fatal,4
+MANHATTAN,RV,Non-Fatal,4
+BRONX,Fire,Non-Fatal,4
+BROOKLYN,TRL,Non-Fatal,4
+BROOKLYN,com,Non-Fatal,4
+BRONX,FORD,Non-Fatal,4
+QUEENS,mail,Non-Fatal,4
+BROOKLYN,Utili,Non-Fatal,4
+MANHATTAN,pick,Non-Fatal,4
+BROOKLYN,Flat Bed,Fatal,4
+QUEENS,SCHOOL BUS,Non-Fatal,4
+QUEENS,Forklift,Non-Fatal,4
+BRONX,AMBULENCE,Non-Fatal,4
+BROOKLYN,Dirt Bike,Non-Fatal,4
+MANHATTAN,SANIT,Non-Fatal,4
+MANHATTAN,UHAUL,Non-Fatal,4
+MANHATTAN,TOW T,Non-Fatal,4
+BRONX,trail,Non-Fatal,4
+MANHATTAN,POSTA,Non-Fatal,4
+MANHATTAN,SUV,Non-Fatal,4
+BRONX,Schoo,Non-Fatal,4
+BRONX,USPS,Non-Fatal,4
+BRONX,truck,Non-Fatal,4
+BROOKLYN,UTILITY,Non-Fatal,4
+MANHATTAN,deliv,Non-Fatal,4
+BROOKLYN,4 dr sedan,Fatal,4
+QUEENS,FORK,Non-Fatal,4
+STATEN ISLAND,Lift Boom,Non-Fatal,4
+MANHATTAN,OMT,Non-Fatal,4
+QUEENS,COMME,Non-Fatal,4
+STATEN ISLAND,Multi-Wheeled Vehicle,Non-Fatal,4
+BRONX,BUS,Fatal,4
+BROOKLYN,Livestock Rack,Non-Fatal,4
+MANHATTAN,FDNY Truck,Non-Fatal,4
+BROOKLYN,MTA BUS,Non-Fatal,4
+MANHATTAN,moped,Non-Fatal,4
+BROOKLYN,SEMI,Non-Fatal,4
+QUEENS,unk,Non-Fatal,4
+MANHATTAN,GARBA,Non-Fatal,4
+QUEENS,UTIL,Non-Fatal,4
+MANHATTAN,WAGON,Non-Fatal,4
+BROOKLYN,P/SH,Non-Fatal,4
+BROOKLYN,VAN T,Non-Fatal,4
+BRONX,MOTOR,Non-Fatal,4
+BROOKLYN,SEDAN,Non-Fatal,4
+QUEENS,ELECT,Non-Fatal,4
+BRONX,Motorscooter,Fatal,4
+BROOKLYN,Lunch Wagon,Non-Fatal,4
+QUEENS,RV,Non-Fatal,4
+BRONX,FIRETRUCK,Non-Fatal,4
+QUEENS,BOX TRUCK,Non-Fatal,4
+BROOKLYN,FDNY Fire,Non-Fatal,4
+BROOKLYN,Pickup,Non-Fatal,4
+QUEENS,com,Non-Fatal,3
+QUEENS,Tractor Truck Diesel,Fatal,3
+MANHATTAN,tract,Non-Fatal,3
+BRONX,ambu,Non-Fatal,3
+MANHATTAN,US PO,Non-Fatal,3
+BROOKLYN,MOPD,Non-Fatal,3
+BROOKLYN,garba,Non-Fatal,3
+BRONX,GARBA,Non-Fatal,3
+BRONX,MTA B,Non-Fatal,3
+BRONX,comme,Non-Fatal,3
+BROOKLYN,SPRIN,Non-Fatal,3
+BRONX,TAXI,Fatal,3
+BRONX,scoot,Non-Fatal,3
+BRONX,DELV,Non-Fatal,3
+MANHATTAN,Tanker,Fatal,3
+BROOKLYN,FDNY LADDE,Non-Fatal,3
+QUEENS,GARBAGE TR,Non-Fatal,3
+MANHATTAN,Dirt Bike,Non-Fatal,3
+BROOKLYN,Enclosed Body - Nonremovable Enclosure,Non-Fatal,3
+QUEENS,SANITATION,Non-Fatal,3
+QUEENS,SPC,Non-Fatal,3
+MANHATTAN,Passenger,Non-Fatal,3
+BROOKLYN,Dump truck,Non-Fatal,3
+QUEENS,Utility,Non-Fatal,3
+BROOKLYN,EMS,Non-Fatal,3
+QUEENS,MOTOR,Non-Fatal,3
+MANHATTAN,TRAC,Non-Fatal,3
+MANHATTAN,FORD,Non-Fatal,3
+MANHATTAN,posta,Non-Fatal,3
+MANHATTAN,PASS,Non-Fatal,3
+MANHATTAN,SCHOO,Non-Fatal,3
+BRONX,Livestock Rack,Non-Fatal,3
+BROOKLYN,E-BIK,Non-Fatal,3
+BROOKLYN,YELLO,Non-Fatal,3
+BRONX,OMR,Non-Fatal,3
+BROOKLYN,RD/S,Non-Fatal,3
+QUEENS,GATOR,Non-Fatal,3
+BRONX,VAN TRUCK,Non-Fatal,3
+BRONX,fire truck,Non-Fatal,3
+QUEENS,FDNY Ambul,Non-Fatal,3
+STATEN ISLAND,Van Camper,Non-Fatal,3
+STATEN ISLAND,Standing S,Non-Fatal,3
+BRONX,Fire truck,Non-Fatal,3
+QUEENS,sedan,Non-Fatal,3
+BROOKLYN,usps,Non-Fatal,3
+BRONX,PC,Non-Fatal,3
+BRONX,Trail,Non-Fatal,3
+BROOKLYN,ROAD,Non-Fatal,3
+MANHATTAN,Livestock Rack,Non-Fatal,3
+MANHATTAN,GOLF,Non-Fatal,3
+BROOKLYN,Scoot,Non-Fatal,3
+BROOKLYN,tow t,Non-Fatal,3
+QUEENS,scoot,Non-Fatal,3
+BRONX,TRL,Non-Fatal,3
+MANHATTAN,ELECT,Non-Fatal,3
+MANHATTAN,Delv,Non-Fatal,3
+MANHATTAN,Ambu,Non-Fatal,3
+BRONX,Firetruck,Non-Fatal,3
+MANHATTAN,scooter,Non-Fatal,3
+BROOKLYN,trailer,Non-Fatal,3
+STATEN ISLAND,TOW TRUCK,Non-Fatal,3
+BROOKLYN,Com,Non-Fatal,3
+BRONX,PICKUP,Non-Fatal,3
+QUEENS,Government,Non-Fatal,3
+MANHATTAN,USPS Truck,Non-Fatal,3
+BROOKLYN,Dump Truck,Non-Fatal,3
+BROOKLYN,UTILITY TR,Non-Fatal,3
+QUEENS,Commercial,Non-Fatal,3
+MANHATTAN,FDNY Ambul,Non-Fatal,3
+QUEENS,Garbage tr,Non-Fatal,3
+MANHATTAN,NYS AMBULA,Non-Fatal,3
+BRONX,Fire Truck,Non-Fatal,3
+BRONX,golf,Non-Fatal,3
+BROOKLYN,Tanker,Fatal,3
+QUEENS,stree,Non-Fatal,3
+STATEN ISLAND,SCOOTER,Non-Fatal,3
+BROOKLYN,SMALL COM VEH(4 TIRES) ,Fatal,3
+STATEN ISLAND,SCHOOL BUS,Non-Fatal,3
+QUEENS,BACKH,Non-Fatal,3
+BROOKLYN,Amb,Non-Fatal,3
+MANHATTAN,SANITATION,Non-Fatal,3
+BROOKLYN,Unk,Non-Fatal,3
+QUEENS,SUV,Non-Fatal,3
+QUEENS,FORKLIFT,Non-Fatal,3
+MANHATTAN,Golf Cart,Non-Fatal,3
+STATEN ISLAND,Armored Truck,Non-Fatal,3
+MANHATTAN,Pick up tr,Non-Fatal,3
+MANHATTAN,box t,Non-Fatal,3
+BROOKLYN,SANIT,Non-Fatal,3
+QUEENS,MTA B,Non-Fatal,3
+BROOKLYN,pas,Non-Fatal,3
+BROOKLYN,box t,Non-Fatal,3
+MANHATTAN,tow,Non-Fatal,3
+QUEENS,PICKU,Non-Fatal,3
+BROOKLYN,UT,Non-Fatal,3
+MANHATTAN,TRACTOR,Non-Fatal,3
+BROOKLYN,Fork lift,Non-Fatal,3
+MANHATTAN,Van,Fatal,3
+QUEENS,Dirt Bike,Non-Fatal,3
+MANHATTAN,Amb,Non-Fatal,3
+STATEN ISLAND,Bus,Fatal,3
+BRONX,G PSD,Non-Fatal,3
+MANHATTAN,commercial,Non-Fatal,3
+MANHATTAN,FIRE ENGIN,Non-Fatal,3
+BROOKLYN,dump,Non-Fatal,3
+BROOKLYN,MOTOR,Non-Fatal,3
+QUEENS,tow,Non-Fatal,3
+BROOKLYN,Log,Non-Fatal,3
+QUEENS,CEMEN,Non-Fatal,3
+MANHATTAN,MACK,Non-Fatal,3
+BRONX,fire,Non-Fatal,3
+STATEN ISLAND,MOTORCYCLE,Fatal,3
+STATEN ISLAND,trail,Non-Fatal,3
+BRONX,RV,Non-Fatal,3
+MANHATTAN,tow t,Non-Fatal,3
+BRONX,VAN,Fatal,3
+MANHATTAN,motor,Non-Fatal,3
+BROOKLYN,pick,Non-Fatal,3
+BROOKLYN,tract,Non-Fatal,3
+BROOKLYN,PSD,Non-Fatal,3
+MANHATTAN,Garbage or Refuse,Fatal,3
+QUEENS,amb,Non-Fatal,3
+QUEENS,School bus,Non-Fatal,3
+MANHATTAN,PICK UP,Non-Fatal,3
+MANHATTAN,SPRINTER V,Non-Fatal,3
+MANHATTAN,Pick up,Non-Fatal,3
+MANHATTAN,SKATEBOARD,Non-Fatal,3
+BROOKLYN,PICK UP,Non-Fatal,3
+BROOKLYN,PICK UP TR,Non-Fatal,3
+STATEN ISLAND,MOPED,Non-Fatal,3
+BRONX,UNKNO,Non-Fatal,3
+QUEENS,schoo,Non-Fatal,3
+QUEENS,Box T,Non-Fatal,3
+QUEENS,garba,Non-Fatal,3
+BRONX,OML,Non-Fatal,3
+MANHATTAN,box,Non-Fatal,3
+QUEENS,OTHER,Fatal,3
+MANHATTAN,Tractor Truck Diesel,Fatal,3
+MANHATTAN,Firetruck,Non-Fatal,3
+QUEENS,COMMERCIAL,Non-Fatal,3
+BRONX,FDNY FIRET,Non-Fatal,3
+QUEENS,MOTOR SCOO,Non-Fatal,3
+BRONX,E-SCOOTER,Non-Fatal,3
+BRONX,School bus,Non-Fatal,3
+QUEENS,Unknown,Non-Fatal,3
+QUEENS,FLAT,Non-Fatal,3
+BRONX,COMME,Non-Fatal,3
+QUEENS,Fork,Non-Fatal,3
+BROOKLYN,Tract,Non-Fatal,3
+QUEENS,Firet,Non-Fatal,3
+BROOKLYN,deliv,Non-Fatal,3
+MANHATTAN,Flat Bed,Fatal,3
+BROOKLYN,SPC,Non-Fatal,3
+BRONX,BOX T,Non-Fatal,3
+MANHATTAN,HORSE,Non-Fatal,3
+MANHATTAN,FREIG,Non-Fatal,3
+MANHATTAN,Delivery,Non-Fatal,3
+BRONX,Minicycle,Non-Fatal,3
+QUEENS,TRACTOR,Non-Fatal,3
+BROOKLYN,DELIVERY T,Non-Fatal,3
+BROOKLYN,Pick up,Non-Fatal,3
+QUEENS,firetruck,Non-Fatal,3
+BRONX,E-scooter,Non-Fatal,3
+BROOKLYN,TRACTOR TR,Non-Fatal,3
+BROOKLYN,E-SCOOTER,Non-Fatal,3
+QUEENS,Moped,Fatal,3
+MANHATTAN,STREET SWE,Non-Fatal,3
+BROOKLYN,Standing S,Fatal,3
+STATEN ISLAND,PASS,Non-Fatal,2
+BRONX,4 dr sedan,Fatal,2
+QUEENS,Flat Bed,Fatal,2
+BROOKLYN,delv,Non-Fatal,2
+MANHATTAN,GOVER,Non-Fatal,2
+QUEENS,BICYCLE,Fatal,2
+BRONX,TANK,Non-Fatal,2
+BRONX,TOW T,Non-Fatal,2
+BRONX,UTIL,Non-Fatal,2
+STATEN ISLAND,GARBA,Non-Fatal,2
+BROOKLYN,Flat,Non-Fatal,2
+MANHATTAN,usps,Non-Fatal,2
+BRONX,Mini,Non-Fatal,2
+MANHATTAN,BS,Non-Fatal,2
+MANHATTAN,Tow t,Non-Fatal,2
+BROOKLYN,Concrete Mixer,Fatal,2
+MANHATTAN,OML,Non-Fatal,2
+BRONX,Scoot,Non-Fatal,2
+QUEENS,Tow T,Non-Fatal,2
+QUEENS,subn,Non-Fatal,2
+BROOKLYN,schoo,Non-Fatal,2
+BROOKLYN,EXCAV,Non-Fatal,2
+MANHATTAN,Enclosed Body - Removable Enclosure,Non-Fatal,2
+STATEN ISLAND,OMR,Non-Fatal,2
+BROOKLYN,n/a,Non-Fatal,2
+MANHATTAN,LIVERY VEHICLE,Fatal,2
+BRONX,work,Non-Fatal,2
+QUEENS,Forkl,Non-Fatal,2
+BROOKLYN,backh,Non-Fatal,2
+QUEENS,Glass Rack,Non-Fatal,2
+STATEN ISLAND,4DS,Non-Fatal,2
+QUEENS,PEDICAB,Non-Fatal,2
+BROOKLYN,TRAC,Non-Fatal,2
+MANHATTAN,SEDAN,Non-Fatal,2
+BRONX,Comme,Non-Fatal,2
+BROOKLYN,RV,Non-Fatal,2
+BROOKLYN,FORK LIFT,Non-Fatal,2
+QUEENS,ESU T,Non-Fatal,2
+STATEN ISLAND,E-Bike,Fatal,2
+BROOKLYN,FIRE TRUCK,Fatal,2
+BRONX,Dirt Bike,Non-Fatal,2
+BROOKLYN,SS,Non-Fatal,2
+BRONX,VMS,Non-Fatal,2
+BRONX,Tractor Truck Diesel,Fatal,2
+BRONX,Motorbike,Fatal,2
+MANHATTAN,Pickup tru,Non-Fatal,2
+BRONX,PICK-UP TR,Non-Fatal,2
+BRONX,ROAD SWEEP,Non-Fatal,2
+MANHATTAN,FORD TRANS,Non-Fatal,2
+BROOKLYN,Road Sweep,Non-Fatal,2
+STATEN ISLAND,garbage tr,Non-Fatal,2
+BROOKLYN,Self insur,Non-Fatal,2
+BROOKLYN,Ambulette,Non-Fatal,2
+BROOKLYN,FIRE APPAR,Non-Fatal,2
+QUEENS,Pick up tr,Non-Fatal,2
+MANHATTAN,Sanitation,Non-Fatal,2
+QUEENS,Fdny ambul,Non-Fatal,2
+MANHATTAN,PICKUP,Non-Fatal,2
+BRONX,BULLDOZER,Non-Fatal,2
+BRONX,EMS,Non-Fatal,2
+BRONX,GOLF CART,Non-Fatal,2
+BROOKLYN,E SCOOTER,Non-Fatal,2
+BROOKLYN,PICKU,Non-Fatal,2
+BROOKLYN,G COM,Non-Fatal,2
+BRONX,P/SH,Non-Fatal,2
+BRONX,E-BIK,Non-Fatal,2
+STATEN ISLAND,FRHT,Non-Fatal,2
+MANHATTAN,sanit,Non-Fatal,2
+MANHATTAN,power,Non-Fatal,2
+QUEENS,SANIT,Non-Fatal,2
+MANHATTAN,Stree,Non-Fatal,2
+BRONX,Vanette,Non-Fatal,2
+QUEENS,MAIL,Non-Fatal,2
+STATEN ISLAND,SANIT,Non-Fatal,2
+MANHATTAN,Deliv,Non-Fatal,2
+STATEN ISLAND,SUB,Non-Fatal,2
+MANHATTAN,picku,Non-Fatal,2
+BROOKLYN,CITY,Non-Fatal,2
+QUEENS,SELF,Non-Fatal,2
+STATEN ISLAND,RV,Non-Fatal,2
+BRONX,EMS A,Non-Fatal,2
+BROOKLYN,OMT,Non-Fatal,2
+BRONX,LARGE COM VEH(6 OR MORE TIRES),Fatal,2
+MANHATTAN,Marke,Non-Fatal,2
+STATEN ISLAND,garba,Non-Fatal,2
+BROOKLYN,tractor tr,Non-Fatal,2
+QUEENS,SEMI,Non-Fatal,2
+BROOKLYN,MTA,Non-Fatal,2
+QUEENS,US POSTAL,Non-Fatal,2
+BRONX,GARBAGE TR,Non-Fatal,2
+BROOKLYN,UTILITY VA,Non-Fatal,2
+QUEENS,Tractor,Non-Fatal,2
+BROOKLYN,F550,Non-Fatal,2
+BROOKLYN,MARKED VAN,Non-Fatal,2
+BRONX,FORKLIFT,Non-Fatal,2
+BRONX,Pickup Tru,Non-Fatal,2
+MANHATTAN,SUBURBAN,Non-Fatal,2
+BRONX,rv,Non-Fatal,2
+MANHATTAN,Self,Non-Fatal,2
+MANHATTAN,SEMI,Non-Fatal,2
+BROOKLYN,NYPD,Non-Fatal,2
+BRONX,tank,Non-Fatal,2
+BROOKLYN,fork,Non-Fatal,2
+MANHATTAN,CRANE,Non-Fatal,2
+BROOKLYN,TRC,Non-Fatal,2
+BROOKLYN,CONST,Non-Fatal,2
+BROOKLYN,US PO,Non-Fatal,2
+QUEENS,posta,Non-Fatal,2
+BROOKLYN,RMP,Non-Fatal,2
+STATEN ISLAND,PC,Non-Fatal,2
+MANHATTAN,Hopper,Non-Fatal,2
+BROOKLYN,TRLR,Non-Fatal,2
+MANHATTAN,wagon,Non-Fatal,2
+QUEENS,Posta,Non-Fatal,2
+QUEENS,delv,Non-Fatal,2
+QUEENS,FLATB,Non-Fatal,2
+MANHATTAN,City,Non-Fatal,2
+STATEN ISLAND,TRAIL,Non-Fatal,2
+QUEENS,FORD,Non-Fatal,2
+MANHATTAN,US POSTAL,Non-Fatal,2
+QUEENS,POSTA,Non-Fatal,2
+STATEN ISLAND,POSTA,Non-Fatal,2
+BRONX,FDNY TRUCK,Non-Fatal,2
+MANHATTAN,fdny,Non-Fatal,2
+QUEENS,SMALL COM VEH(4 TIRES) ,Fatal,2
+BRONX,SELF,Non-Fatal,2
+MANHATTAN,us postal,Non-Fatal,2
+QUEENS,BUCKE,Non-Fatal,2
+QUEENS,TRL,Non-Fatal,2
+BRONX,MACK,Non-Fatal,2
+QUEENS,Convertible,Fatal,2
+BRONX,tow t,Non-Fatal,2
+MANHATTAN,vAN,Non-Fatal,2
+STATEN ISLAND,Delivery t,Non-Fatal,2
+QUEENS,FORK LIFT,Non-Fatal,2
+BRONX,SANITATION,Non-Fatal,2
+QUEENS,fire truck,Non-Fatal,2
+BROOKLYN,18 WHEELER,Non-Fatal,2
+STATEN ISLAND,FORKLIFT,Non-Fatal,2
+MANHATTAN,UTILITY,Non-Fatal,2
+MANHATTAN,CITY OF NE,Non-Fatal,2
+BRONX,Pick Up,Non-Fatal,2
+MANHATTAN,Unk,Non-Fatal,2
+MANHATTAN,Fire Engin,Non-Fatal,2
+BRONX,Forklift,Non-Fatal,2
+BROOKLYN,YELLOW BUS,Non-Fatal,2
+MANHATTAN,UPS TRUCK,Non-Fatal,2
+BRONX,Mack truck,Non-Fatal,2
+QUEENS,PAS,Non-Fatal,2
+BROOKLYN,ELECTRIC S,Non-Fatal,2
+BROOKLYN,Electric s,Non-Fatal,2
+STATEN ISLAND,Minicycle,Non-Fatal,2
+MANHATTAN,FDNY EMS,Non-Fatal,2
+BROOKLYN,DELIVERY V,Non-Fatal,2
+MANHATTAN,4 dr sedan,Fatal,2
+BROOKLYN,CO,Non-Fatal,2
+MANHATTAN,MOTOR,Non-Fatal,2
+STATEN ISLAND,4DR,Non-Fatal,2
+BROOKLYN,TRANS,Non-Fatal,2
+BRONX,Dump,Fatal,2
+BRONX,AMBULANCE,Fatal,2
+BRONX,OMNIB,Non-Fatal,2
+MANHATTAN,NOT I,Non-Fatal,2
+QUEENS,self,Non-Fatal,2
+BROOKLYN,tank,Non-Fatal,2
+BRONX,TRAC,Non-Fatal,2
+BROOKLYN,FORK,Non-Fatal,2
+BROOKLYN,motor,Non-Fatal,2
+MANHATTAN,SPRIN,Non-Fatal,2
+QUEENS,REP,Non-Fatal,2
+STATEN ISLAND,PICK-UP TRUCK,Fatal,2
+BRONX,US PO,Non-Fatal,2
+BRONX,TANKE,Non-Fatal,2
+BROOKLYN,sanit,Non-Fatal,2
+QUEENS,freig,Non-Fatal,2
+QUEENS,Motorbike,Fatal,2
+QUEENS,Dump truck,Non-Fatal,2
+QUEENS,POSTAL TRU,Non-Fatal,2
+MANHATTAN,ACCESS A R,Non-Fatal,2
+MANHATTAN,Street swe,Non-Fatal,2
+QUEENS,PK,Fatal,2
+BRONX,Pick up tr,Non-Fatal,2
+QUEENS,forklift,Non-Fatal,2
+BRONX,school bus,Non-Fatal,2
+BROOKLYN,postal tru,Non-Fatal,2
+MANHATTAN,TOWER,Non-Fatal,2
+MANHATTAN,Tow T,Non-Fatal,2
+MANHATTAN,FORKL,Non-Fatal,2
+MANHATTAN,unk,Non-Fatal,2
+BRONX,elect,Non-Fatal,2
+STATEN ISLAND,AMBUL,Non-Fatal,2
+MANHATTAN,POWER,Non-Fatal,2
+BRONX,LIVERY VEHICLE,Fatal,2
+BRONX,Tract,Non-Fatal,2
+BROOKLYN,Stree,Non-Fatal,2
+BRONX,UHAUL,Non-Fatal,2
+MANHATTAN,utili,Non-Fatal,2
+STATEN ISLAND,4D,Non-Fatal,2
+BROOKLYN,COMM,Non-Fatal,2
+MANHATTAN,COMM,Non-Fatal,2
+BROOKLYN,tow,Non-Fatal,2
+MANHATTAN,Forkl,Non-Fatal,2
+BRONX,ford,Non-Fatal,2
+BRONX,Ford,Non-Fatal,2
+QUEENS,TOWTR,Non-Fatal,2
+QUEENS,trailer,Non-Fatal,2
+BROOKLYN,Deliv,Non-Fatal,2
+BRONX,scooter,Non-Fatal,2
+QUEENS,dump truck,Non-Fatal,2
+QUEENS,AMBULENCE,Non-Fatal,2
+BRONX,SELF INSUR,Non-Fatal,2
+BROOKLYN,Enclosed Body - Removable Enclosure,Non-Fatal,2
+BROOKLYN,E scooter,Non-Fatal,2
+QUEENS,Com,Non-Fatal,2
+BRONX,UTILITY VE,Non-Fatal,2
+MANHATTAN,Motorized,Non-Fatal,2
+BROOKLYN,Motorscooter,Fatal,2
+MANHATTAN,unknown,Non-Fatal,2
+BROOKLYN,EMT Ambula,Non-Fatal,2
+BROOKLYN,Flatbed,Non-Fatal,2
+MANHATTAN,School bus,Non-Fatal,2
+QUEENS,PICK UP,Non-Fatal,2
+BROOKLYN,CARGO VAN,Non-Fatal,2
+BRONX,SPRINTER V,Non-Fatal,2
+STATEN ISLAND,Trail,Non-Fatal,2
+BROOKLYN,Sanit,Non-Fatal,2
+MANHATTAN,Moped,Fatal,2
+MANHATTAN,Vanette,Non-Fatal,2
+QUEENS,utili,Non-Fatal,2
+QUEENS,Enclosed Body - Removable Enclosure,Non-Fatal,2
+MANHATTAN,GRAY,Non-Fatal,2
+MANHATTAN,fork,Non-Fatal,2
+BROOKLYN,posta,Non-Fatal,2
+BROOKLYN,Pick,Non-Fatal,2
+BROOKLYN,BOBCA,Non-Fatal,2
+MANHATTAN,Sanit,Non-Fatal,2
+STATEN ISLAND,WAGON,Non-Fatal,2
+BRONX,E BIK,Non-Fatal,2
+MANHATTAN,jeep,Non-Fatal,2
+QUEENS,STREE,Non-Fatal,2
+QUEENS,pick,Non-Fatal,2
+BRONX,Van Camper,Non-Fatal,2
+BROOKLYN,BULLD,Non-Fatal,2
+BROOKLYN,POWER,Non-Fatal,2
+QUEENS,Tow t,Non-Fatal,2
+BROOKLYN,picku,Non-Fatal,2
+MANHATTAN,box truck,Non-Fatal,2
+BRONX,FDNY LADDE,Non-Fatal,2
+BROOKLYN,LADDER TRU,Non-Fatal,2
+BRONX,E-BIKE,Non-Fatal,2
+QUEENS,garbage tr,Non-Fatal,2
+BRONX,TL,Non-Fatal,2
+BRONX,PASSENGER,Non-Fatal,2
+BRONX,FDNY Ambul,Non-Fatal,2
+MANHATTAN,BOOM LIFT,Non-Fatal,2
+QUEENS,Sprinter v,Non-Fatal,2
+QUEENS,FDNY EMS,Non-Fatal,2
+BROOKLYN,Street Swe,Non-Fatal,2
+MANHATTAN,FDNY ENGIN,Non-Fatal,2
+BROOKLYN,FDNY Truck,Non-Fatal,2
+BROOKLYN,Fire Engin,Non-Fatal,2
+MANHATTAN,TRANSPORT,Non-Fatal,2
+QUEENS,LIGHT TRAI,Non-Fatal,2
+BRONX,CONST,Non-Fatal,2
+QUEENS,E-BIK,Non-Fatal,2
+QUEENS,FREIG,Non-Fatal,2
+BRONX,firet,Non-Fatal,2
+BROOKLYN,MOBIL,Non-Fatal,2
+MANHATTAN,CARGO,Non-Fatal,2
+MANHATTAN,TRL,Non-Fatal,2
+BRONX,POWER,Non-Fatal,2
+BROOKLYN,Motor,Non-Fatal,2
+MANHATTAN,rv,Non-Fatal,2
+BRONX,PICK-UP TRUCK,Fatal,2
+MANHATTAN,UNKNOWN,Fatal,2
+MANHATTAN,U HAU,Non-Fatal,2
+BRONX,Subn,Non-Fatal,2
+BROOKLYN,PICK-UP TRUCK,Fatal,2
+BRONX,Box truck,Non-Fatal,2
+BROOKLYN,tr,Non-Fatal,2
+BRONX,TRACTOR,Non-Fatal,2
+BROOKLYN,Tractor,Non-Fatal,2
+BROOKLYN,pickup,Non-Fatal,2
+BROOKLYN,E-Scooter,Fatal,2
+BROOKLYN,Sweeper,Non-Fatal,2
+QUEENS,Electric m,Non-Fatal,2
+BROOKLYN,Garbage Tr,Non-Fatal,2
+STATEN ISLAND,MTA BUS,Non-Fatal,2
+BROOKLYN,STREET SWE,Non-Fatal,2
+MANHATTAN,Self Insur,Non-Fatal,2
+BROOKLYN,SPRINTER V,Non-Fatal,2
+BRONX,FDNY EMS,Non-Fatal,2
+QUEENS,comme,Non-Fatal,2
+QUEENS,EMS,Non-Fatal,2
+MANHATTAN,Rescu,Non-Fatal,2
+MANHATTAN,fire truck,Non-Fatal,2
+MANHATTAN,LIGHT,Non-Fatal,2
+MANHATTAN,REFRI,Non-Fatal,2
+BRONX,box t,Non-Fatal,2
+MANHATTAN,self,Non-Fatal,2
+BRONX,tract,Non-Fatal,2
+MANHATTAN,firet,Non-Fatal,2
+BROOKLYN,WHITE,Non-Fatal,2
+BRONX,unk,Non-Fatal,2
+BRONX,Pick,Non-Fatal,2
+BROOKLYN,US Po,Non-Fatal,2
+BRONX,STREE,Non-Fatal,2
+QUEENS,tow t,Non-Fatal,2
+STATEN ISLAND,UNKNOWN,Fatal,2
+STATEN ISLAND,SUV,Non-Fatal,2
+BROOKLYN,comm,Non-Fatal,2
+BRONX,Golf,Non-Fatal,2
+BRONX,SCOOTER,Fatal,2
+BROOKLYN,Ford,Non-Fatal,2
+QUEENS,fork,Non-Fatal,2
+BRONX,trailer,Non-Fatal,2
+BROOKLYN,LIVERY VEHICLE,Fatal,2
+BROOKLYN,FEDEX,Non-Fatal,2
+QUEENS,OMNIB,Non-Fatal,2
+MANHATTAN,Com,Non-Fatal,2
+STATEN ISLAND,Beverage Truck,Non-Fatal,2
+BRONX,OTHER,Fatal,2
+MANHATTAN,G COM,Non-Fatal,2
+MANHATTAN,Wagon,Non-Fatal,2
+BROOKLYN,Chassis Cab,Fatal,2
+MANHATTAN,TANK,Non-Fatal,2
+BROOKLYN,suburban,Non-Fatal,2
+BRONX,E-bike,Non-Fatal,2
+BRONX,DUMP TRUCK,Non-Fatal,2
+BROOKLYN,AMBULANCE,Fatal,2
+MANHATTAN,MOPD,Non-Fatal,2
+QUEENS,scooter,Non-Fatal,2
+BRONX,tk,Non-Fatal,2
+QUEENS,Pick up,Non-Fatal,2
+QUEENS,Concrete Mixer,Fatal,2
+QUEENS,PICK-UP TR,Non-Fatal,2
+BRONX,NYS AMBULA,Non-Fatal,2
+BROOKLYN,USPS truck,Non-Fatal,2
+STATEN ISLAND,trailer,Non-Fatal,2
+MANHATTAN,e-scooter,Non-Fatal,2
+BROOKLYN,GLBEN,Non-Fatal,2
+BROOKLYN,POWER SHOV,Non-Fatal,2
+QUEENS,power shov,Non-Fatal,2
+STATEN ISLAND,Fire Truck,Non-Fatal,2
+BROOKLYN,FDNY ENGIN,Non-Fatal,2
+BRONX,Delivery t,Non-Fatal,2
+BROOKLYN,MTA bus,Non-Fatal,2
+STATEN ISLAND,FDNY TRUCK,Non-Fatal,2
+MANHATTAN,GE/SC,Non-Fatal,1
+QUEENS,U-HAU,Non-Fatal,1
+BROOKLYN,trk,Non-Fatal,1
+MANHATTAN,NAVIG,Non-Fatal,1
+BRONX,BACKH,Non-Fatal,1
+STATEN ISLAND,cater,Non-Fatal,1
+BRONX,pick,Non-Fatal,1
+QUEENS,A-ONE,Non-Fatal,1
+BROOKLYN,stree,Non-Fatal,1
+BROOKLYN,e sco,Non-Fatal,1
+QUEENS,OMR,Non-Fatal,1
+STATEN ISLAND,CITY,Non-Fatal,1
+MANHATTAN,STREE,Non-Fatal,1
+MANHATTAN,const,Non-Fatal,1
+STATEN ISLAND,TRAC,Non-Fatal,1
+BRONX,3-whe,Non-Fatal,1
+MANHATTAN,E-MOT,Non-Fatal,1
+BRONX,REP,Non-Fatal,1
+QUEENS,E SCO,Non-Fatal,1
+MANHATTAN,com,Non-Fatal,1
+MANHATTAN,2000,Non-Fatal,1
+BRONX,DIESE,Non-Fatal,1
+MANHATTAN,Concrete Mixer,Fatal,1
+BROOKLYN,MAIL,Non-Fatal,1
+STATEN ISLAND,Fd fi,Non-Fatal,1
+MANHATTAN,Bicyc,Non-Fatal,1
+BROOKLYN,AMbul,Non-Fatal,1
+MANHATTAN,sgws,Non-Fatal,1
+MANHATTAN,3 Whe,Non-Fatal,1
+BROOKLYN,SCOO,Non-Fatal,1
+BROOKLYN,HI TA,Non-Fatal,1
+BROOKLYN,�MBU,Non-Fatal,1
+QUEENS,TAXI,Fatal,1
+QUEENS,ups t,Non-Fatal,1
+BRONX,GOLF,Non-Fatal,1
+MANHATTAN,GREEN,Non-Fatal,1
+MANHATTAN,Pick-,Non-Fatal,1
+BROOKLYN,Spc,Non-Fatal,1
+MANHATTAN,CON E,Non-Fatal,1
+BRONX,COURI,Non-Fatal,1
+BROOKLYN,MCY B,Non-Fatal,1
+BROOKLYN,CMIX,Non-Fatal,1
+BROOKLYN,12 PA,Non-Fatal,1
+MANHATTAN,Backh,Non-Fatal,1
+MANHATTAN,Road,Non-Fatal,1
+MANHATTAN,garba,Non-Fatal,1
+BRONX,power,Non-Fatal,1
+BRONX,st,Non-Fatal,1
+MANHATTAN,REPAI,Non-Fatal,1
+BRONX,NYC F,Non-Fatal,1
+MANHATTAN,Minicycle,Non-Fatal,1
+BRONX,PSP,Non-Fatal,1
+BROOKLYN,Mecha,Non-Fatal,1
+BRONX,sweep,Non-Fatal,1
+BRONX,1S,Non-Fatal,1
+QUEENS,cm,Non-Fatal,1
+MANHATTAN,road,Non-Fatal,1
+QUEENS,BACK,Non-Fatal,1
+BROOKLYN,NYS A,Non-Fatal,1
+QUEENS,suv,Non-Fatal,1
+BROOKLYN,CHEVR,Non-Fatal,1
+MANHATTAN,Barri,Non-Fatal,1
+MANHATTAN,AMBUL,Fatal,1
+BROOKLYN,PUMP,Non-Fatal,1
+MANHATTAN,Log,Non-Fatal,1
+BRONX,ems b,Non-Fatal,1
+MANHATTAN,SE,Non-Fatal,1
+QUEENS,Unkno,Non-Fatal,1
+MANHATTAN,scoot,Non-Fatal,1
+QUEENS,FRIEG,Non-Fatal,1
+STATEN ISLAND,TRK,Non-Fatal,1
+MANHATTAN,Shove,Non-Fatal,1
+MANHATTAN,REFR,Non-Fatal,1
+QUEENS,FED E,Non-Fatal,1
+BRONX,Garbage or Refuse,Fatal,1
+MANHATTAN,CHART,Non-Fatal,1
+MANHATTAN,3 WHE,Non-Fatal,1
+QUEENS,atv p,Non-Fatal,1
+STATEN ISLAND,comm,Non-Fatal,1
+QUEENS,Road,Non-Fatal,1
+MANHATTAN,passe,Non-Fatal,1
+BROOKLYN,TRACK EXCA,Non-Fatal,1
+BROOKLYN,Ebike,Non-Fatal,1
+QUEENS,VAV,Non-Fatal,1
+BRONX,TKTR,Non-Fatal,1
+MANHATTAN,MTA B,Non-Fatal,1
+MANHATTAN,US Po,Non-Fatal,1
+QUEENS,yy,Non-Fatal,1
+BROOKLYN,N/A,Non-Fatal,1
+MANHATTAN,POLIC,Non-Fatal,1
+BROOKLYN,MAC T,Non-Fatal,1
+QUEENS,COMM,Non-Fatal,1
+BROOKLYN,plow,Non-Fatal,1
+BROOKLYN,VANET,Non-Fatal,1
+BROOKLYN,Smart,Non-Fatal,1
+BROOKLYN,U-Hau,Non-Fatal,1
+MANHATTAN,WHIT,Non-Fatal,1
+STATEN ISLAND,PICKU,Non-Fatal,1
+QUEENS,E ONE,Non-Fatal,1
+QUEENS,GARBA,Non-Fatal,1
+BROOKLYN,g spc,Non-Fatal,1
+QUEENS,RV/VAN,Non-Fatal,1
+STATEN ISLAND,TRAC.,Non-Fatal,1
+BRONX,pas,Non-Fatal,1
+BRONX,van t,Non-Fatal,1
+QUEENS,TRANS,Non-Fatal,1
+BRONX,UTILITY TR,Non-Fatal,1
+MANHATTAN,postal ser,Non-Fatal,1
+QUEENS,Livestock Rack,Non-Fatal,1
+QUEENS,Backh,Non-Fatal,1
+QUEENS,Flat Rack,Fatal,1
+MANHATTAN,D/V WB,Non-Fatal,1
+MANHATTAN,Mail,Non-Fatal,1
+MANHATTAN,FREIGHTLIN,Non-Fatal,1
+BRONX,Wh Ford co,Non-Fatal,1
+BROOKLYN,DOT EQUIPM,Non-Fatal,1
+MANHATTAN,Bucket Tru,Non-Fatal,1
+QUEENS,FOOD CART,Non-Fatal,1
+QUEENS,CHERV,Non-Fatal,1
+QUEENS,escavator,Non-Fatal,1
+QUEENS,MAIL CARRI,Non-Fatal,1
+BRONX,PICK UP,Non-Fatal,1
+BROOKLYN,TL,Non-Fatal,1
+BRONX,Sanitation,Non-Fatal,1
+QUEENS,VAN/TRUCK,Non-Fatal,1
+BROOKLYN,Yamaha,Non-Fatal,1
+QUEENS,dilevery t,Non-Fatal,1
+MANHATTAN,PKUP,Non-Fatal,1
+BROOKLYN,Postal tru,Non-Fatal,1
+BRONX,E-Scooter,Fatal,1
+BROOKLYN,Razor Scoo,Non-Fatal,1
+QUEENS,WORK VAN,Non-Fatal,1
+QUEENS,Cement Tru,Non-Fatal,1
+MANHATTAN,Pass,Non-Fatal,1
+MANHATTAN,Fork lift,Non-Fatal,1
+BROOKLYN,U-Haul,Non-Fatal,1
+BROOKLYN,NYS AMBULA,Non-Fatal,1
+BROOKLYN,HOUSE ON W,Non-Fatal,1
+BROOKLYN,MOTORSCOOT,Non-Fatal,1
+BROOKLYN,AMBULETTE,Non-Fatal,1
+MANHATTAN,DELIVERY T,Non-Fatal,1
+QUEENS,UPS,Non-Fatal,1
+MANHATTAN,Open Body,Fatal,1
+QUEENS,MC,Non-Fatal,1
+BROOKLYN,gas moped,Non-Fatal,1
+STATEN ISLAND,GMC ECOM,Non-Fatal,1
+BROOKLYN,DELV WH,Non-Fatal,1
+MANHATTAN,Small Bus,Non-Fatal,1
+STATEN ISLAND,PICK UP,Non-Fatal,1
+QUEENS,nyc EMS,Non-Fatal,1
+BRONX,LOCOMOTIVE,Non-Fatal,1
+BROOKLYN,Collection,Non-Fatal,1
+BROOKLYN,MOTORIZEDS,Non-Fatal,1
+MANHATTAN,FDNY ambul,Non-Fatal,1
+BRONX,Govt P/U T,Non-Fatal,1
+MANHATTAN,HERTZ RAM,Non-Fatal,1
+BRONX,Delivery V,Non-Fatal,1
+MANHATTAN,FDNY VEHIC,Non-Fatal,1
+BROOKLYN,PICK-UP,Non-Fatal,1
+BRONX,AMBULANCE`,Non-Fatal,1
+MANHATTAN,FORD SPRIN,Non-Fatal,1
+MANHATTAN,DODGE RAM,Non-Fatal,1
+MANHATTAN,RAM,Non-Fatal,1
+QUEENS,seated sco,Non-Fatal,1
+QUEENS,Red moped,Non-Fatal,1
+BROOKLYN,TRANSPORT,Non-Fatal,1
+MANHATTAN,Bearcat,Non-Fatal,1
+STATEN ISLAND,MAIL TRUCK,Non-Fatal,1
+STATEN ISLAND,passenger,Non-Fatal,1
+BROOKLYN,Fdny Ems T,Non-Fatal,1
+QUEENS,FDNY truck,Non-Fatal,1
+BROOKLYN,utility,Non-Fatal,1
+QUEENS,house on w,Non-Fatal,1
+MANHATTAN,Van Truck,Non-Fatal,1
+BROOKLYN,Electric M,Non-Fatal,1
+QUEENS,Fire engin,Non-Fatal,1
+BRONX,delivery t,Non-Fatal,1
+BROOKLYN,MTA Bus,Non-Fatal,1
+BRONX,Gas Moped,Non-Fatal,1
+MANHATTAN,PICK UP TR,Non-Fatal,1
+BROOKLYN,UNKWOWN,Non-Fatal,1
+QUEENS,DELIVERY T,Non-Fatal,1
+BROOKLYN,utility ve,Non-Fatal,1
+QUEENS,Electric s,Non-Fatal,1
+BROOKLYN,MTA TRANSI,Non-Fatal,1
+BROOKLYN,FDNY #226,Non-Fatal,1
+STATEN ISLAND,Unkown,Non-Fatal,1
+QUEENS,TRANSIT,Non-Fatal,1
+MANHATTAN,PICK-UP TR,Non-Fatal,1
+BROOKLYN,ford,Non-Fatal,1
+QUEENS,NYC TRANSI,Non-Fatal,1
+MANHATTAN,ems truck,Non-Fatal,1
+BROOKLYN,Ford Van,Non-Fatal,1
+BROOKLYN,GAS MOPED,Non-Fatal,1
+BROOKLYN,Honda HRV,Non-Fatal,1
+BROOKLYN,utility tr,Non-Fatal,1
+BROOKLYN,G,Non-Fatal,1
+BRONX,GOVERNMENT,Non-Fatal,1
+BRONX,Cargo van,Non-Fatal,1
+BROOKLYN,EMS Truck,Non-Fatal,1
+MANHATTAN,BOBCAT,Non-Fatal,1
+MANHATTAN,MC,Non-Fatal,1
+BRONX,X COM,Non-Fatal,1
+MANHATTAN,NYPD TOW T,Non-Fatal,1
+BROOKLYN,Sprinter v,Non-Fatal,1
+QUEENS,Econoline,Non-Fatal,1
+STATEN ISLAND,Fork lift,Non-Fatal,1
+BRONX,box truck,Non-Fatal,1
+QUEENS,FORD TRANS,Non-Fatal,1
+QUEENS,Usps truck,Non-Fatal,1
+QUEENS,postal tru,Non-Fatal,1
+QUEENS,Pas,Non-Fatal,1
+BRONX,FIRE ENGIN,Non-Fatal,1
+QUEENS,Thomas,Non-Fatal,1
+MANHATTAN,SCOOTOR,Non-Fatal,1
+BROOKLYN,FDNY- Fire,Non-Fatal,1
+BROOKLYN,OML,Non-Fatal,1
+QUEENS,MOTORIZEDS,Non-Fatal,1
+QUEENS,SCHOO LBUS,Non-Fatal,1
+MANHATTAN,PETIT CAB,Non-Fatal,1
+BROOKLYN,Box Trucki,Non-Fatal,1
+QUEENS,ems truck,Non-Fatal,1
+BROOKLYN,CITY TRUCK,Non-Fatal,1
+BRONX,yellow bus,Non-Fatal,1
+MANHATTAN,FORK LIFT,Non-Fatal,1
+STATEN ISLAND,Rec Vehicl,Non-Fatal,1
+BRONX,PICK-UP,Non-Fatal,1
+BROOKLYN,Surburban,Non-Fatal,1
+BROOKLYN,Gas dirt b,Non-Fatal,1
+QUEENS,Comp skid,Non-Fatal,1
+MANHATTAN,TRAILER CA,Non-Fatal,1
+BROOKLYN,NYC School,Non-Fatal,1
+BROOKLYN,YELLOWBUS,Non-Fatal,1
+QUEENS,Postal tru,Non-Fatal,1
+BROOKLYN,Skid steer,Non-Fatal,1
+STATEN ISLAND,UNKN,Non-Fatal,1
+BROOKLYN,Fed Ex Tru,Non-Fatal,1
+BROOKLYN,sprinter v,Non-Fatal,1
+MANHATTAN,0,Non-Fatal,1
+QUEENS,LIVERY,Non-Fatal,1
+BRONX,Unknown,Non-Fatal,1
+STATEN ISLAND,Mailtruck,Non-Fatal,1
+BRONX,SEMI COMM,Non-Fatal,1
+BROOKLYN,omr,Non-Fatal,1
+MANHATTAN,HOSRE,Non-Fatal,1
+BROOKLYN,FRONT,Non-Fatal,1
+BROOKLYN,Ambu,Non-Fatal,1
+BROOKLYN,f15,Non-Fatal,1
+BROOKLYN,YW PO,Non-Fatal,1
+BROOKLYN,FLATB,Non-Fatal,1
+MANHATTAN,CASE,Non-Fatal,1
+MANHATTAN,SD,Non-Fatal,1
+BROOKLYN,hi-lo,Non-Fatal,1
+MANHATTAN,Garba,Non-Fatal,1
+BROOKLYN,renta,Non-Fatal,1
+STATEN ISLAND,AMBU,Non-Fatal,1
+MANHATTAN,FLATB,Non-Fatal,1
+MANHATTAN,VAN/T,Non-Fatal,1
+BRONX,Power,Non-Fatal,1
+MANHATTAN,VAN T,Non-Fatal,1
+MANHATTAN,BULLD,Non-Fatal,1
+QUEENS,inter,Non-Fatal,1
+MANHATTAN,PET,Non-Fatal,1
+MANHATTAN,freig,Non-Fatal,1
+BRONX,MTA C,Non-Fatal,1
+BROOKLYN,SURET,Non-Fatal,1
+MANHATTAN,Utili,Fatal,1
+MANHATTAN,BROOM,Non-Fatal,1
+BROOKLYN,movin,Non-Fatal,1
+BROOKLYN,Sweep,Non-Fatal,1
+BROOKLYN,VAN/T,Non-Fatal,1
+MANHATTAN,SCOM,Non-Fatal,1
+QUEENS,Motor,Non-Fatal,1
+STATEN ISLAND,REFRI,Non-Fatal,1
+QUEENS,frh,Non-Fatal,1
+MANHATTAN,Posta,Non-Fatal,1
+MANHATTAN,RGS,Non-Fatal,1
+STATEN ISLAND,FIRET,Non-Fatal,1
+BROOKLYN,PU,Non-Fatal,1
+MANHATTAN,JEEP,Non-Fatal,1
+QUEENS,ram,Non-Fatal,1
+MANHATTAN,DEIV,Non-Fatal,1
+BROOKLYN,food truck,Non-Fatal,1
+QUEENS,FEDEX,Non-Fatal,1
+BROOKLYN,spec,Non-Fatal,1
+QUEENS,sanit,Non-Fatal,1
+MANHATTAN,ford,Non-Fatal,1
+BROOKLYN,Dumps,Non-Fatal,1
+QUEENS,nyfd,Non-Fatal,1
+BROOKLYN,high,Non-Fatal,1
+QUEENS,LSA,Non-Fatal,1
+BRONX,G Sem,Non-Fatal,1
+MANHATTAN,Utili,Non-Fatal,1
+MANHATTAN,PICK-UP TRUCK,Fatal,1
+MANHATTAN,util,Non-Fatal,1
+MANHATTAN,elect,Non-Fatal,1
+BROOKLYN,cemen,Non-Fatal,1
+BRONX,C0MME,Non-Fatal,1
+BROOKLYN,4 axe,Non-Fatal,1
+MANHATTAN,winne,Non-Fatal,1
+STATEN ISLAND,MAXIM,Non-Fatal,1
+BROOKLYN,Nypd,Non-Fatal,1
+BROOKLYN,passa,Non-Fatal,1
+BROOKLYN,Stake,Non-Fatal,1
+QUEENS,Vanette,Non-Fatal,1
+STATEN ISLAND,BK,Non-Fatal,1
+MANHATTAN,CMIX,Non-Fatal,1
+QUEENS,fd tr,Non-Fatal,1
+QUEENS,Box t,Non-Fatal,1
+QUEENS,OML,Non-Fatal,1
+BROOKLYN,amulance,Non-Fatal,1
+MANHATTAN,OMNIB,Non-Fatal,1
+STATEN ISLAND,BOX T,Non-Fatal,1
+QUEENS,semi,Non-Fatal,1
+QUEENS,mta B,Non-Fatal,1
+STATEN ISLAND,SEDAN,Non-Fatal,1
+BRONX,Sanit,Non-Fatal,1
+MANHATTAN,ROOD,Non-Fatal,1
+BRONX,Motor Home,Non-Fatal,1
+QUEENS,CAT.,Non-Fatal,1
+QUEENS,g scl,Non-Fatal,1
+MANHATTAN,DEPT VAN #,Non-Fatal,1
+BRONX,CAMP,Non-Fatal,1
+QUEENS,TRK,Non-Fatal,1
+MANHATTAN,omm,Non-Fatal,1
+QUEENS,SKID-,Non-Fatal,1
+BROOKLYN,DIRT,Non-Fatal,1
+STATEN ISLAND,bobca,Non-Fatal,1
+MANHATTAN,KUBOT,Non-Fatal,1
+BROOKLYN,Hearse,Non-Fatal,1
+BROOKLYN,APPOR,Non-Fatal,1
+BRONX,St,Non-Fatal,1
+QUEENS,pay loader,Non-Fatal,1
+QUEENS,ECONO,Non-Fatal,1
+BRONX,prks,Non-Fatal,1
+BROOKLYN,REFG,Non-Fatal,1
+QUEENS,KENWO,Non-Fatal,1
+QUEENS,TANKE,Non-Fatal,1
+MANHATTAN,Const,Non-Fatal,1
+BROOKLYN,Sprin,Non-Fatal,1
+QUEENS,COMMU,Non-Fatal,1
+MANHATTAN,PAYLO,Non-Fatal,1
+MANHATTAN,SCOOTER GA,Non-Fatal,1
+QUEENS,P/SH,Non-Fatal,1
+BRONX,NYS Ambula,Non-Fatal,1
+MANHATTAN,Post offic,Non-Fatal,1
+MANHATTAN,post offic,Non-Fatal,1
+MANHATTAN,Motorbike,Fatal,1
+MANHATTAN,AMBULANE,Non-Fatal,1
+BROOKLYN,USPS posta,Non-Fatal,1
+QUEENS,USPS truck,Non-Fatal,1
+MANHATTAN,GEN  AMBUL,Non-Fatal,1
+MANHATTAN,Work truck,Non-Fatal,1
+MANHATTAN,WINNIEBAGO,Non-Fatal,1
+STATEN ISLAND,police rep,Non-Fatal,1
+QUEENS,DELIVERY V,Non-Fatal,1
+QUEENS,forlift,Non-Fatal,1
+QUEENS,FDNY FIRET,Non-Fatal,1
+BROOKLYN,POSTAL TRU,Non-Fatal,1
+MANHATTAN,CATER,Non-Fatal,1
+BROOKLYN,SWEEPER TR,Non-Fatal,1
+QUEENS,Sprinter V,Non-Fatal,1
+MANHATTAN,STREET CLE,Non-Fatal,1
+MANHATTAN,Usaa,Non-Fatal,1
+MANHATTAN,FORD F-150,Non-Fatal,1
+MANHATTAN,E-bike,Non-Fatal,1
+MANHATTAN,MOVING TRU,Non-Fatal,1
+BROOKLYN,Ice cream,Non-Fatal,1
+QUEENS,EMS Ambule,Non-Fatal,1
+BROOKLYN,Motor Scoo,Non-Fatal,1
+MANHATTAN,FIRE DEPT,Non-Fatal,1
+QUEENS,pick up tr,Non-Fatal,1
+BROOKLYN,USPS/GOVT,Non-Fatal,1
+MANHATTAN,PSD,Non-Fatal,1
+MANHATTAN,Horse carr,Non-Fatal,1
+QUEENS,U-Haul min,Non-Fatal,1
+BROOKLYN,AMBALANCE,Non-Fatal,1
+BRONX,SMART CAR,Non-Fatal,1
+BROOKLYN,UPS TRUCK,Non-Fatal,1
+MANHATTAN,street swe,Non-Fatal,1
+BRONX,Tractor Tr,Non-Fatal,1
+STATEN ISLAND,Box Truck,Fatal,1
+BROOKLYN,SEMI TRUCK,Non-Fatal,1
+MANHATTAN,Pick up Tr,Non-Fatal,1
+BRONX,Postal ser,Non-Fatal,1
+QUEENS,FLYWING MO,Non-Fatal,1
+MANHATTAN,CARGO VAN,Non-Fatal,1
+BROOKLYN,Cement Tru,Non-Fatal,1
+BRONX,electric s,Non-Fatal,1
+BRONX,OML/OMNIBU,Non-Fatal,1
+BROOKLYN,Fuso,Non-Fatal,1
+BROOKLYN,UTILITY WH,Non-Fatal,1
+MANHATTAN,na,Non-Fatal,1
+QUEENS,Ford FF,Non-Fatal,1
+BROOKLYN,White subu,Non-Fatal,1
+BROOKLYN,Utility tr,Non-Fatal,1
+BRONX,Go kart,Non-Fatal,1
+QUEENS,STREET SWE,Non-Fatal,1
+BROOKLYN,GOLF CART,Non-Fatal,1
+BROOKLYN,FOOD TRUCK,Non-Fatal,1
+BRONX,SKID STEER,Non-Fatal,1
+BROOKLYN,amazon tru,Non-Fatal,1
+BRONX,PASS,Non-Fatal,1
+BROOKLYN,ALL TERRAI,Non-Fatal,1
+MANHATTAN,Fdny Fire,Non-Fatal,1
+BROOKLYN,SKID LOADE,Non-Fatal,1
+MANHATTAN,Pro master,Non-Fatal,1
+MANHATTAN,EMS bus,Non-Fatal,1
+BRONX,Lime Scoot,Non-Fatal,1
+BROOKLYN,Utility ve,Non-Fatal,1
+MANHATTAN,NYS Ambula,Non-Fatal,1
+BRONX,Escooter,Non-Fatal,1
+BRONX,HWH,Non-Fatal,1
+MANHATTAN,FOOD CART,Non-Fatal,1
+BRONX,FUSO TRUCK,Non-Fatal,1
+BROOKLYN,Trolley ri,Non-Fatal,1
+QUEENS,con ed tru,Non-Fatal,1
+BRONX,AMBULANE,Non-Fatal,1
+BRONX,FLATBED TO,Non-Fatal,1
+QUEENS,Forklift v,Non-Fatal,1
+STATEN ISLAND,AMAZON TRU,Non-Fatal,1
+BROOKLYN,AMBULENCE,Non-Fatal,1
+MANHATTAN,moped scoo,Non-Fatal,1
+BROOKLYN,Landscapin,Non-Fatal,1
+BROOKLYN,MOVING TRU,Non-Fatal,1
+QUEENS,USPS small,Non-Fatal,1
+BROOKLYN,freight,Non-Fatal,1
+QUEENS,LADDER,Non-Fatal,1
+BRONX,NYC FDNY #,Non-Fatal,1
+MANHATTAN,Rmp,Non-Fatal,1
+BROOKLYN,Utility,Non-Fatal,1
+MANHATTAN,Boom Lift,Fatal,1
+BRONX,Lim,Non-Fatal,1
+MANHATTAN,E scooter,Non-Fatal,1
+MANHATTAN,E-SCOOTER,Non-Fatal,1
+BROOKLYN,Cement tru,Non-Fatal,1
+BRONX,Pickup tru,Non-Fatal,1
+BROOKLYN,Power Shov,Non-Fatal,1
+MANHATTAN,Dept  Van,Non-Fatal,1
+BRONX,E bike,Non-Fatal,1
+STATEN ISLAND,TRLR,Non-Fatal,1
+QUEENS,SEDAN,Non-Fatal,1
+BROOKLYN,van truck,Non-Fatal,1
+MANHATTAN,COMM VAN,Non-Fatal,1
+BRONX,WORKH,Non-Fatal,1
+QUEENS,GOVER,Non-Fatal,1
+BROOKLYN,DUMPT,Non-Fatal,1
+MANHATTAN,WINNE,Non-Fatal,1
+MANHATTAN,dp,Non-Fatal,1
+BROOKLYN,MTA B,Non-Fatal,1
+MANHATTAN,US MA,Non-Fatal,1
+QUEENS,FD TR,Non-Fatal,1
+BROOKLYN,MO PE,Non-Fatal,1
+BROOKLYN,Comix,Non-Fatal,1
+STATEN ISLAND,POIS,Non-Fatal,1
+MANHATTAN,1,Non-Fatal,1
+MANHATTAN,mail,Non-Fatal,1
+BROOKLYN,FIRER,Non-Fatal,1
+QUEENS,Schoo,Non-Fatal,1
+STATEN ISLAND,TC,Non-Fatal,1
+QUEENS,Tow Truck / Wrecker,Fatal,1
+MANHATTAN,tr,Non-Fatal,1
+QUEENS,985,Non-Fatal,1
+BRONX,UTILI,Non-Fatal,1
+QUEENS,OMT,Non-Fatal,1
+MANHATTAN,NT TR,Non-Fatal,1
+BROOKLYN,CEMEN,Non-Fatal,1
+MANHATTAN,RUBBE,Non-Fatal,1
+BROOKLYN,Motorbike,Fatal,1
+BRONX,CATER,Non-Fatal,1
+BRONX,deliv,Non-Fatal,1
+QUEENS,CITY,Non-Fatal,1
+BROOKLYN,RESCU,Non-Fatal,1
+MANHATTAN,EMRGN,Non-Fatal,1
+STATEN ISLAND,usps,Non-Fatal,1
+MANHATTAN,Parce,Non-Fatal,1
+QUEENS,trk,Non-Fatal,1
+BRONX,passe,Non-Fatal,1
+MANHATTAN,trac,Non-Fatal,1
+BROOKLYN,e tow,Non-Fatal,1
+BRONX,SPC,Non-Fatal,1
+QUEENS,elect,Non-Fatal,1
+BROOKLYN,3 WHE,Non-Fatal,1
+MANHATTAN,delv,Non-Fatal,1
+BROOKLYN,bobct,Non-Fatal,1
+MANHATTAN,STERL,Non-Fatal,1
+MANHATTAN,FORK,Non-Fatal,1
+QUEENS,trl,Non-Fatal,1
+BROOKLYN,r/v,Non-Fatal,1
+BRONX,rmp,Non-Fatal,1
+BRONX,CARGO,Non-Fatal,1
+QUEENS,AERIA,Non-Fatal,1
+MANHATTAN,fdny truck,Non-Fatal,1
+MANHATTAN,Unkow,Non-Fatal,1
+QUEENS,forkl,Non-Fatal,1
+BROOKLYN,LIEBH,Non-Fatal,1
+STATEN ISLAND,REFG,Non-Fatal,1
+QUEENS,te,Non-Fatal,1
+MANHATTAN,5X8 T,Non-Fatal,1
+QUEENS,cargo,Non-Fatal,1
+BRONX,CAT P,Non-Fatal,1
+MANHATTAN,COUPE,Non-Fatal,1
+QUEENS,van w,Non-Fatal,1
+QUEENS,Work,Non-Fatal,1
+BROOKLYN,WORK,Non-Fatal,1
+BROOKLYN,SUBR,Non-Fatal,1
+MANHATTAN,FED E,Non-Fatal,1
+QUEENS,G TOW,Non-Fatal,1
+STATEN ISLAND,OTHER,Fatal,1
+BROOKLYN,NAVIG,Non-Fatal,1
+BRONX,Amb,Non-Fatal,1
+QUEENS,e com,Non-Fatal,1
+BRONX,USPS2,Non-Fatal,1
+BROOKLYN,DELVI,Non-Fatal,1
+BROOKLYN,uhaul,Non-Fatal,1
+QUEENS,FREE,Non-Fatal,1
+BROOKLYN,moter,Non-Fatal,1
+BROOKLYN,TLC,Non-Fatal,1
+MANHATTAN,Food,Non-Fatal,1
+QUEENS,yello,Non-Fatal,1
+MANHATTAN,HORSE CARR,Non-Fatal,1
+BROOKLYN,Box t,Non-Fatal,1
+BRONX,POSTA,Non-Fatal,1
+BRONX,Dump truck,Non-Fatal,1
+MANHATTAN,SELF-,Non-Fatal,1
+BROOKLYN,MARK,Non-Fatal,1
+BRONX,3DOOR,Non-Fatal,1
+MANHATTAN,NYC D,Non-Fatal,1
+BRONX,FUEL,Non-Fatal,1
+QUEENS,UPS t,Non-Fatal,1
+QUEENS,bulld,Non-Fatal,1
+QUEENS,power,Non-Fatal,1
+MANHATTAN,3DC-,Non-Fatal,1
+BROOKLYN,UHAUL,Non-Fatal,1
+MANHATTAN,omni,Non-Fatal,1
+MANHATTAN,GLBEN,Non-Fatal,1
+MANHATTAN,SUBUR,Non-Fatal,1
+STATEN ISLAND,PSH,Non-Fatal,1
+BRONX,TOWER,Non-Fatal,1
+STATEN ISLAND,TRANS,Non-Fatal,1
+STATEN ISLAND,DELV,Non-Fatal,1
+MANHATTAN,Armored Truck,Fatal,1
+STATEN ISLAND,unkno,Non-Fatal,1
+BRONX,CITY,Non-Fatal,1
+QUEENS,USPS # 487,Non-Fatal,1
+MANHATTAN,NTTRL,Non-Fatal,1
+BRONX,197209,Non-Fatal,1
+BROOKLYN,GOV V,Non-Fatal,1
+MANHATTAN,unkow,Non-Fatal,1
+QUEENS,dodge,Non-Fatal,1
+BROOKLYN,firet,Non-Fatal,1
+MANHATTAN,N/A,Non-Fatal,1
+MANHATTAN,FLED,Non-Fatal,1
+MANHATTAN,LTRL,Non-Fatal,1
+BROOKLYN,COMMM,Non-Fatal,1
+MANHATTAN,Schoo,Non-Fatal,1
+MANHATTAN,SKATE,Non-Fatal,1
+MANHATTAN,YELLO,Non-Fatal,1
+STATEN ISLAND,POWER,Non-Fatal,1
+MANHATTAN,NYPD,Non-Fatal,1
+MANHATTAN,U.S. POSTA,Non-Fatal,1
+BRONX,TRUCK COMM,Non-Fatal,1
+MANHATTAN,pedicab,Non-Fatal,1
+BROOKLYN,997,Non-Fatal,1
+BROOKLYN,FREIGHT TR,Non-Fatal,1
+MANHATTAN,crane boom,Non-Fatal,1
+QUEENS,Courier,Non-Fatal,1
+MANHATTAN,Flat,Non-Fatal,1
+BROOKLYN,MOPAD,Non-Fatal,1
+MANHATTAN,ford econo,Non-Fatal,1
+BRONX,Dump Truck,Non-Fatal,1
+BRONX,G com,Non-Fatal,1
+QUEENS,GAS MOPED,Non-Fatal,1
+MANHATTAN,ELECTRIC S,Fatal,1
+MANHATTAN,firetruck,Non-Fatal,1
+STATEN ISLAND,Commercial,Non-Fatal,1
+QUEENS,postal van,Non-Fatal,1
+BRONX,Fork Lift,Non-Fatal,1
+STATEN ISLAND,LIMO,Non-Fatal,1
+MANHATTAN,Fork Lift,Non-Fatal,1
+BROOKLYN,GOLF CAR,Non-Fatal,1
+BROOKLYN,Dodge,Non-Fatal,1
+BROOKLYN,Cargo van,Non-Fatal,1
+BRONX,pc,Non-Fatal,1
+STATEN ISLAND,SHUTTLE BU,Non-Fatal,1
+BROOKLYN,NYC SANITA,Non-Fatal,1
+QUEENS,USPS VEHIC,Non-Fatal,1
+STATEN ISLAND,AMBULANCE,Fatal,1
+MANHATTAN,SWT,Non-Fatal,1
+QUEENS,FREIGHTLIN,Non-Fatal,1
+MANHATTAN,NJ transit,Non-Fatal,1
+BROOKLYN,TOW-TRUCK,Non-Fatal,1
+BRONX,AMBULANVE,Non-Fatal,1
+MANHATTAN,cross,Non-Fatal,1
+BRONX,TRUCK W/TR,Non-Fatal,1
+MANHATTAN,GOVERNMENT,Non-Fatal,1
+QUEENS,Ladder,Non-Fatal,1
+QUEENS,Fire Engin,Non-Fatal,1
+MANHATTAN,Skywatch,Non-Fatal,1
+QUEENS,Pedicab,Non-Fatal,1
+QUEENS,FireTruck,Non-Fatal,1
+MANHATTAN,Horse,Non-Fatal,1
+BROOKLYN,EMS bus,Non-Fatal,1
+BROOKLYN,DELIVRY TR,Non-Fatal,1
+BRONX,SPRINTER 2,Non-Fatal,1
+BRONX,PASSANGER,Non-Fatal,1
+BRONX,COMERCIAL,Non-Fatal,1
+MANHATTAN,MOVING VAN,Non-Fatal,1
+BROOKLYN,Fedex,Non-Fatal,1
+QUEENS,BOOM MOPED,Non-Fatal,1
+BROOKLYN,Fork Lift,Non-Fatal,1
+BRONX,AMBULACE,Non-Fatal,1
+MANHATTAN,SKYWATCH,Non-Fatal,1
+QUEENS,SLINGSHOT,Non-Fatal,1
+BRONX,rgs,Non-Fatal,1
+MANHATTAN,FDNY Engin,Non-Fatal,1
+BROOKLYN,JOHN DEERE,Non-Fatal,1
+BROOKLYN,EMS BUS,Non-Fatal,1
+BRONX,USPS DELIV,Non-Fatal,1
+BROOKLYN,Power shov,Non-Fatal,1
+MANHATTAN,box van,Non-Fatal,1
+BRONX,VAn,Non-Fatal,1
+BROOKLYN,Lift Boom,Fatal,1
+QUEENS,Macktruck,Non-Fatal,1
+MANHATTAN,HORSE TRAI,Non-Fatal,1
+MANHATTAN,FDNYTRUCKF,Non-Fatal,1
+BRONX,Tk,Non-Fatal,1
+MANHATTAN,FDNY EMS v,Non-Fatal,1
+QUEENS,Delivery T,Non-Fatal,1
+MANHATTAN,sanitation,Non-Fatal,1
+MANHATTAN,E Bike w p,Non-Fatal,1
+MANHATTAN,PEDAL BIKE,Non-Fatal,1
+QUEENS,FDNY EMS#1,Non-Fatal,1
+BRONX,SPARK150 S,Non-Fatal,1
+MANHATTAN,MOTOR SCOO,Non-Fatal,1
+MANHATTAN,NYC AMBULA,Non-Fatal,1
+BROOKLYN,Gas Scoote,Non-Fatal,1
+QUEENS,Power Shov,Non-Fatal,1
+BRONX,Ford Pick,Non-Fatal,1
+BROOKLYN,Pas (4dr s,Non-Fatal,1
+MANHATTAN,Limo,Non-Fatal,1
+BROOKLYN,MO-PED,Non-Fatal,1
+BROOKLYN,Postal Box,Non-Fatal,1
+MANHATTAN,UTV,Non-Fatal,1
+BRONX,FEDEX TRUC,Non-Fatal,1
+MANHATTAN,REN,Non-Fatal,1
+MANHATTAN,E REVEL SC,Non-Fatal,1
+BROOKLYN,Postoffice,Non-Fatal,1
+STATEN ISLAND,Sprinter W,Non-Fatal,1
+BRONX,Minibike,Fatal,1
+MANHATTAN,Dump truck,Non-Fatal,1
+MANHATTAN,Tractor Tr,Non-Fatal,1
+BROOKLYN,Armored Truck,Fatal,1
+BROOKLYN,CEMENT TRU,Fatal,1
+BRONX,COURIER VA,Non-Fatal,1
+QUEENS,Stand Up S,Non-Fatal,1
+BRONX,PV HOLDING,Non-Fatal,1
+BROOKLYN,Pick-Up,Non-Fatal,1
+BROOKLYN,golf cart,Non-Fatal,1
+QUEENS,electric m,Non-Fatal,1
+BROOKLYN,ACCESS A R,Non-Fatal,1
+QUEENS,ROAD SWEEP,Non-Fatal,1
+BROOKLYN,commerial,Non-Fatal,1
+MANHATTAN,USPS truck,Non-Fatal,1
+BROOKLYN,Limousine,Non-Fatal,1
+BROOKLYN,MINI PACKE,Non-Fatal,1
+STATEN ISLAND,ECONOLINE,Non-Fatal,1
+QUEENS,FOOD TRUCK,Non-Fatal,1
+STATEN ISLAND,Convertible,Fatal,1
+BROOKLYN,NYS insura,Non-Fatal,1
+QUEENS,FDNY Ladde,Non-Fatal,1
+MANHATTAN,Delivery t,Non-Fatal,1
+STATEN ISLAND,FREIGHTLIN,Non-Fatal,1
+BROOKLYN,TRUCK/VAN,Non-Fatal,1
+BROOKLYN,0000,Non-Fatal,1
+BRONX,Street Swe,Non-Fatal,1
+BROOKLYN,forklift,Non-Fatal,1
+QUEENS,POWER LADD,Non-Fatal,1
+BRONX,firetruck,Non-Fatal,1
+BRONX,GOVERMENT,Non-Fatal,1
+QUEENS,Car carrie,Non-Fatal,1
+STATEN ISLAND,APP,Non-Fatal,1
+BROOKLYN,delivery t,Non-Fatal,1
+BRONX,4DS,Non-Fatal,1
+BROOKLYN,FLATBED,Non-Fatal,1
+BROOKLYN,For,Non-Fatal,1
+BROOKLYN,Electric m,Non-Fatal,1
+BROOKLYN,DSNY TRUCK,Non-Fatal,1
+MANHATTAN,CEMENT TRU,Non-Fatal,1
+MANHATTAN,Scooter ga,Non-Fatal,1
+MANHATTAN,E SCOOTER,Non-Fatal,1
+QUEENS,Mack truck,Non-Fatal,1
+QUEENS,Dumb Truck,Non-Fatal,1
+QUEENS,Self Insur,Non-Fatal,1
+STATEN ISLAND,Mail truck,Non-Fatal,1
+BROOKLYN,Panel Van,Non-Fatal,1
+MANHATTAN,EMS FDNY,Non-Fatal,1
+BROOKLYN,PLOW,Non-Fatal,1
+STATEN ISLAND,Excavator,Non-Fatal,1
+BROOKLYN,VAN/TRUCK,Non-Fatal,1
+BROOKLYN,Ford f150,Non-Fatal,1
+BROOKLYN,Sprinter V,Non-Fatal,1
+QUEENS,Carry All,Fatal,1
+MANHATTAN,PEPSI DELI,Non-Fatal,1
+QUEENS,Ice cream,Non-Fatal,1
+BROOKLYN,UNICYCLE,Non-Fatal,1
+STATEN ISLAND,School bus,Non-Fatal,1
+MANHATTAN,Tow Truck / Wrecker,Fatal,1
+QUEENS,Toolcat,Non-Fatal,1
+BRONX,tow-truck,Non-Fatal,1
+MANHATTAN,fdny firet,Non-Fatal,1
+MANHATTAN,JOHN DEERE,Non-Fatal,1
+MANHATTAN,BACK HOE,Non-Fatal,1
+QUEENS,Sanitation,Non-Fatal,1
+MANHATTAN,Forklift,Non-Fatal,1
+QUEENS,Amazon del,Non-Fatal,1
+BRONX,NYC FIRE T,Non-Fatal,1
+QUEENS,Box truck,Non-Fatal,1
+MANHATTAN,government,Non-Fatal,1
+BRONX,4 DOOR,Non-Fatal,1
+STATEN ISLAND,SW,Non-Fatal,1
+BROOKLYN,TRuck,Non-Fatal,1
+BROOKLYN,ambu,Non-Fatal,1
+BROOKLYN,ukn,Non-Fatal,1
+QUEENS,White,Non-Fatal,1
+BRONX,Tram,Non-Fatal,1
+BROOKLYN,Pas,Non-Fatal,1
+MANHATTAN,HINO,Non-Fatal,1
+BROOKLYN,p/sh,Non-Fatal,1
+BROOKLYN,nyc d,Non-Fatal,1
+STATEN ISLAND,4 RUN,Non-Fatal,1
+QUEENS,mopad,Non-Fatal,1
+QUEENS,backh,Non-Fatal,1
+BROOKLYN,ICE C,Non-Fatal,1
+BROOKLYN,APP,Non-Fatal,1
+BROOKLYN,refg,Non-Fatal,1
+BROOKLYN,KME/F,Non-Fatal,1
+BROOKLYN,Carry All,Fatal,1
+QUEENS,omt,Non-Fatal,1
+QUEENS,EXCAV,Non-Fatal,1
+BRONX,PEDICAB,Non-Fatal,1
+STATEN ISLAND,TRACT,Non-Fatal,1
+MANHATTAN,PC,Non-Fatal,1
+QUEENS,TRLR,Non-Fatal,1
+QUEENS,CHERR,Non-Fatal,1
+QUEENS,FD tr,Non-Fatal,1
+BROOKLYN,Cargo,Non-Fatal,1
+BRONX,VAN T,Non-Fatal,1
+QUEENS,USPS MAIL,Non-Fatal,1
+BROOKLYN,Acces,Non-Fatal,1
+QUEENS,mack,Non-Fatal,1
+BROOKLYN,MOVIN,Non-Fatal,1
+STATEN ISLAND,FORK-,Non-Fatal,1
+BROOKLYN,I-haul,Non-Fatal,1
+STATEN ISLAND,SCHOO,Non-Fatal,1
+MANHATTAN,Picku,Non-Fatal,1
+BRONX,FORK,Non-Fatal,1
+BROOKLYN,OIL T,Non-Fatal,1
+MANHATTAN,Flatb,Non-Fatal,1
+QUEENS,tr,Non-Fatal,1
+BRONX,TL TR,Non-Fatal,1
+QUEENS,PC,Non-Fatal,1
+BROOKLYN,dhl t,Non-Fatal,1
+QUEENS,VAB,Non-Fatal,1
+BRONX,usps,Non-Fatal,1
+BROOKLYN,SUV,Non-Fatal,1
+QUEENS,RMP,Non-Fatal,1
+MANHATTAN,FDNY EMS V,Non-Fatal,1
+BROOKLYN,mtr s,Non-Fatal,1
+BROOKLYN,Comme,Non-Fatal,1
+MANHATTAN,Crane,Non-Fatal,1
+BROOKLYN,Flat Rack,Fatal,1
+MANHATTAN,SEA,Non-Fatal,1
+QUEENS,EMERGENCY,Non-Fatal,1
+BROOKLYN,SE,Non-Fatal,1
+BRONX,USPS #7530,Non-Fatal,1
+MANHATTAN,US GO,Non-Fatal,1
+MANHATTAN,PICKUP TRU,Non-Fatal,1
+QUEENS,UTILITY TR,Non-Fatal,1
+BROOKLYN,fdny ems,Non-Fatal,1
+BRONX,gas scoote,Non-Fatal,1
+QUEENS,ford van,Non-Fatal,1
+QUEENS,Dent and S,Non-Fatal,1
+MANHATTAN,UHAL,Non-Fatal,1
+MANHATTAN,kick scoot,Non-Fatal,1
+QUEENS,Delivery,Non-Fatal,1
+MANHATTAN,Motorscooter,Fatal,1
+QUEENS,Ice Cream,Non-Fatal,1
+STATEN ISLAND,G AMB,Non-Fatal,1
+MANHATTAN,NINEBOT,Non-Fatal,1
+BROOKLYN,MOTOR HOME,Non-Fatal,1
+QUEENS,UHAUL,Non-Fatal,1
+QUEENS,FDNY Fire,Non-Fatal,1
+BRONX,EC3,Non-Fatal,1
+BRONX,CONSTRUCTI,Non-Fatal,1
+BROOKLYN,EMS -BUS,Non-Fatal,1
+MANHATTAN,MINIVAN,Non-Fatal,1
+MANHATTAN,ХР06,Non-Fatal,1
+BROOKLYN,AMBULANE,Non-Fatal,1
+BROOKLYN,Mercedes,Non-Fatal,1
+BRONX,Schoolbus,Non-Fatal,1
+QUEENS,Utility ve,Non-Fatal,1
+BRONX,USPS POSTA,Non-Fatal,1
+BRONX,VAN WH,Non-Fatal,1
+BROOKLYN,one wheel,Non-Fatal,1
+QUEENS,Omnibus,Non-Fatal,1
+MANHATTAN,POSTAL TRU,Non-Fatal,1
+BRONX,mini bus,Non-Fatal,1
+BROOKLYN,VAN BUS,Non-Fatal,1
+QUEENS,FLAT  BED,Non-Fatal,1
+BROOKLYN,COT,Non-Fatal,1
+BROOKLYN,Detached t,Non-Fatal,1
+QUEENS,Passenger,Non-Fatal,1
+MANHATTAN,FORKLIFT,Non-Fatal,1
+BROOKLYN,Bobcat,Non-Fatal,1
+STATEN ISLAND,UTILITY TR,Non-Fatal,1
+MANHATTAN,Tractor Truck Gasoline,Fatal,1
+BRONX,Pick up Tr,Non-Fatal,1
+BRONX,SUV,Non-Fatal,1
+BROOKLYN,ACCESS RID,Non-Fatal,1
+QUEENS,Quadricycl,Non-Fatal,1
+MANHATTAN,H Carriage,Non-Fatal,1
+BRONX,Traffic To,Non-Fatal,1
+STATEN ISLAND,SW/SUV,Non-Fatal,1
+QUEENS,PICK UP TR,Non-Fatal,1
+BROOKLYN,DOLLAR VAN,Non-Fatal,1
+BRONX,NYPD towtr,Non-Fatal,1
+QUEENS,Old republ,Non-Fatal,1
+MANHATTAN,Citi bike,Non-Fatal,1
+MANHATTAN,R.M.P.,Non-Fatal,1
+QUEENS,NYC PARKS,Non-Fatal,1
+BRONX,Van,Fatal,1
+STATEN ISLAND,Towing Tru,Non-Fatal,1
+BROOKLYN,USPS Mail,Non-Fatal,1
+QUEENS,Fork lift,Non-Fatal,1
+QUEENS,Nova,Non-Fatal,1
+BROOKLYN,MTA BUS CO,Non-Fatal,1
+BROOKLYN,Bulldozer,Non-Fatal,1
+BRONX,TRAILER/FL,Non-Fatal,1
+BROOKLYN,E bike,Non-Fatal,1
+BROOKLYN,Truck/bus,Non-Fatal,1
+MANHATTAN,Tlc,Non-Fatal,1
+BRONX,CAR/SUV,Non-Fatal,1
+STATEN ISLAND,4dsd,Non-Fatal,1
+BROOKLYN,GOV OWNED,Non-Fatal,1
+BRONX,EMI- TRAIL,Non-Fatal,1
+BROOKLYN,fork lift,Non-Fatal,1
+STATEN ISLAND,Utility,Non-Fatal,1
+BRONX,Elect,Non-Fatal,1
+STATEN ISLAND,MAIL,Non-Fatal,1
+BRONX,WHEEL,Non-Fatal,1
+QUEENS,FRHT,Non-Fatal,1
+MANHATTAN,DODGE,Non-Fatal,1
+BROOKLYN,freig,Non-Fatal,1
+QUEENS,BOX,Non-Fatal,1
+BROOKLYN,USP M,Non-Fatal,1
+MANHATTAN,SCOMM,Non-Fatal,1
+BROOKLYN,BACK,Non-Fatal,1
+BRONX,unknown,Non-Fatal,1
+MANHATTAN,OMR,Non-Fatal,1
+MANHATTAN,Renta,Non-Fatal,1
+QUEENS,Budge,Non-Fatal,1
+BROOKLYN,99999,Non-Fatal,1
+QUEENS,BKHOE,Non-Fatal,1
+BROOKLYN,Grain,Non-Fatal,1
+MANHATTAN,ice c,Non-Fatal,1
+QUEENS,DIRTB,Non-Fatal,1
+QUEENS,CRANE,Non-Fatal,1
+QUEENS,e-bik,Non-Fatal,1
+QUEENS,9999,Non-Fatal,1
+BRONX,EXCAV,Non-Fatal,1
+STATEN ISLAND,SERVI,Non-Fatal,1
+MANHATTAN,pedic,Non-Fatal,1
+QUEENS,Sprin,Non-Fatal,1
+BROOKLYN,MINI,Non-Fatal,1
+MANHATTAN,INTER,Non-Fatal,1
+BRONX,Farm Vehicle,Non-Fatal,1
+BRONX,SUBUR,Non-Fatal,1
+MANHATTAN,semi-,Non-Fatal,1
+BROOKLYN,15 Pa,Non-Fatal,1
+QUEENS,gokar,Non-Fatal,1
+QUEENS,12 Pa,Non-Fatal,1
+MANHATTAN,26 ft,Non-Fatal,1
+MANHATTAN,stree,Non-Fatal,1
+BRONX,picku,Non-Fatal,1
+STATEN ISLAND,dirt,Non-Fatal,1
+MANHATTAN,Scoot,Non-Fatal,1
+BROOKLYN,ELEC.,Non-Fatal,1
+STATEN ISLAND,Motorscooter,Non-Fatal,1
+BRONX,subur,Non-Fatal,1
+BRONX,util,Non-Fatal,1
+QUEENS,USPOS,Non-Fatal,1
+BRONX,miniv,Non-Fatal,1
+BROOKLYN,marke,Non-Fatal,1
+BROOKLYN,POSTA,Non-Fatal,1
+STATEN ISLAND,NO/BU,Non-Fatal,1
+QUEENS,US,Non-Fatal,1
+BRONX,RENTA,Non-Fatal,1
+MANHATTAN,UTLIT,Non-Fatal,1
+MANHATTAN,nypd,Non-Fatal,1
+BROOKLYN,NYCHA,Non-Fatal,1
+QUEENS,red t,Non-Fatal,1
+QUEENS,BULLD,Non-Fatal,1
+BROOKLYN,DUMPS,Non-Fatal,1
+BROOKLYN,CASE,Non-Fatal,1
+MANHATTAN,4dsd,Non-Fatal,1
+BRONX,BACK,Non-Fatal,1
+BRONX,BOOM,Non-Fatal,1
+MANHATTAN,COURI,Non-Fatal,1
+BRONX,YALE,Non-Fatal,1
+QUEENS,GRUMM,Non-Fatal,1
+STATEN ISLAND,UTILI,Non-Fatal,1
+BRONX,FR`,Non-Fatal,1
+QUEENS,scoo,Non-Fatal,1
+QUEENS,4whee,Non-Fatal,1
+QUEENS,MACK,Non-Fatal,1
+BROOKLYN,Snow,Non-Fatal,1
+BROOKLYN,miniv,Non-Fatal,1
+QUEENS,FORKL,Fatal,1
+BROOKLYN,MTA U,Non-Fatal,1
+MANHATTAN,FLEET,Non-Fatal,1
+BROOKLYN,TR-Trailer,Non-Fatal,1
+BRONX,ELECTRIC B,Non-Fatal,1
+MANHATTAN,VAV,Non-Fatal,1
+BROOKLYN,Gas scoote,Non-Fatal,1
+MANHATTAN,USPCS,Non-Fatal,1
+QUEENS,12 PASSENG,Non-Fatal,1
+QUEENS,999,Non-Fatal,1
+BRONX,FDNY VEHIC,Non-Fatal,1
+QUEENS,charter bu,Non-Fatal,1
+BROOKLYN,FDNY INSUR,Non-Fatal,1
+MANHATTAN,Garbage,Non-Fatal,1
+BRONX,Mopd,Non-Fatal,1
+BRONX,Kubota bac,Non-Fatal,1
+MANHATTAN,COMMERICIA,Non-Fatal,1
+BRONX,SCHOOL  BU,Non-Fatal,1
+BROOKLYN,Pick wh,Non-Fatal,1
+BRONX,GEICO,Non-Fatal,1
+QUEENS,UHaul,Non-Fatal,1
+MANHATTAN,In Line Sk,Non-Fatal,1
+BRONX,POLICE VEH,Non-Fatal,1
+MANHATTAN,MINI VAHN,Non-Fatal,1
+MANHATTAN,PEDICAB,Fatal,1
+BROOKLYN,Excavator,Non-Fatal,1
+MANHATTAN,PSVAN,Non-Fatal,1
+MANHATTAN,FDNY LADER,Non-Fatal,1
+QUEENS,METRO TRAN,Non-Fatal,1
+BRONX,Dept Tow t,Non-Fatal,1
+MANHATTAN,City Owned,Non-Fatal,1
+BROOKLYN,NYC AMBULA,Non-Fatal,1
+QUEENS,Mta bus,Non-Fatal,1
+STATEN ISLAND,FIRETRUCK,Non-Fatal,1
+BROOKLYN,ELEC. UNIC,Non-Fatal,1
+QUEENS,SELF-INSUR,Non-Fatal,1
+BRONX,Can,Non-Fatal,1
+MANHATTAN,Suburban,Non-Fatal,1
+QUEENS,GOLFCART,Non-Fatal,1
+BRONX,FREIGHT TR,Non-Fatal,1
+BROOKLYN,DELIVERY,Non-Fatal,1
+BRONX,NYFD ambul,Non-Fatal,1
+BROOKLYN,12 passage,Non-Fatal,1
+BRONX,EMS TRUCK,Non-Fatal,1
+QUEENS,NYPD Traff,Non-Fatal,1
+BRONX,GLBEN,Non-Fatal,1
+QUEENS,Pickup tru,Non-Fatal,1
+QUEENS,EMS Bus,Non-Fatal,1
+QUEENS,FREIGHT VA,Non-Fatal,1
+STATEN ISLAND,Scooter,Non-Fatal,1
+MANHATTAN,F550 ESU R,Non-Fatal,1
+QUEENS,unknown,Non-Fatal,1
+BRONX,Courier,Non-Fatal,1
+BRONX,Motorscoot,Non-Fatal,1
+STATEN ISLAND,PASSANGER,Non-Fatal,1
+MANHATTAN,X Amb,Non-Fatal,1
+BROOKLYN,Grumman LL,Non-Fatal,1
+MANHATTAN,Delivery T,Non-Fatal,1
+QUEENS,TTAILER,Non-Fatal,1
+QUEENS,Chassis Cab,Fatal,1
+QUEENS,US Mail Tr,Non-Fatal,1
+QUEENS,PERM,Non-Fatal,1
+MANHATTAN,FD Ambulan,Non-Fatal,1
+MANHATTAN,MTA,Non-Fatal,1
+STATEN ISLAND,UTIL,Non-Fatal,1
+QUEENS,Commer Veh,Non-Fatal,1
+BROOKLYN,Ambulances,Non-Fatal,1
+QUEENS,Waste truc,Non-Fatal,1
+BROOKLYN,ems bus,Non-Fatal,1
+BROOKLYN,TOY MINI V,Non-Fatal,1
+STATEN ISLAND,electronic,Non-Fatal,1
+STATEN ISLAND,FDNY AMBUL,Non-Fatal,1
+MANHATTAN,Gmc pick u,Non-Fatal,1
+QUEENS,Food Trail,Non-Fatal,1
+BRONX,postal bus,Non-Fatal,1
+QUEENS,Tow,Non-Fatal,1
+MANHATTAN,Mercedes,Non-Fatal,1
+MANHATTAN,standing s,Non-Fatal,1
+BROOKLYN,access-a-r,Non-Fatal,1
+MANHATTAN,Work Van,Non-Fatal,1
+BRONX,Tractor,Non-Fatal,1
+BROOKLYN,fdny ambul,Non-Fatal,1
+BRONX,Fork lift,Non-Fatal,1
+QUEENS,CEMENT TRU,Non-Fatal,1
+BROOKLYN,DSNY,Non-Fatal,1
+BRONX,Ram Promas,Non-Fatal,1
+BROOKLYN,CAT FORKLI,Non-Fatal,1
+BRONX,SNOW PLOW,Non-Fatal,1
+QUEENS,food truck,Non-Fatal,1
+BRONX,Pedicab,Non-Fatal,1
+MANHATTAN,FD AMBULAN,Non-Fatal,1
+MANHATTAN,Tractor tr,Non-Fatal,1
+MANHATTAN,Cement tru,Non-Fatal,1
+MANHATTAN,ELECTRIC S,Non-Fatal,1
+BRONX,COM DELIVE,Non-Fatal,1
+BRONX,Fire Truvk,Non-Fatal,1
+BROOKLYN,School Van,Non-Fatal,1
+BROOKLYN,FDNY UTILI,Non-Fatal,1
+BRONX,Ems truck,Non-Fatal,1
+BROOKLYN,garbage tr,Non-Fatal,1
+QUEENS,Pick up Tr,Non-Fatal,1
+BROOKLYN,FORD VAN,Non-Fatal,1
+BRONX,TRANSIT VA,Non-Fatal,1
+STATEN ISLAND,Flatbed Tr,Non-Fatal,1
+BRONX,MOOPER,Non-Fatal,1
+BROOKLYN,MTA transi,Non-Fatal,1
+QUEENS,Road sweep,Non-Fatal,1
+BROOKLYN,firetruck,Non-Fatal,1
+BROOKLYN,Self Insur,Non-Fatal,1
+QUEENS,NYPD Truck,Non-Fatal,1
+MANHATTAN,FUSION,Non-Fatal,1
+BRONX,SEDAN,Non-Fatal,1
+MANHATTAN,TOUR,Non-Fatal,1
+QUEENS,Mobility S,Non-Fatal,1
+QUEENS,tow truck,Non-Fatal,1
+BROOKLYN,PA,Non-Fatal,1
+BROOKLYN,CHEVROLET,Non-Fatal,1
+BRONX,TRUCTOR TR,Non-Fatal,1
+BROOKLYN,R/V,Non-Fatal,1
+BROOKLYN,suv,Non-Fatal,1
+BROOKLYN,LIVER,Non-Fatal,1
+BROOKLYN,BOAT,Non-Fatal,1
+BRONX,BOX H,Non-Fatal,1
+QUEENS,tk,Non-Fatal,1
+MANHATTAN,amb,Non-Fatal,1
+BROOKLYN,BOOM,Non-Fatal,1
+BROOKLYN,small,Non-Fatal,1
+QUEENS,CARGO,Non-Fatal,1
+BROOKLYN,CHEV,Non-Fatal,1
+BRONX,bus,Non-Fatal,1
+QUEENS,TRALI,Non-Fatal,1
+MANHATTAN,U-HAL,Non-Fatal,1
+QUEENS,work,Non-Fatal,1
+BRONX,RINGO,Non-Fatal,1
+BROOKLYN,Van T,Non-Fatal,1
+QUEENS,1,Non-Fatal,1
+STATEN ISLAND,CEMEN,Non-Fatal,1
+MANHATTAN,carri,Non-Fatal,1
+BROOKLYN,SUBUR,Non-Fatal,1
+BROOKLYN,Livery Bus,Non-Fatal,1
+BRONX,E.M.S,Non-Fatal,1
+BROOKLYN,11111,Non-Fatal,1
+MANHATTAN,PRIVA,Non-Fatal,1
+MANHATTAN,gator,Non-Fatal,1
+MANHATTAN,del,Non-Fatal,1
+QUEENS,flatb,Non-Fatal,1
+BROOKLYN,Pavin,Non-Fatal,1
+BROOKLYN,e amb,Non-Fatal,1
+BRONX,HEAVY,Non-Fatal,1
+STATEN ISLAND,posta,Non-Fatal,1
+BROOKLYN,Elect,Non-Fatal,1
+QUEENS,motor,Non-Fatal,1
+MANHATTAN,Semi,Non-Fatal,1
+BRONX,ACCES,Non-Fatal,1
+BROOKLYN,?omme,Non-Fatal,1
+MANHATTAN,Budge,Non-Fatal,1
+BROOKLYN,TLC P,Non-Fatal,1
+BRONX,WINNE,Non-Fatal,1
+BRONX,N/A,Non-Fatal,1
+MANHATTAN,WORK,Non-Fatal,1
+QUEENS,cemen,Non-Fatal,1
+BRONX,com,Non-Fatal,1
+QUEENS,ladde,Non-Fatal,1
+QUEENS,pas,Non-Fatal,1
+QUEENS,BOBCA,Non-Fatal,1
+MANHATTAN,PICK-,Non-Fatal,1
+MANHATTAN,other,Non-Fatal,1
+BROOKLYN,Self,Non-Fatal,1
+BRONX,EBIKE,Non-Fatal,1
+BRONX,NEW Y,Non-Fatal,1
+QUEENS,INTER,Non-Fatal,1
+QUEENS,food,Non-Fatal,1
+STATEN ISLAND,MINI,Non-Fatal,1
+MANHATTAN,BK,Non-Fatal,1
+BROOKLYN,oml,Non-Fatal,1
+MANHATTAN,FLAT/,Non-Fatal,1
+BROOKLYN,subur,Non-Fatal,1
+BROOKLYN,SC,Non-Fatal,1
+QUEENS,OZ MO,Non-Fatal,1
+QUEENS,LIGHT,Non-Fatal,1
+QUEENS,Garbage or Refuse,Fatal,1
+MANHATTAN,fedx,Non-Fatal,1
+QUEENS,LADDER TRU,Non-Fatal,1
+MANHATTAN,Sprin,Non-Fatal,1
+BROOKLYN,Rescu,Non-Fatal,1
+BROOKLYN,POSTO,Non-Fatal,1
+BRONX,none,Non-Fatal,1
+MANHATTAN,couri,Non-Fatal,1
+BROOKLYN,range,Non-Fatal,1
+BRONX,YELLO,Non-Fatal,1
+MANHATTAN,white,Non-Fatal,1
+BRONX,Tow,Non-Fatal,1
+QUEENS,other,Non-Fatal,1
+MANHATTAN,uhaul,Non-Fatal,1
+QUEENS,STAK,Non-Fatal,1
+QUEENS,DOT T,Non-Fatal,1
+BROOKLYN,CMS-T,Non-Fatal,1
+QUEENS,CMIX,Non-Fatal,1
+QUEENS,mta b,Non-Fatal,1
+MANHATTAN,BOX,Non-Fatal,1
+BRONX,Unmarked V,Non-Fatal,1
+BRONX,MTA BUS,Non-Fatal,1
+BROOKLYN,USPS #6530,Non-Fatal,1
+BRONX,NYPD,Non-Fatal,1
+QUEENS,commerical,Non-Fatal,1
+BRONX,TRUCK VAN,Non-Fatal,1
+MANHATTAN,AMBULACE,Non-Fatal,1
+BROOKLYN,PC,Non-Fatal,1
+BRONX,FORK LIFT,Non-Fatal,1
+MANHATTAN,commerical,Non-Fatal,1
+BROOKLYN,White ambu,Non-Fatal,1
+BROOKLYN,mini van,Non-Fatal,1
+MANHATTAN,MOTOR UNIC,Non-Fatal,1
+MANHATTAN,GAS MOPED,Non-Fatal,1
+MANHATTAN,Fdny engin,Non-Fatal,1
+BROOKLYN,BOX CAR,Non-Fatal,1
+QUEENS,TRAILEE,Non-Fatal,1
+MANHATTAN,FDNY Ladde,Non-Fatal,1
+BRONX,MTA,Non-Fatal,1
+BRONX,ebike,Non-Fatal,1
+BRONX,SANMEN COU,Non-Fatal,1
+BROOKLYN,POSTAL VEH,Non-Fatal,1
+BRONX,Mopped,Non-Fatal,1
+QUEENS,util,Non-Fatal,1
+QUEENS,Minibike,Non-Fatal,1
+QUEENS,Passanger,Non-Fatal,1
+BROOKLYN,GOVERNMENT,Non-Fatal,1
+QUEENS,PICKUP,Non-Fatal,1
+BROOKLYN,FDNY Firet,Non-Fatal,1
+BROOKLYN,994,Non-Fatal,1
+MANHATTAN,Skid steer,Non-Fatal,1
+QUEENS,MOPPED,Non-Fatal,1
+MANHATTAN,VAN (TRANS,Non-Fatal,1
+BROOKLYN,DEPARTMENT,Non-Fatal,1
+BROOKLYN,sweeper,Non-Fatal,1
+MANHATTAN,City vehic,Non-Fatal,1
+MANHATTAN,Flat Rack,Fatal,1
+STATEN ISLAND,FDNY ENGIN,Non-Fatal,1
+QUEENS,DOT truck,Non-Fatal,1
+BROOKLYN,Street swe,Non-Fatal,1
+MANHATTAN,REVEL MOPE,Non-Fatal,1
+BRONX,POWER SHOV,Non-Fatal,1
+MANHATTAN,Bicycle,Non-Fatal,1
+QUEENS,trac,Non-Fatal,1
+BRONX,Mack,Non-Fatal,1
+BROOKLYN,MILITARY,Non-Fatal,1
+QUEENS,FLAT RACK,Non-Fatal,1
+BROOKLYN,PICKUP TRU,Non-Fatal,1
+BROOKLYN,P PSD,Non-Fatal,1
+BROOKLYN,VA,Non-Fatal,1
+QUEENS,GARBAGE ST,Non-Fatal,1
+QUEENS,DSNY SWEEP,Non-Fatal,1
+QUEENS,Scooter,Non-Fatal,1
+MANHATTAN,SPRINTER,Non-Fatal,1
+MANHATTAN,Pickup tow,Non-Fatal,1
+QUEENS,DELIVERY,Non-Fatal,1
+BRONX,Tralier,Non-Fatal,1
+QUEENS,fork lift,Non-Fatal,1
+BROOKLYN,e-scooter,Non-Fatal,1
+QUEENS,Street Swe,Non-Fatal,1
+BRONX,Road sweep,Non-Fatal,1
+MANHATTAN,Van (Trans,Non-Fatal,1
+BROOKLYN,Mixer,Non-Fatal,1
+MANHATTAN,Fire engin,Non-Fatal,1
+QUEENS,Ford EC2,Non-Fatal,1
+MANHATTAN,Fdny fire,Non-Fatal,1
+QUEENS,FLATBED,Non-Fatal,1
+BRONX,FDNY EMS V,Non-Fatal,1
+BROOKLYN,ManPower s,Non-Fatal,1
+STATEN ISLAND,PICKUP,Non-Fatal,1
+BROOKLYN,FDNY 245 E,Non-Fatal,1
+BROOKLYN,Tow,Non-Fatal,1
+BROOKLYN,UHAUL TRUC,Non-Fatal,1
+BROOKLYN,US Postal,Non-Fatal,1
+QUEENS,BOBCAT FOR,Non-Fatal,1
+BROOKLYN,Pick Up Tr,Non-Fatal,1
+MANHATTAN,X AMB,Non-Fatal,1
+MANHATTAN,F550,Non-Fatal,1
+BRONX,SUBN - AMB,Non-Fatal,1
+BROOKLYN,SUBURBAN,Non-Fatal,1
+BRONX,Rescue Tru,Non-Fatal,1
+BRONX,Usps,Non-Fatal,1
+BROOKLYN,FIRE ENGIN,Non-Fatal,1
+BROOKLYN,50CC SCOOT,Non-Fatal,1
+STATEN ISLAND,Gator,Non-Fatal,1
+MANHATTAN,VERZION VA,Non-Fatal,1
+BROOKLYN,Golf cart,Non-Fatal,1
+QUEENS,SPECIAL CO,Non-Fatal,1
+BRONX,Standing S,Fatal,1
+QUEENS,VAN TRUCK,Non-Fatal,1
+STATEN ISLAND,Stake or Rack,Non-Fatal,1
+MANHATTAN,HOVERBOARD,Non-Fatal,1
+QUEENS,Tow truck,Non-Fatal,1
+MANHATTAN,Small scho,Non-Fatal,1
+BROOKLYN,FIRE LADDE,Non-Fatal,1
+BROOKLYN,LADDER 169,Non-Fatal,1
+MANHATTAN,Tow truck,Non-Fatal,1
+QUEENS,nyc,Non-Fatal,1
+QUEENS,MEDALLION,Non-Fatal,1
+QUEENS,Gator,Non-Fatal,1
+QUEENS,Quality tr,Non-Fatal,1
+QUEENS,U-HAUL,Non-Fatal,1
+BRONX,PROGRESSIV,Non-Fatal,1
+BRONX,MOT,Non-Fatal,1
+MANHATTAN,AMBULETTE,Non-Fatal,1
+BROOKLYN,USPS van,Non-Fatal,1
+QUEENS,e bike,Non-Fatal,1
+MANHATTAN,SPR,Non-Fatal,1
+MANHATTAN,CMIXER,Non-Fatal,1
+BROOKLYN,SEMI TRAIL,Non-Fatal,1
+BROOKLYN,YELLOWSCHO,Non-Fatal,1
+MANHATTAN,access-a-r,Non-Fatal,1
+MANHATTAN,nyu s,Non-Fatal,1
+BROOKLYN,2 WHE,Non-Fatal,1
+BROOKLYN,FLAT-,Non-Fatal,1
+BRONX,spec,Non-Fatal,1
+BROOKLYN,boxtr,Non-Fatal,1
+BROOKLYN,comme,Non-Fatal,1
+MANHATTAN,HDC,Non-Fatal,1
+MANHATTAN,mack,Non-Fatal,1
+BROOKLYN,mcy,Non-Fatal,1
+STATEN ISLAND,TANK,Non-Fatal,1
+QUEENS,NS AM,Non-Fatal,1
+QUEENS,VERIZ,Non-Fatal,1
+QUEENS,NYC F,Non-Fatal,1
+BRONX,WHITE,Non-Fatal,1
+MANHATTAN,CART,Non-Fatal,1
+BROOKLYN,GATOR,Non-Fatal,1
+QUEENS,mc,Non-Fatal,1
+STATEN ISLAND,SYBN,Non-Fatal,1
+MANHATTAN,LADDER 34,Non-Fatal,1
+BRONX,limo,Non-Fatal,1
+STATEN ISLAND,CRANE,Non-Fatal,1
+BROOKLYN,CONT,Non-Fatal,1
+MANHATTAN,3-whe,Non-Fatal,1
+BRONX,LIMOU,Non-Fatal,1
+MANHATTAN,p/sh,Non-Fatal,1
+MANHATTAN,Pavin,Non-Fatal,1
+MANHATTAN,us po,Non-Fatal,1
+BROOKLYN,ABULA,Non-Fatal,1
+QUEENS,Beverage Truck,Fatal,1
+QUEENS,CO,Non-Fatal,1
+BRONX,TRLR,Non-Fatal,1
+BRONX,BLACK,Non-Fatal,1
+MANHATTAN,Subn,Non-Fatal,1
+BROOKLYN,road,Non-Fatal,1
+MANHATTAN,MOVIN,Non-Fatal,1
+BROOKLYN,2- to,Non-Fatal,1
+QUEENS,EBIKE,Non-Fatal,1
+QUEENS,scooc,Non-Fatal,1
+QUEENS,p/sh,Non-Fatal,1
+BROOKLYN,MTA V,Non-Fatal,1
+QUEENS,Deliv,Non-Fatal,1
+MANHATTAN,HD To,Non-Fatal,1
+BRONX,flat,Non-Fatal,1
+BROOKLYN,Firet,Non-Fatal,1
+BRONX,UT,Non-Fatal,1
+QUEENS,east,Non-Fatal,1
+MANHATTAN,Uhaul,Non-Fatal,1
+QUEENS,UNKOW,Non-Fatal,1
+MANHATTAN,KP160,Non-Fatal,1
+MANHATTAN,ICE C,Non-Fatal,1
+BRONX,35 FT,Non-Fatal,1
+BRONX,Garba,Non-Fatal,1
+QUEENS,seagr,Non-Fatal,1
+BROOKLYN,const,Non-Fatal,1
+MANHATTAN,CONTR,Non-Fatal,1
+BROOKLYN,ARMOR,Non-Fatal,1
+BROOKLYN,TIR,Non-Fatal,1
+QUEENS,dirtb,Non-Fatal,1
+BROOKLYN,van t,Non-Fatal,1
+BROOKLYN,2 DR,Non-Fatal,1
+BROOKLYN,SEMI-,Non-Fatal,1
+STATEN ISLAND,Tow Truck / Wrecker,Fatal,1
+QUEENS,18 WH,Non-Fatal,1
+BRONX,SM YW,Non-Fatal,1
+QUEENS,Inter,Non-Fatal,1
+QUEENS,unkno,Non-Fatal,1
+QUEENS,ENGIN,Non-Fatal,1
+QUEENS,nycha,Non-Fatal,1
+QUEENS,FUEL,Non-Fatal,1
+QUEENS,YELLOWPOWE,Non-Fatal,1
+BRONX,HOUSE,Non-Fatal,1
+STATEN ISLAND,van t,Non-Fatal,1
+QUEENS,Mo pa,Non-Fatal,1
+QUEENS,Minibike,Fatal,1
+BRONX,Ambu,Non-Fatal,1
+QUEENS,COURI,Non-Fatal,1
+MANHATTAN,Hrse,Non-Fatal,1
+MANHATTAN,COMER,Non-Fatal,1
+STATEN ISLAND,MINI BUS,Non-Fatal,1
+MANHATTAN,work truck,Non-Fatal,1
+BROOKLYN,Pumper,Non-Fatal,1
+BROOKLYN,gas mo ped,Non-Fatal,1
+MANHATTAN,utility,Non-Fatal,1
+BROOKLYN,NYPD VAN,Non-Fatal,1
+BRONX,Electric S,Non-Fatal,1
+MANHATTAN,Courier,Non-Fatal,1
+BROOKLYN,CATAPILLAR,Non-Fatal,1
+MANHATTAN,FD TRUCK,Non-Fatal,1
+MANHATTAN,Ford,Non-Fatal,1
+BROOKLYN,backhoe,Non-Fatal,1
+BROOKLYN,Van truck,Non-Fatal,1
+MANHATTAN,FRIEG,Non-Fatal,1
+MANHATTAN,A,Non-Fatal,1
+BROOKLYN,commercial,Non-Fatal,1
+MANHATTAN,Usps mail,Non-Fatal,1
+MANHATTAN,utv,Non-Fatal,1
+STATEN ISLAND,Horse Trai,Non-Fatal,1
+MANHATTAN,FORD AMBUL,Non-Fatal,1
+QUEENS,Tractor Tr,Non-Fatal,1
+BRONX,E-UNICYCLE,Non-Fatal,1
+BROOKLYN,TLR,Non-Fatal,1
+BRONX,Street Cle,Non-Fatal,1
+QUEENS,SPRINTER V,Non-Fatal,1
+QUEENS,GOVT,Non-Fatal,1
+BROOKLYN,LSV,Non-Fatal,1
+STATEN ISLAND,FDNY FIRE,Non-Fatal,1
+BROOKLYN,Delivery T,Non-Fatal,1
+BROOKLYN,PICK-UP F-,Non-Fatal,1
+MANHATTAN,PROMASTER,Non-Fatal,1
+MANHATTAN,NYC FD,Non-Fatal,1
+BROOKLYN,U-HAUL TRU,Non-Fatal,1
+BRONX,DIRT BIKE,Non-Fatal,1
+BROOKLYN,GEICO,Non-Fatal,1
+BROOKLYN,Standing s,Non-Fatal,1
+BROOKLYN,TRACTOR,Non-Fatal,1
+MANHATTAN,GAS SCOOTE,Non-Fatal,1
+MANHATTAN,FDNY FIRET,Non-Fatal,1
+BRONX,U HAUL TRU,Non-Fatal,1
+MANHATTAN,COLUMBIA U,Non-Fatal,1
+QUEENS,OMS,Non-Fatal,1
+BROOKLYN,DUMPTRUCK,Non-Fatal,1
+BRONX,WORK VAN,Non-Fatal,1
+MANHATTAN,tlc,Non-Fatal,1
+MANHATTAN,SW/SUV,Non-Fatal,1
+BROOKLYN,ECONOLINE,Non-Fatal,1
+QUEENS,FIRE ENGIN,Non-Fatal,1
+QUEENS,courier,Non-Fatal,1
+QUEENS,COM,Non-Fatal,1
+MANHATTAN,PASSENGER,Non-Fatal,1
+MANHATTAN,FDNY FERRA,Non-Fatal,1
+BROOKLYN,Ford Couri,Non-Fatal,1
+BROOKLYN,Ladder tru,Non-Fatal,1
+STATEN ISLAND,Mack truck,Non-Fatal,1
+BROOKLYN,box truck,Non-Fatal,1
+BRONX,Concrete Mixer,Fatal,1
+QUEENS,Dot,Non-Fatal,1
+MANHATTAN,freightlin,Non-Fatal,1
+MANHATTAN,EMS AMBULA,Non-Fatal,1
+MANHATTAN,RAZOR SCOO,Non-Fatal,1
+BRONX,Flat Rack,Fatal,1
+QUEENS,Ladder tru,Non-Fatal,1
+BROOKLYN,Ambulence,Non-Fatal,1
+QUEENS,Enclosed Body - Nonremovable Enclosure,Non-Fatal,1
+QUEENS,EMS bus,Non-Fatal,1
+BROOKLYN,CAT,Non-Fatal,1
+BROOKLYN,KW,Non-Fatal,1
+BRONX,4,Non-Fatal,1
+QUEENS,UTILITY,Non-Fatal,1
+BROOKLYN,Tow truck,Non-Fatal,1
+MANHATTAN,SWEEPER,Non-Fatal,1
+QUEENS,NYC FIRE T,Non-Fatal,1
+BROOKLYN,EMS Ambula,Non-Fatal,1
+BROOKLYN,Garbage tr,Non-Fatal,1
+BROOKLYN,Tk,Non-Fatal,1
+STATEN ISLAND,UNK,Non-Fatal,1
+MANHATTAN,Motor scoo,Non-Fatal,1
+BRONX,Pick up,Non-Fatal,1
+STATEN ISLAND,Ford black,Non-Fatal,1
+QUEENS,Garbage Tr,Non-Fatal,1
+MANHATTAN,Garbage Tr,Non-Fatal,1
+MANHATTAN,Garbage tr,Non-Fatal,1
+QUEENS,john deer,Non-Fatal,1
+MANHATTAN,FDNY LADDE,Non-Fatal,1
+QUEENS,ST150,Non-Fatal,1
+MANHATTAN,Pick,Non-Fatal,1
+QUEENS,VAN/B,Non-Fatal,1
+MANHATTAN,VAN W,Non-Fatal,1
+STATEN ISLAND,Bulk Agriculture,Non-Fatal,1
+BROOKLYN,R/V C,Non-Fatal,1
+QUEENS,rmb,Non-Fatal,1
+QUEENS,PS,Non-Fatal,1
+BROOKLYN,Minicycle,Fatal,1
+BROOKLYN,MACK TRUCK,Non-Fatal,1
+BRONX,315 e,Non-Fatal,1
+QUEENS,omnib,Non-Fatal,1
+BRONX,Mta,Non-Fatal,1
+BROOKLYN,nycta,Non-Fatal,1
+BRONX,John,Non-Fatal,1
+BROOKLYN,3 doo,Non-Fatal,1
+BRONX,PASSE,Non-Fatal,1
+BRONX,PAS V,Non-Fatal,1
+STATEN ISLAND,ENGIN,Non-Fatal,1
+STATEN ISLAND,YELLO,Non-Fatal,1
+MANHATTAN,NA,Non-Fatal,1
+QUEENS,dirt,Non-Fatal,1
+BROOKLYN,taxi,Non-Fatal,1
+MANHATTAN,MINIV,Non-Fatal,1
+BRONX,com v,Non-Fatal,1
+BROOKLYN,TF,Non-Fatal,1
+BROOKLYN,cargo,Non-Fatal,1
+MANHATTAN,VESPA,Non-Fatal,1
+QUEENS,NISSA,Non-Fatal,1
+QUEENS,bobca,Non-Fatal,1
+BRONX,subn,Non-Fatal,1
+BRONX,Hopper,Non-Fatal,1
+MANHATTAN,work,Non-Fatal,1
+BROOKLYN,Box T,Non-Fatal,1
+BRONX,NYC a,Non-Fatal,1
+BROOKLYN,St,Non-Fatal,1
+BRONX,fork,Non-Fatal,1
+MANHATTAN,tower,Non-Fatal,1
+BRONX,FLAT,Non-Fatal,1
+STATEN ISLAND,ambul,Non-Fatal,1
+QUEENS,E450,Non-Fatal,1
+BROOKLYN,NEW Y,Non-Fatal,1
+STATEN ISLAND,UPS M,Non-Fatal,1
+BROOKLYN,BTM,Non-Fatal,1
+QUEENS,US PO,Non-Fatal,1
+BRONX,MOVIN,Non-Fatal,1
+STATEN ISLAND,BOBCA,Non-Fatal,1
+MANHATTAN,UNKOW,Non-Fatal,1
+BROOKLYN,elect,Non-Fatal,1
+STATEN ISLAND,dump,Non-Fatal,1
+QUEENS,SWT,Non-Fatal,1
+BROOKLYN,VAN E,Non-Fatal,1
+BRONX,CABIN,Non-Fatal,1
+MANHATTAN,UHUAL,Non-Fatal,1
+BROOKLYN,EBIKE,Non-Fatal,1
+MANHATTAN,Subur,Non-Fatal,1
+MANHATTAN,Bucketload,Non-Fatal,1
+BRONX,2 DOO,Non-Fatal,1
+BROOKLYN,Forkl,Non-Fatal,1
+MANHATTAN,UPS T,Non-Fatal,1
+BROOKLYN,mta b,Non-Fatal,1
+BROOKLYN,LEFT,Non-Fatal,1
+MANHATTAN,RV/Tr,Non-Fatal,1
+STATEN ISLAND,Tow Truck,Non-Fatal,1
+QUEENS,VAN/T,Non-Fatal,1
+QUEENS,icecr,Non-Fatal,1
+BROOKLYN,EMS T,Non-Fatal,1
+MANHATTAN,Unkno,Non-Fatal,1
+BROOKLYN,OLC,Non-Fatal,1
+STATEN ISLAND,Minibike,Non-Fatal,1
+MANHATTAN,OMT/T,Non-Fatal,1
+MANHATTAN,NISSA,Non-Fatal,1
+QUEENS,250-3,Non-Fatal,1
+QUEENS,E BIK,Non-Fatal,1
+BROOKLYN,White,Non-Fatal,1
+STATEN ISLAND,UPS T,Non-Fatal,1
+STATEN ISLAND,US,Non-Fatal,1
+QUEENS,Flatb,Non-Fatal,1
+BROOKLYN,HIGHL,Non-Fatal,1
+BROOKLYN,cater,Non-Fatal,1
+MANHATTAN,trl,Non-Fatal,1
+BROOKLYN,delviery,Non-Fatal,1
+MANHATTAN,cemen,Non-Fatal,1
+MANHATTAN,SANTI,Non-Fatal,1
+STATEN ISLAND,COM,Non-Fatal,1
+BROOKLYN,SEGWA,Non-Fatal,1
+BRONX,Bobcat,Non-Fatal,1
+QUEENS,2 TON,Non-Fatal,1
+BROOKLYN,wagon,Non-Fatal,1
+BRONX,CAB,Non-Fatal,1
+STATEN ISLAND,sanit,Non-Fatal,1
+MANHATTAN,Box T,Non-Fatal,1
+STATEN ISLAND,FEDEX,Non-Fatal,1
+BROOKLYN,PEDICAB,Non-Fatal,1
+BRONX,Enclosed Body - Nonremovable Enclosure,Non-Fatal,1
+MANHATTAN,tk,Non-Fatal,1
+BROOKLYN,dumps,Non-Fatal,1
+BROOKLYN,SWEEP,Non-Fatal,1
+BROOKLYN,Motor Home,Non-Fatal,1
+BRONX,MAIL TRUCK,Non-Fatal,1
+MANHATTAN,ESU RESCUE,Non-Fatal,1
+BROOKLYN,nat grid t,Non-Fatal,1
+BROOKLYN,PUSH SCOOT,Non-Fatal,1
+MANHATTAN,NonMotordS,Non-Fatal,1
+STATEN ISLAND,FIRTRUCK,Non-Fatal,1
+QUEENS,FREIGHT TR,Non-Fatal,1
+BRONX,GAS POWERE,Non-Fatal,1
+BRONX,DRILL RIG,Non-Fatal,1
+STATEN ISLAND,bus,Non-Fatal,1
+BRONX,Minicycle,Fatal,1
+QUEENS,ENGINE SP0,Non-Fatal,1
+BRONX,MOTORSCOOT,Non-Fatal,1
+STATEN ISLAND,AMB,Non-Fatal,1
+MANHATTAN,YELLOW TAX,Non-Fatal,1
+BRONX,CON ED TRU,Non-Fatal,1
+QUEENS,CHEVY EXPR,Non-Fatal,1
+BROOKLYN,7,Non-Fatal,1
+BRONX,dirt bike,Non-Fatal,1
+BROOKLYN,50cc Scoot,Non-Fatal,1
+QUEENS,FedEx box,Non-Fatal,1
+MANHATTAN,Fdny ems,Non-Fatal,1
+QUEENS,SCHOOLBUS,Non-Fatal,1
+QUEENS,Front-Load,Non-Fatal,1
+QUEENS,usps truck,Non-Fatal,1
+BRONX,USPS MAIL,Non-Fatal,1
+BROOKLYN,Yale Fork,Non-Fatal,1
+STATEN ISLAND,UTILITY,Non-Fatal,1
+BROOKLYN,FLATBED FR,Non-Fatal,1
+BROOKLYN,USPS Truck,Non-Fatal,1
+BROOKLYN,CHASSIS &,Non-Fatal,1
+QUEENS,FLATBED TO,Non-Fatal,1
+STATEN ISLAND,F550,Non-Fatal,1
+MANHATTAN,DUMP TRUCK,Non-Fatal,1
+BRONX,Ford picku,Non-Fatal,1
+BRONX,Subr,Non-Fatal,1
+BROOKLYN,CAN,Non-Fatal,1
+QUEENS,MOBILITY S,Non-Fatal,1
+BROOKLYN,NYCHA Van,Non-Fatal,1
+MANHATTAN,SKID STEER,Non-Fatal,1
+BRONX,PUMPER,Non-Fatal,1
+BRONX,US POSTAL,Non-Fatal,1
+QUEENS,UTILITY VE,Non-Fatal,1
+STATEN ISLAND,Flat Rack,Non-Fatal,1
+BROOKLYN,ACCESS-ARI,Non-Fatal,1
+QUEENS,Yellow sch,Non-Fatal,1
+BROOKLYN,Delivery V,Non-Fatal,1
+MANHATTAN,USPS VAN,Non-Fatal,1
+STATEN ISLAND,Sprinter v,Non-Fatal,1
+BROOKLYN,sanitaton,Non-Fatal,1
+BROOKLYN,MDX,Non-Fatal,1
+MANHATTAN,NYC MTA BU,Non-Fatal,1
+BROOKLYN,E-scooter,Non-Fatal,1
+MANHATTAN,mta bus,Non-Fatal,1
+BROOKLYN,VAGON,Non-Fatal,1
+MANHATTAN,SEDONA,Non-Fatal,1
+MANHATTAN,DELIVERY,Non-Fatal,1
+QUEENS,Log,Non-Fatal,1
+MANHATTAN,Unknown ve,Non-Fatal,1
+QUEENS,SKATEBOARD,Non-Fatal,1
+BRONX,pick up,Non-Fatal,1
+BROOKLYN,Passenger,Non-Fatal,1
+BRONX,FDNY ENG.,Non-Fatal,1
+MANHATTAN,Sprinter,Non-Fatal,1
+BRONX,house on w,Non-Fatal,1
+MANHATTAN,FDNY fire,Non-Fatal,1
+MANHATTAN,Gas Scoote,Non-Fatal,1
+BROOKLYN,UPS Truck,Non-Fatal,1
+STATEN ISLAND,USPS TRUCK,Non-Fatal,1
+QUEENS,Bobcat,Non-Fatal,1
+QUEENS,sprinter v,Non-Fatal,1
+QUEENS,COURIER,Non-Fatal,1
+BROOKLYN,Mack Truck,Non-Fatal,1
+MANHATTAN,ONE WHEEL,Non-Fatal,1
+MANHATTAN,trailer,Non-Fatal,1
+QUEENS,US MAIL #1,Non-Fatal,1
+BROOKLYN,REVEL,Non-Fatal,1
+BROOKLYN,School van,Non-Fatal,1
+QUEENS,Ebike,Non-Fatal,1
+QUEENS,Suv,Non-Fatal,1
+MANHATTAN,Government,Non-Fatal,1
+BROOKLYN,DIRT BIKE,Non-Fatal,1
+BRONX,government,Non-Fatal,1
+BRONX,MTA Bus,Non-Fatal,1
+MANHATTAN,ELECTRIC M,Non-Fatal,1
+STATEN ISLAND,Fire truck,Non-Fatal,1
+QUEENS,STATE FARM,Non-Fatal,1
+BRONX,Van Truck,Non-Fatal,1
+BRONX,TCN,Non-Fatal,1
+MANHATTAN,Stand up s,Non-Fatal,1
+BROOKLYN,BLACK SCOO,Non-Fatal,1
+QUEENS,sanitaion,Non-Fatal,1
+BROOKLYN,commerical,Non-Fatal,1
+QUEENS,NYS AMBULA,Non-Fatal,1
+MANHATTAN,BULLDOZER,Non-Fatal,1
+BROOKLYN,Tow Truck / Wrecker,Fatal,1
+BROOKLYN,ELECTRIC M,Non-Fatal,1
+BROOKLYN,Backhoe Lo,Fatal,1
+BRONX,UTILITY,Non-Fatal,1
+MANHATTAN,Golf cart,Non-Fatal,1
+MANHATTAN,NYPD RMP,Non-Fatal,1
+BRONX,Passenger,Non-Fatal,1
+QUEENS,DOS TRUCK,Non-Fatal,1
+MANHATTAN,SPC,Non-Fatal,1
+QUEENS,F550,Non-Fatal,1
+STATEN ISLAND,Constructi,Non-Fatal,1
+BROOKLYN,VERIZON TR,Non-Fatal,1
+STATEN ISLAND,MACK TRUCK,Non-Fatal,1
+MANHATTAN,E-BIKE,Non-Fatal,1
+BRONX,Flat Bed,Fatal,1
+BRONX,Grumman LL,Non-Fatal,1
+BROOKLYN,SKATEBOARD,Non-Fatal,1
+BROOKLYN,st clean t,Non-Fatal,1
+BROOKLYN,US POSTAL,Non-Fatal,1
+BROOKLYN,Backhoe,Non-Fatal,1
+BROOKLYN,ACCESS-A-R,Non-Fatal,1
+MANHATTAN,FARM VEHIC,Non-Fatal,1
+STATEN ISLAND,PASSENGER,Non-Fatal,1
+MANHATTAN,garbage tr,Non-Fatal,1
+BROOKLYN,Lift,Non-Fatal,1
+BRONX,FDNY Vehic,Non-Fatal,1
+BROOKLYN,RAM,Non-Fatal,1
+MANHATTAN,HORSE DRAW,Non-Fatal,1
+MANHATTAN,Engine 26,Non-Fatal,1
+MANHATTAN,Convertible,Fatal,1
+MANHATTAN,Ford sprin,Non-Fatal,1
+MANHATTAN,HOSRE DRAW,Non-Fatal,1
+BROOKLYN,leu,Non-Fatal,1
+MANHATTAN,Yellow Cab,Non-Fatal,1
+MANHATTAN,Grain,Non-Fatal,1
+QUEENS,two wheel,Non-Fatal,1
+QUEENS,Yellow bus,Non-Fatal,1
+BRONX,AMAZON VAN,Non-Fatal,1
+BRONX,Suburban,Non-Fatal,1
+BRONX,forklift,Non-Fatal,1
+QUEENS,SUBURBAN,Non-Fatal,1
+MANHATTAN,ELECTRIC C,Non-Fatal,1
+MANHATTAN,Pick Up,Non-Fatal,1
+BROOKLYN,RMP VEHICL,Non-Fatal,1
+BROOKLYN,FREIGHTLIN,Non-Fatal,1
+STATEN ISLAND,COMMERCIAL,Non-Fatal,1
+BROOKLYN,G AMB,Non-Fatal,1
+BROOKLYN,COMM TRAIL,Non-Fatal,1
+QUEENS,Limousine,Non-Fatal,1
+MANHATTAN,Motorscoot,Non-Fatal,1
+BRONX,TRANSPORTE,Non-Fatal,1
+BROOKLYN,Work van,Non-Fatal,1

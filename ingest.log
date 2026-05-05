@@ -46,3 +46,51 @@ Found 1 items
 Found 1 items
 -rw-r--r--   1 humna supergroup  564122026 2026-04-19 20:55 04/Motor_Vehicle_Collisions_Crashes.csv
 2026-04-19 20:55:24 [INFO] Ingest pipeline completed successfully LESSGOOOO!!!
+2026-04-23 00:08:10 [INFO] Ingest pipeline started
+2026-04-23 00:08:10 [INFO] Loading CSV from: .\data\Motor_Vehicle_Collisions_Crashes.csv
+2026-04-23 00:08:17 [INFO] Loaded 1,058,519 rows successfully.
+2026-04-23 00:08:17 [INFO] Shape: 1,058,519 rows x 29 columns
+2026-04-23 00:08:17 [INFO] Bismillah, starting pre-upload validation
+2026-04-23 00:08:17 [INFO] File extension OK: '.csv'
+2026-04-23 00:08:17 [INFO] File size: 244.95 MB (256,849,349 bytes)
+2026-04-23 00:08:17 [INFO] Detected encoding: ascii (confidence: 100%)
+2026-04-23 00:08:17 [INFO] All required columns are present.
+2026-04-23 00:08:17 [WARNING] Found 4 duplicate COLLISION_ID(s).
+2026-04-23 00:08:17 [INFO] Validation passed!! file is ready for upload.
+2026-04-23 00:08:17 [DEBUG] Executing: "C:\hadoop-3.3.6\bin\hdfs.cmd" dfs -mkdir -p "/warehouse/raw/nypd_collisions/year_2026/month_04/"
+2026-04-23 00:08:45 [INFO] Create HDFS dir /warehouse/raw/nypd_collisions/year_2026/month_04/ — OK.
+2026-04-23 00:08:45 [DEBUG] Executing: "C:\hadoop-3.3.6\bin\hdfs.cmd" dfs -put -f "D:\sem 6\BDA\project\prj\data\Motor_Vehicle_Collisions_Crashes.csv" "/warehouse/raw/nypd_collisions/year_2026/month_04/"
+2026-04-23 00:08:51 [INFO] Upload Motor_Vehicle_Collisions_Crashes.csv — OK.
+2026-04-23 00:08:51 [INFO] Verifying upload at: /warehouse/raw/nypd_collisions/year_2026/month_04/
+2026-04-23 00:08:51 [DEBUG] Executing: "C:\hadoop-3.3.6\bin\hdfs.cmd" dfs -ls "/warehouse/raw/nypd_collisions/year_2026/month_04/"
+2026-04-23 00:08:52 [INFO] HDFS directory listing — OK.
+2026-04-23 00:08:52 [DEBUG] Output: Found 1 items
+-rw-r--r--   1 DELL supergroup  256849349 2026-04-23 00:08 /warehouse/raw/nypd_collisions/year_2026/month_04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-23 00:08:52 [INFO] Contents:
+Found 1 items
+-rw-r--r--   1 DELL supergroup  256849349 2026-04-23 00:08 /warehouse/raw/nypd_collisions/year_2026/month_04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-23 00:08:52 [INFO] Ingest pipeline completed successfully LESSGOOOO!!!
+2026-04-23 01:22:31 [INFO] Ingest pipeline started
+2026-04-23 01:22:31 [INFO] Loading CSV from: .\data\Motor_Vehicle_Collisions_Crashes.csv
+2026-04-23 01:22:48 [INFO] Loaded 2,256,489 rows successfully.
+2026-04-23 01:22:48 [INFO] Shape: 2,256,489 rows x 29 columns
+2026-04-23 01:22:48 [INFO] Bismillah, starting pre-upload validation
+2026-04-23 01:22:48 [INFO] File extension OK: '.csv'
+2026-04-23 01:22:48 [INFO] File size: 538.20 MB (564,342,088 bytes)
+2026-04-23 01:22:48 [INFO] Detected encoding: ascii (confidence: 100%)
+2026-04-23 01:22:48 [INFO] All required columns are present.
+2026-04-23 01:22:49 [INFO] No duplicate COLLISION_IDs found.
+2026-04-23 01:22:49 [INFO] Validation passed!! file is ready for upload.
+2026-04-23 01:22:49 [DEBUG] Executing: "C:\hadoop-3.3.6\bin\hdfs.cmd" dfs -mkdir -p "/warehouse/raw/nypd_collisions/year_2026/month_04/"
+2026-04-23 01:22:51 [INFO] Create HDFS dir /warehouse/raw/nypd_collisions/year_2026/month_04/ — OK.
+2026-04-23 01:22:51 [DEBUG] Executing: "C:\hadoop-3.3.6\bin\hdfs.cmd" dfs -put -f "D:\sem 6\BDA\project\prj\data\Motor_Vehicle_Collisions_Crashes.csv" "/warehouse/raw/nypd_collisions/year_2026/month_04/"
+2026-04-23 01:22:57 [INFO] Upload Motor_Vehicle_Collisions_Crashes.csv — OK.
+2026-04-23 01:22:57 [INFO] Verifying upload at: /warehouse/raw/nypd_collisions/year_2026/month_04/
+2026-04-23 01:22:57 [DEBUG] Executing: "C:\hadoop-3.3.6\bin\hdfs.cmd" dfs -ls "/warehouse/raw/nypd_collisions/year_2026/month_04/"
+2026-04-23 01:22:59 [INFO] HDFS directory listing — OK.
+2026-04-23 01:22:59 [DEBUG] Output: Found 1 items
+-rw-r--r--   1 DELL supergroup  564342088 2026-04-23 01:22 /warehouse/raw/nypd_collisions/year_2026/month_04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-23 01:22:59 [INFO] Contents:
+Found 1 items
+-rw-r--r--   1 DELL supergroup  564342088 2026-04-23 01:22 /warehouse/raw/nypd_collisions/year_2026/month_04/Motor_Vehicle_Collisions_Crashes.csv
+2026-04-23 01:22:59 [INFO] Ingest pipeline completed successfully LESSGOOOO!!!

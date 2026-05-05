@@ -13,7 +13,7 @@ import chardet
 
 # Configuration
 
-HDFS_BIN = r"C:\hadoop\bin\hdfs"
+HDFS_BIN = r"C:\hadoop-3.3.6\bin\hdfs.cmd"
 HDFS_TARGET_DIR = "/warehouse/raw/nypd_collisions/year_2026/month_04/"
 LOCAL_CSV = os.path.join(".", "data", "Motor_Vehicle_Collisions_Crashes.csv")
 

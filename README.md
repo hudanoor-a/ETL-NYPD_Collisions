@@ -1,91 +1,187 @@
-# NYPD Motor Vehicle Collisions — ETL Pipeline
-
-**Course:** CS-404 Big Data Analytics
-**Instructor:** Ms. Zahida Kausar  
-**Group:** Humna Tariq (460497) & Huda Noor Ahmad (458675)
-
----
+# NYPD Motor Vehicle Collisions Data Warehouse & Analytics Pipeline
 
 ## Project Overview
+This project implements a complete big data pipeline using the NYPD Motor Vehicle Collisions dataset, covering the full lifecycle from ingestion to analytics.
+The pipeline is divided into three milestones:
 
-An end-to-end ETL pipeline for the NYPD Motor Vehicle Collisions — Crashes dataset. The pipeline ingests raw crash records, loads them into HDFS via Hadoop, and produces a data profiling report covering schema inspection, missing value analysis, statistical summaries, distribution plots, data quality audits, and a proposed cleaning strategy.
+* Milestone 1 (M1) — Data Ingestion into HDFS
+* Milestone 2 (M2) — ETL Pipeline & Star Schema Warehouse
+* Milestone 3 (M3) — Analytics, Visualizations & Optimization
 
----
+The final system processes raw CSV data into a dimensional warehouse (Star Schema) and generates business insights using Spark SQL and visualizations.
 
 ## Dataset
+* **Dataset:** NYPD Motor Vehicle Collisions — Crashes
+* **Source:** NYC Open Data
+* **Format:** CSV
+* **Size:** ~2.25 million rows, 29 columns
+* **Domain:** Road accidents, injuries, fatalities, vehicle types, contributing factors
 
-| Property | Detail |
-|---|---|
-| Name | NYPD Motor Vehicle Collisions — Crashes |
-| Source | NYC Open Data |
-| File | `./data/Motor_Vehicle_Collisions_Crashes.csv` |
-| Rows | 2,255,537 |
-| Columns | 29 |
+## Technologies Used
+* Python 3.12
+* PySpark 3.5.1
+* Hadoop 3.3.6
+* HDFS
+* Spark SQL
+* Pandas
+* Matplotlib
+* Windows OS
 
-Key columns: `CRASH DATE`, `BOROUGH`, `ZIP CODE`, `LATITUDE`, `LONGITUDE`, `COLLISION_ID`, injury/fatality counts, contributing factors, vehicle type codes.
+## Project Architecture
+1.  Raw CSV
+2.  HDFS Raw Layer
+3.  PySpark ETL Pipeline
+4.  Star Schema Warehouse (Fact + Dimensions)
+5.  Parquet Files in HDFS
+6.  Spark SQL Analytics
+7.  Visualizations + Insights
 
----
+## Milestone Summary
 
-## Setup Instructions
+### Milestone 1 — Data Ingestion
+**Tasks completed:**
+* Verified dataset structure
+* Uploaded dataset to HDFS
+* Validated HDFS storage
 
-**Requirements:** Python 3.14, Hadoop 3.3.6
+**Raw HDFS Path:**
+`/warehouse/raw/nypd_collisions/year_2026/month_04/`
 
-1. Clone/download the project folder.
-2. Place the dataset CSV at `./data/Motor_Vehicle_Collisions_Crashes.csv`.
-3. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Ensure Hadoop is running and `$HADOOP_HOME` is set in your environment.
 
----
+### Milestone 2 — ETL & Data Warehouse
+**Tasks completed:**
+* Removed null/blank COLLISION_ID
+* Removed duplicates
+* Cleaned invalid coordinates
+* Parsed date/time
+* Added `property_damage_only` and `injury_count_flagged`
+* Built Star Schema
 
-## How to Run `ingest.py`
+**Star Schema**
+* **Fact Table:** `fact_crash`
+* **Dimension Tables:** `dim_date`, `dim_location`, `dim_vehicle`, `dim_factor`
 
-`ingest.py` reads the CSV and uploads it to HDFS.
+**Processed HDFS Path:**
+`/warehouse/processed/nypd_collisions/`
 
-```bash
-python ingest.py
-```
+**Optimized HDFS Path:**
+`/warehouse/processed_optimized/nypd_collisions/`
 
-The script will:
-1. Load the CSV with `dtype=str` to preserve raw values.
-2. Convert numeric and datetime columns explicitly.
-3. Push the cleaned data to the configured HDFS path.
+* Successful ETL execution
+![Alt text](outputs\4.png)
+* Processed HDFS directory
+![Alt text](outputs\hdfs-processed.png)
 
-To verify the upload:
-```bash
-hdfs dfs -ls -R /warehouse/raw/nypd_collisions/```
 
----
 
-## How to View the Profiling Report
+### Milestone 3 — Analytics & Insights
+**Tasks completed:**
+* Loaded warehouse from HDFS
+* Joined fact + dimensions
+* Executed Spark SQL queries
+* Generated visualizations
+* Produced insights
+* Implemented optimization techniques
 
-Open the Jupyter notebook:
+## Business Questions Answered
+* **Q1 — Borough Fatality Trends:** Analyzed fatality rates across boroughs over time.
+* **Q2 — Pedestrian Injury Peaks:** Identified peak hours and contributing factors.
+* **Q3 — Vehicle Type vs Crash Severity:** Compared fatal vs non-fatal crashes by borough.
+* **Q4 — Cyclist Injury Trends:** Analyzed monthly trends and pre/post-2019 patterns.
+* **Q5 — Severe Multi-Vehicle Crashes:** Identified key contributing factors in high-injury crashes.
 
-```bash
-jupyter notebook profiling_report.ipynb
-```
+## Visualizations Generated
+* **Line Chart** -> Fatality trends
+* **Heatmap** -> Pedestrian injuries
+* **Stacked Bar** -> Crash severity
+* **Time-Series Line** -> Cyclist trends
+* **Bar Chart** -> Contributing factors
+* **Scatter Plot** -> Geographic density
+* **Dashboard** -> Combined summary
 
-Then run all cells top-to-bottom (**Kernel → Restart & Run All**). The notebook produces:
+![Alt text](m3_outputs\charts\dashboard.png)
 
-| Section | Contents |
-|---|---|
-| 1 — Schema Description | Column names, dtypes, sample values |
-| 2 — Missing Value Analysis | Null counts, percentages, bar chart |
-| 3 — Statistical Summary | Mean, median, std, min, max |
-| 4 — Distribution Analysis | Histograms/KDE for 5 key attributes |
-| 5 — Data Quality Issues | Duplicates, invalid coords, outliers |
-| 6 — Cleaning Strategy | Justified action for every issue found |
+## Optimization Implemented
+1.  **Partitioning:** Fact table written as `partition_year` and `partition_month`.
+2.  **Caching:** Used `.cache()` for repeated queries.
+3.  **Broadcast Joins:** Used for joining small dimension tables.
+4.  **Performance Comparison:** Measured execution time before/after caching.
 
----
+## Output Structure
+* **Raw Layer:** `/warehouse/raw/nypd_collisions/year_2026/month_04/`
+* **Processed Warehouse:** `/warehouse/processed/nypd_collisions/`
+* **Optimized Warehouse:** `/warehouse/processed_optimized/nypd_collisions/`
 
-## Submission Details
+## How to Run
+1.  **Start Hadoop**
+    ```bash
+    cd C:\hadoop-3.3.6\sbin
+    start-dfs.cmd
+    start-yarn.cmd
+    ```
+2.  **Run Optimized ETL**
+    ```bash
+    cd /d "D:\sem 6\BDA\project\prj"
+    python optimized_pipeline.py
+    ```
+3.  **Run Analytics**
+    ```bash
+    python analytics.py
+    ```
 
-| Item | Detail |
-|---|---|
-| Assignment | CS-404 BDA — Assignment 2 |
-| Submitted by | Humna Tariq (460497), Huda Noor Ahmad (458675) |
-| Submitted to | Ms. Zahida Kausar |
-| Semester | Spring 2026, NUST SEECS |
-| Files | `ingest.py`, `ingest.log`, `profiling_report.ipynb`, `README.md`, `requirements.txt`, `hdfs_screenshot.png`, `Task1_DatasetJustification_Humna_Huda.pdf` |
+## M3 Output Folder
+`m3_outputs/`
+├── `charts/`
+├── `csv/`
+└── `text/`
+
+**Charts**
+* q1_borough_fatality_rate.png
+* q2_pedestrian_injuries_heatmap.png
+* q3_fatal_nonfatal_stacked.png
+* q4_cyclist_injury_trend.png
+* q5_multi_vehicle_factors.png
+* summary_dashboard.png
+* bonus_geo_density_scatter.png
+
+**Text Outputs**
+* insights_summary.txt
+* performance_notes.txt
+* chart_interpretations.txt
+
+## Required Proofs
+* M2 ETL success
+* M2 processed HDFS
+* M3 analytics success
+* M3 charts
+* M3 partitioned HDFS
+
+## Key Design Decisions
+* Star schema for efficient analytics
+* Surrogate keys for dimensions
+* Null-safe joins using normalized columns
+* Parquet storage for performance
+* Partitioned fact table
+* Spark SQL for analytics
+
+## Challenges Faced
+* Hadoop setup on Windows
+* Spark–Java compatibility
+* HDFS command issues
+* Join duplication problems
+* Chart readability issues
+
+## Final Status
+* M1 Completed
+* M2 Completed
+* M3 Completed
+* Optimized Pipeline Completed
+* Analytics Outputs Generated
+
+## GitHub Repository
+<PASTE_YOUR_GITHUB_REPO_LINK_HERE>
+
+## Team Members
+Huda Noor - 458675
+
+Humna Tariq - 460497
