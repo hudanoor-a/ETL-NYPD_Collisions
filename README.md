@@ -68,9 +68,9 @@ The final system processes raw CSV data into a dimensional warehouse (Star Schem
 `/warehouse/processed_optimized/nypd_collisions/`
 
 * Successful ETL execution
-![Alt text](outputs\4.png)
+![Alt text](outputs\etl\4.png)
 * Processed HDFS directory
-![Alt text](outputs\hdfs-processed.png)
+![Alt text](hdfs-processed.png)
 
 
 
@@ -99,7 +99,7 @@ The final system processes raw CSV data into a dimensional warehouse (Star Schem
 * **Scatter Plot** -> Geographic density
 * **Dashboard** -> Combined summary
 
-![Alt text](m3_outputs\charts\dashboard.png)
+![Alt text](m3_outputs\charts\summary_dashboard.png)
 
 ## Optimization Implemented
 1.  **Partitioning:** Fact table written as `partition_year` and `partition_month`.
@@ -121,7 +121,7 @@ The final system processes raw CSV data into a dimensional warehouse (Star Schem
     ```
 2.  **Run Optimized ETL**
     ```bash
-    cd /d "D:\sem 6\BDA\project\prj"
+    cd /d "project directory"
     python optimized_pipeline.py
     ```
 3.  **Run Analytics**
@@ -137,12 +137,23 @@ The final system processes raw CSV data into a dimensional warehouse (Star Schem
 
 **Charts**
 * q1_borough_fatality_rate.png
+![](m3_outputs\charts\q1_borough_fatality_rate.png)
+
 * q2_pedestrian_injuries_heatmap.png
+![](m3_outputs\charts\q2_pedestrian_injuries_heatmap.png)
+
 * q3_fatal_nonfatal_stacked.png
+![](m3_outputs\charts\q3_fatal_nonfatal_stacked.png)
+
 * q4_cyclist_injury_trend.png
+![](m3_outputs\charts\q4_cyclist_injury_trend.png)
+
 * q5_multi_vehicle_factors.png
-* summary_dashboard.png
-* bonus_geo_density_scatter.png
+![](m3_outputs\charts\q5_multi_vehicle_factors.png)
+
+* geo_density_scatter.png
+![](m3_outputs\charts\geo_density_scatter.png)
+
 
 **Text Outputs**
 * insights_summary.txt
@@ -177,11 +188,3 @@ The final system processes raw CSV data into a dimensional warehouse (Star Schem
 * M3 Completed
 * Optimized Pipeline Completed
 * Analytics Outputs Generated
-
-## GitHub Repository
-<PASTE_YOUR_GITHUB_REPO_LINK_HERE>
-
-## Team Members
-Huda Noor - 458675
-
-Humna Tariq - 460497
