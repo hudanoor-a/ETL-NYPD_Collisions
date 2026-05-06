@@ -1,0 +1,14 @@
+Q1 Chart - Borough Fatality Rates Year-over-Year:
+This line chart shows how fatality rates vary across borough-year combinations. Higher values indicate years and boroughs where crashes were more severe relative to total crash volume. These patterns can help prioritize borough-level traffic safety interventions.
+Q2 Chart - Pedestrian Injuries Heatmap by Day and Hour:
+This heatmap shows when pedestrian injuries are most concentrated by hour and day of week. Darker or stronger cells indicate periods with higher pedestrian injury counts. The result can support targeted enforcement, signal timing reviews, and pedestrian safety planning.
+Q3 Chart - Fatal vs Non-Fatal Crash Breakdown by Borough:
+This stacked bar chart compares fatal and non-fatal crash counts across boroughs. It helps identify which boroughs have the highest overall crash burden and how much of that burden involves fatalities. The chart is useful for comparing crash severity distribution geographically.
+Q4 Chart - Cyclist Injury Trends Monthly Since 2012:
+This line chart shows monthly cyclist injury trends over time. Peaks and dips reveal seasonal or year-based changes in cyclist safety outcomes. The trend can be used to evaluate the need for cycling infrastructure improvements and seasonal safety campaigns.
+Q5 Chart - Top Contributing Factors in Multi-Vehicle 3+ Injury Crashes:
+This bar chart ranks the leading contributing factors in severe multi-vehicle crashes. The largest bars represent factors most frequently associated with crashes involving three or more injuries. These findings can guide targeted driver-awareness campaigns and enforcement priorities.
+Bonus Chart - Geographic Crash Density Scatter:
+This scatter plot shows the geographic distribution of crashes using latitude and longitude. Dense clusters indicate areas where crashes are more concentrated. This visual can help identify high-risk corridors or neighborhoods for further investigation.
+Summary Dashboard:
+The dashboard combines multiple views into one figure for a quick overview of fatality rates, pedestrian injuries, and cyclist injury trends. It provides a compact summary of the most important analytical patterns. This chart is useful for presentation and executive-level reporting.

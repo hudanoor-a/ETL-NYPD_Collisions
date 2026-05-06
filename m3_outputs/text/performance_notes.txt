@@ -1,0 +1,6 @@
+Performance optimization evidence:
+First execution time: 59.6223 seconds
+Second execution time after caching: 45.4311 seconds
+Caching was applied to warehouse tables and the joined analytics_base table.
+Broadcast joins were applied to dimension tables.
+The optimized fact table was read from partitioned Parquet output with partition_year and partition_month.
