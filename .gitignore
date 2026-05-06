@@ -1,9 +1,6 @@
 # dataset - too large for github (538MB)
 data/
 
-# claude code internal settings
-.claude/
-
 # python cache
 __pycache__/
 *.pyc
