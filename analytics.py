@@ -12,9 +12,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, broadcast
 
 
-# ==========================================================
-# PATH CONFIG
-# ==========================================================
+# hdfs paths
 BASE_HDFS = "hdfs://localhost:9000/warehouse/processed_optimized/nypd_collisions/"
 FACT_PATH = BASE_HDFS + "fact_crash/"
 DIM_DATE_PATH = BASE_HDFS + "dim_date/"
@@ -28,13 +26,8 @@ CSV_DIR = OUTPUT_DIR / "csv"
 TEXT_DIR = OUTPUT_DIR / "text"
 
 
-# ==========================================================
-# HELPERS
-# ==========================================================
 def print_section(title: str) -> None:
-    print("\n" + "=" * 90)
-    print(title)
-    print("=" * 90)
+    print(f"\n{title}")
 
 
 def print_kv(label: str, value) -> None:
@@ -201,40 +194,34 @@ def write_text(lines, filename: str):
 
 def write_chart_interpretations():
     chart_interpretations = [
-        "Q1 Chart - Borough Fatality Rates Year-over-Year:\n"
-        "This line chart shows how fatality rates vary across borough-year combinations. "
-        "Higher values indicate years and boroughs where crashes were more severe relative to total crash volume. "
-        "These patterns can help prioritize borough-level traffic safety interventions.\n",
+        "Q1 - Borough Fatality Rates Year-over-Year:\n"
+        "Shows how fatality rates shift across boroughs over different years. "
+        "Boroughs with high rates in certain years likely had more severe crashes relative to their total volume, "
+        "which is more useful than just looking at raw crash counts.\n",
 
-        "Q2 Chart - Pedestrian Injuries Heatmap by Day and Hour:\n"
-        "This heatmap shows when pedestrian injuries are most concentrated by hour and day of week. "
-        "Darker or stronger cells indicate periods with higher pedestrian injury counts. "
-        "The result can support targeted enforcement, signal timing reviews, and pedestrian safety planning.\n",
+        "Q2 - Pedestrian Injuries Heatmap (Day vs Hour):\n"
+        "Shows which day/hour combinations are worst for pedestrian injuries. "
+        "The darker cells are the time slots where we'd want to focus enforcement or awareness efforts.\n",
 
-        "Q3 Chart - Fatal vs Non-Fatal Crash Breakdown by Borough:\n"
-        "This stacked bar chart compares fatal and non-fatal crash counts across boroughs. "
-        "It helps identify which boroughs have the highest overall crash burden and how much of that burden involves fatalities. "
-        "The chart is useful for comparing crash severity distribution geographically.\n",
+        "Q3 - Fatal vs Non-Fatal Crashes by Borough:\n"
+        "Stacked bars make it easy to see both total crash volume and how much of it involves fatalities. "
+        "Some boroughs might have fewer total crashes but a higher share of fatal ones.\n",
 
-        "Q4 Chart - Cyclist Injury Trends Monthly Since 2012:\n"
-        "This line chart shows monthly cyclist injury trends over time. "
-        "Peaks and dips reveal seasonal or year-based changes in cyclist safety outcomes. "
-        "The trend can be used to evaluate the need for cycling infrastructure improvements and seasonal safety campaigns.\n",
+        "Q4 - Monthly Cyclist Injuries Since 2012:\n"
+        "Tracks how cyclist injuries fluctuate month by month over the years. "
+        "You can see seasonal patterns and whether things have gotten better or worse over time.\n",
 
-        "Q5 Chart - Top Contributing Factors in Multi-Vehicle 3+ Injury Crashes:\n"
-        "This bar chart ranks the leading contributing factors in severe multi-vehicle crashes. "
-        "The largest bars represent factors most frequently associated with crashes involving three or more injuries. "
-        "These findings can guide targeted driver-awareness campaigns and enforcement priorities.\n",
+        "Q5 - Top Factors in Multi-Vehicle 3+ Injury Crashes:\n"
+        "Ranks the most common contributing factors in serious multi-vehicle crashes. "
+        "The tallest bars are the factors that keep showing up in the worst crashes - useful for targeting awareness campaigns.\n",
 
-        "Bonus Chart - Geographic Crash Density Scatter:\n"
-        "This scatter plot shows the geographic distribution of crashes using latitude and longitude. "
-        "Dense clusters indicate areas where crashes are more concentrated. "
-        "This visual can help identify high-risk corridors or neighborhoods for further investigation.\n",
+        "Bonus - Geographic Crash Density:\n"
+        "Scatter plot of crash locations across NYC. Dense clusters point to specific streets or intersections "
+        "that might need infrastructure improvements.\n",
 
         "Summary Dashboard:\n"
-        "The dashboard combines multiple views into one figure for a quick overview of fatality rates, pedestrian injuries, and cyclist injury trends. "
-        "It provides a compact summary of the most important analytical patterns. "
-        "This chart is useful for presentation and executive-level reporting.\n"
+        "Combines the fatality rate, pedestrian injury, and cyclist injury charts into one view. "
+        "Good for getting a quick overview without flipping between charts.\n"
     ]
 
     write_text(chart_interpretations, "chart_interpretations.txt")
@@ -246,9 +233,6 @@ def add_interpretation(lines, title, sentences):
     lines.append("")
 
 
-# ==========================================================
-# MAIN
-# ==========================================================
 def main():
     ensure_output_dirs()
 
@@ -258,24 +242,22 @@ def main():
 
     spark.sparkContext.setLogLevel("ERROR")
 
-    print_section("M3 ANALYTICS STARTED")
+    print_section("starting analytics...")
 
-    # ------------------------------------------------------
-    # LOAD TABLES
-    # ------------------------------------------------------
+    # load tables from hdfs
     fact = spark.read.parquet(FACT_PATH)
     dim_date = spark.read.parquet(DIM_DATE_PATH)
     dim_location = spark.read.parquet(DIM_LOCATION_PATH)
     dim_vehicle = spark.read.parquet(DIM_VEHICLE_PATH)
     dim_factor = spark.read.parquet(DIM_FACTOR_PATH)
 
-    print_section("TABLE LOAD SUMMARY")
+    print_section("table row counts")
     print_kv("fact_crash rows", fact.count())
     print_kv("dim_date rows", dim_date.count())
     print_kv("dim_location rows", dim_location.count())
     print_kv("dim_vehicle rows", dim_vehicle.count())
     print_kv("dim_factor rows", dim_factor.count())
-    print_section("PARTITIONED PARQUET VERIFICATION")
+    print_section("checking partitions")
 
     partition_columns_present = (
         "partition_year" in fact.columns and "partition_month" in fact.columns
@@ -294,17 +276,13 @@ def main():
         partition_preview_pdf = partition_summary.toPandas()
         save_df_csv(partition_preview_pdf, "partition_summary.csv")
 
-    # ------------------------------------------------------
-    # OPTIMIZATION PREP
-    # ------------------------------------------------------
-    # Caching
+    # cache everything and broadcast the smaller dims
     fact.cache()
     dim_date.cache()
     dim_location.cache()
     dim_vehicle.cache()
     dim_factor.cache()
 
-    # Broadcast joins for smaller dimensions
     analytics_base = fact.alias("f") \
         .join(broadcast(dim_date).alias("d"), col("f.date_key") == col("d.date_key"), "left") \
         .join(broadcast(dim_location).alias("l"), col("f.location_key") == col("l.location_key"), "left") \
@@ -355,12 +333,9 @@ def main():
     analytics_base.cache()
     analytics_base.createOrReplaceTempView("analytics_base")
 
-    print_section("ANALYTICS BASE READY")
+    print_section("analytics base ready")
     print_kv("joined rows", analytics_base.count())
 
-    # ------------------------------------------------------
-    # PERFORMANCE TIMING DEMO
-    # ------------------------------------------------------
     timing_notes = []
     timing_query = """
         SELECT borough, COUNT(*) AS total_crashes
@@ -373,14 +348,14 @@ def main():
     uncached_pdf, uncached_time = time_sql_query(spark, timing_query)
     cached_pdf, cached_time = time_sql_query(spark, timing_query)
 
-    timing_notes.append("Performance optimization evidence:")
-    timing_notes.append(f"First execution time: {uncached_time:.4f} seconds")
-    timing_notes.append(f"Second execution time after caching: {cached_time:.4f} seconds")
-    timing_notes.append("Caching was applied to warehouse tables and the joined analytics_base table.")
-    timing_notes.append("Broadcast joins were applied to dimension tables.")
-    timing_notes.append("The optimized fact table was read from partitioned Parquet output with partition_year and partition_month.")
+    timing_notes.append("caching + broadcast join timing:")
+    timing_notes.append(f"first run: {uncached_time:.4f} seconds")
+    timing_notes.append(f"second run (cached): {cached_time:.4f} seconds")
+    timing_notes.append("tables and analytics_base were cached in memory.")
+    timing_notes.append("broadcast joins used for dimension tables.")
+    timing_notes.append("fact table read from partitioned parquet (partition_year, partition_month).")
 
-    print_section("PERFORMANCE OPTIMIZATION DEMO")
+    print_section("performance timing")
     print_kv("First execution", f"{uncached_time:.4f} sec")
     print_kv("Second execution", f"{cached_time:.4f} sec")
     print_kv("Caching used", "YES")
@@ -392,10 +367,7 @@ def main():
 
     insights = []
 
-    # ======================================================
-    # Q1
-    # ======================================================
-    print_section("Q1 - BOROUGH FATALITY RATES YEAR-OVER-YEAR")
+    print_section("Q1 - Borough Fatality Rates by Year")
 
     q1_sql = """
         -- Q1: Calculate borough fatality rates year-over-year.
@@ -455,10 +427,7 @@ def main():
             "The ranking column helps identify the most severe borough in each year using a Spark SQL window function."
         ])
 
-    # ======================================================
-    # Q2
-    # ======================================================
-    print_section("Q2 - PEAK HOURS FOR PEDESTRIAN INJURIES + CONTRIBUTING FACTORS")
+    print_section("Q2 - Peak Hours for Pedestrian Injuries")
 
     q2_sql = """
         SELECT
@@ -511,10 +480,7 @@ def main():
             "A business or city agency could use this result to time awareness campaigns, crossing guard deployment, or targeted traffic enforcement."
         ])
 
-    # ======================================================
-    # Q3
-    # ======================================================
-    print_section("Q3 - VEHICLE TYPE VS FATAL/NON-FATAL CRASH BREAKDOWN BY BOROUGH")
+    print_section("Q3 - Vehicle Type vs Fatal/Non-Fatal by Borough")
 
     q3_sql = """
         SELECT
@@ -562,10 +528,7 @@ def main():
             "This can help transportation planners focus vehicle-specific safety interventions in boroughs with the largest crash burden."
         ])
 
-    # ======================================================
-    # Q4
-    # ======================================================
-    print_section("Q4 - CYCLIST INJURY TRENDS MONTHLY SINCE 2012")
+    print_section("Q4 - Cyclist Injury Trends (monthly since 2012)")
 
     q4_sql = """
         -- Q4: Track monthly cyclist injuries and calculate month-over-month changes.
@@ -636,10 +599,7 @@ def main():
         "Transportation agencies can use these trends to evaluate bicycle-lane planning, seasonal safety campaigns, and enforcement timing."
     ])
 
-    # ======================================================
-    # Q5
-    # ======================================================
-    print_section("Q5 - FACTORS IN MULTI-VEHICLE CRASHES WITH 3+ INJURIES BY TIME OF DAY")
+    print_section("Q5 - Factors in Multi-Vehicle 3+ Injury Crashes")
 
     q5_sql = """
         -- Q5: Rank contributing factors in multi-vehicle crashes with 3+ injuries by time of day.
@@ -703,10 +663,7 @@ def main():
             "The result supports targeted safety actions by identifying when severe multi-vehicle crashes are most associated with specific contributing factors."
         ])
 
-    # ======================================================
-    # BONUS: GEOGRAPHIC DENSITY VISUAL
-    # ======================================================
-    print_section("GEOGRAPHIC CRASH DENSITY VISUAL")
+    print_section("bonus - geographic crash density")
 
     geo_sql = """
         SELECT latitude, longitude
@@ -726,10 +683,7 @@ def main():
     )
     print_kv("Geo points plotted", len(geo_pdf))
 
-    # ======================================================
-    # SUMMARY DASHBOARD
-    # ======================================================
-    print_section("SUMMARY DASHBOARD")
+    print_section("summary dashboard")
     save_summary_dashboard(
         q1_pdf,
         q2_heatmap_pdf,
@@ -738,10 +692,7 @@ def main():
     )
     print_kv("Dashboard chart", "summary_dashboard.png")
 
-    # ======================================================
-    # WRITE TEXT OUTPUTS
-    # ======================================================
-    print_section("WRITING TEXT OUTPUTS")
+    print_section("writing output files")
     write_text(insights, "insights_summary.txt")
     write_text(timing_notes, "performance_notes.txt")
     write_chart_interpretations()
@@ -749,10 +700,7 @@ def main():
     print_kv("Performance notes", TEXT_DIR / "performance_notes.txt")
     print_kv("Chart interpretations", TEXT_DIR / "chart_interpretations.txt")
 
-    # ======================================================
-    # FINAL OUTPUT SUMMARY
-    # ======================================================
-    print_section("M3 OUTPUTS CREATED")
+    print_section("all done! outputs:")
     print_kv("CSV output folder", CSV_DIR)
     print_kv("Chart output folder", CHART_DIR)
     print_kv("Text output folder", TEXT_DIR)

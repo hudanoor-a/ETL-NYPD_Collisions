@@ -70,6 +70,7 @@ def load_csv(path, logger):
 # Step 2 - Validate
 
 def validate(df, path, logger):
+<<<<<<< HEAD
     """
     Run pre-upload checks on the file and the loaded DataFrame.
 
@@ -77,6 +78,9 @@ def validate(df, path, logger):
 
     Returns true if all critical checks pass, false otherwise.
     """
+=======
+    """Run some checks before uploading — extension, size, encoding, required cols, no duplicate IDs."""
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     logger.info("Bismillah, starting pre-upload validation")
     all_good = True
 
@@ -127,11 +131,15 @@ def validate(df, path, logger):
 
 # HDFS helpers
 def run_hdfs_command(args, logger, label):
+<<<<<<< HEAD
     """
     Execute an HDFS shell command via subprocess.
     args  : list of arguments that follow the hdfs binary
     label : short description used in log messages
     """
+=======
+    """Runs an HDFS shell command via subprocess and logs the result."""
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
 
     full_cmd = f'"{HDFS_BIN}" {" ".join(args)}'
     logger.debug(f"Executing: {full_cmd}")

@@ -9,7 +9,11 @@ from pyspark.sql.functions import (
 
 RAW_PATH = "hdfs://localhost:9000/warehouse/raw/nypd_collisions/year_2026/month_04/"
 
+<<<<<<< HEAD
 # Optimized warehouse output path. This keeps optimized outputs separate from the regular processed warehouse.
+=======
+# separate output path so optimized outputs don't overwrite the regular processed warehouse
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
 PROCESSED_BASE_PATH = "hdfs://localhost:9000/warehouse/processed_optimized/nypd_collisions/"
 FACT_PATH = PROCESSED_BASE_PATH + "fact_crash/"
 DIM_DATE_PATH = PROCESSED_BASE_PATH + "dim_date/"
@@ -19,9 +23,13 @@ DIM_FACTOR_PATH = PROCESSED_BASE_PATH + "dim_factor/"
 
 
 def print_section(title: str) -> None:
+<<<<<<< HEAD
     print("\n" + "=" * 78)
     print(title)
     print("=" * 78)
+=======
+    print(f"\n{title}")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
 
 
 def print_kv(label: str, value) -> None:
@@ -44,6 +52,7 @@ def main():
 
     spark.sparkContext.setLogLevel("ERROR")
 
+<<<<<<< HEAD
     print_section("OPTIMIZED PIPELINE STARTED")
     print_kv("Raw path", RAW_PATH)
     print_kv("Optimized output base", PROCESSED_BASE_PATH)
@@ -53,6 +62,13 @@ def main():
     # ==========================================================
     # A2 profiling context: the raw CSV was already ingested into HDFS in A2/M1.
     # This optimized pipeline starts from the approved raw HDFS location.
+=======
+    print_section("starting optimized pipeline...")
+    print_kv("Raw path", RAW_PATH)
+    print_kv("Optimized output base", PROCESSED_BASE_PATH)
+
+    # read the raw CSV that was already uploaded to HDFS in M1
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_raw = spark.read.csv(
         RAW_PATH,
         header=True,
@@ -62,11 +78,15 @@ def main():
     raw_row_count, raw_read_time = time_count(df_raw, "Raw row count")
     print_kv("Column count", len(df_raw.columns))
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 2: REMOVE NULL/BLANK COLLISION_ID + DEDUPLICATE
     # ==========================================================
     # A2 profiling finding: COLLISION_ID is the unique crash identifier and is required
     # for warehouse fact-table integrity. Null/blank IDs cannot be used as fact keys.
+=======
+    # drop rows with null or blank COLLISION_ID — can't use them as fact keys
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_id_clean = df_raw.filter(
         col("COLLISION_ID").isNotNull() &
         (trim(col("COLLISION_ID")) != "")
@@ -75,25 +95,36 @@ def main():
     id_clean_count = df_id_clean.count()
     null_collision_id_removed = raw_row_count - id_clean_count
 
+<<<<<<< HEAD
     # A2 profiling finding: duplicate crash records were possible.
     # Transformation: remove duplicate crash records using COLLISION_ID.
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_dedup = df_id_clean.dropDuplicates(["COLLISION_ID"])
     dedup_row_count = df_dedup.count()
     duplicates_removed = id_clean_count - dedup_row_count
 
+<<<<<<< HEAD
     print_section("STEP 2 - ID CLEANING + DEDUPLICATION")
+=======
+    print_section("step 2 - dedup")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Rows before", raw_row_count)
     print_kv("Null/blank COLLISION_ID removed", null_collision_id_removed)
     print_kv("Rows after ID cleaning", id_clean_count)
     print_kv("Rows after dedup", dedup_row_count)
     print_kv("Duplicates removed", duplicates_removed)
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 3: CLEAN COORDINATES
     # ==========================================================
     # A2 profiling finding: latitude/longitude columns were stored as strings and
     # contained invalid values such as 0.0 and out-of-NYC coordinate values.
     # Transformation: cast coordinates to double before applying validation rules.
+=======
+    # lat/lon come in as strings and can have (0,0) or out-of-NYC values — clean those out
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_coords = df_dedup \
         .withColumn("LATITUDE_DBL", col("LATITUDE").cast("double")) \
         .withColumn("LONGITUDE_DBL", col("LONGITUDE").cast("double"))
@@ -102,8 +133,12 @@ def main():
         (col("LATITUDE_DBL") == 0.0) & (col("LONGITUDE_DBL") == 0.0)
     ).count()
 
+<<<<<<< HEAD
     # A2 profiling finding: (0,0) coordinates represent sentinel invalid location values.
     # Transformation: replace zero coordinates with null.
+=======
+    # (0,0) means missing — null them out
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_coords = df_coords \
         .withColumn(
             "LATITUDE_DBL",
@@ -124,8 +159,12 @@ def main():
         ((col("LONGITUDE_DBL") < -74.3) | (col("LONGITUDE_DBL") > -73.7))
     ).count()
 
+<<<<<<< HEAD
     # A2 profiling finding: some coordinates fell outside plausible NYC bounds.
     # Transformation: null out coordinates outside approximate NYC bounding ranges.
+=======
+    # also null out anything outside rough NYC bounding box
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_coords = df_coords \
         .withColumn(
             "LATITUDE_DBL",
@@ -142,22 +181,31 @@ def main():
             ).otherwise(col("LONGITUDE_DBL"))
         )
 
+<<<<<<< HEAD
     print_section("STEP 3 - COORDINATE CLEANING")
+=======
+    print_section("step 3 - coordinates")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Zero coord rows found", zero_coord_count)
     print_kv("Latitude OOR rows found", lat_oor_count)
     print_kv("Longitude OOR rows found", lon_oor_count)
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 4: DATE CLEANING
     # ==========================================================
     # A2 profiling finding: CRASH DATE was stored as a string in MM/dd/yyyy format.
     # Transformation: standardize it into Spark DateType for time-based analysis.
+=======
+    # parse the date string into a proper Spark DateType
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_dates = df_coords.withColumn(
         "CRASH_DATE_PARSED",
         to_date(col("CRASH DATE"), "MM/dd/yyyy")
     )
 
     invalid_date_count = df_dates.filter(col("CRASH_DATE_PARSED").isNull()).count()
+<<<<<<< HEAD
     # A2 profiling finding: rows with invalid dates cannot support time-series analysis.
     # Transformation: remove invalid date rows.
     df_dates = df_dates.filter(col("CRASH_DATE_PARSED").isNotNull())
@@ -170,6 +218,15 @@ def main():
     # ==========================================================
     # STEP 5: CAST METRICS + FLAGS
     # ==========================================================
+=======
+    df_dates = df_dates.filter(col("CRASH_DATE_PARSED").isNotNull())
+    rows_after_date_clean = df_dates.count()
+
+    print_section("step 4 - dates")
+    print_kv("Invalid date rows removed", invalid_date_count)
+    print_kv("Rows after date cleaning", rows_after_date_clean)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     injury_cols = [
         "NUMBER OF PERSONS INJURED",
         "NUMBER OF PERSONS KILLED",
@@ -181,14 +238,20 @@ def main():
         "NUMBER OF MOTORIST KILLED"
     ]
 
+<<<<<<< HEAD
     # A2 profiling finding: injury and fatality metrics were read as strings.
     # Transformation: cast numeric metric columns to integer for aggregation.
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_flags = df_dates
     for c in injury_cols:
         df_flags = df_flags.withColumn(c, col(c).cast("int"))
 
+<<<<<<< HEAD
     # A2 profiling finding: many collisions had no injuries or fatalities.
     # Transformation: derive property_damage_only flag for analytical segmentation.
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_flags = df_flags.withColumn(
         "property_damage_only",
         (
@@ -203,8 +266,12 @@ def main():
         )
     )
 
+<<<<<<< HEAD
     # A2 profiling finding: extreme injury counts appeared as potential outliers.
     # Transformation: flag crashes with more than 20 injured persons.
+=======
+    # flag anything with 20+ injured as a likely outlier
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_flags = df_flags.withColumn(
         "injury_count_flagged",
         when(col("NUMBER OF PERSONS INJURED") > 20, True).otherwise(False)
@@ -213,6 +280,7 @@ def main():
     pdo_count = df_flags.filter(col("property_damage_only") == True).count()
     outlier_count = df_flags.filter(col("injury_count_flagged") == True).count()
 
+<<<<<<< HEAD
     print_section("STEP 5 - FLAGS")
     print_kv("PDO rows flagged", pdo_count)
     print_kv("Outlier rows flagged", outlier_count)
@@ -222,6 +290,13 @@ def main():
     # ==========================================================
     # A2 profiling finding: CRASH TIME was stored separately as a string.
     # Transformation: combine CRASH DATE and CRASH TIME into timestamp support columns.
+=======
+    print_section("step 5 - flags")
+    print_kv("PDO rows flagged", pdo_count)
+    print_kv("Outlier rows flagged", outlier_count)
+
+    # combine date + time strings into a proper timestamp column
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_time = df_flags.withColumn(
         "CRASH_TIME_FILLED",
         coalesce(trim(col("CRASH TIME")), lit("00:00"))
@@ -233,11 +308,15 @@ def main():
         to_timestamp(col("CRASH_TS_STR"), "MM/dd/yyyy H:mm")
     )
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 7: NORMALIZED JOIN COLUMNS
     # ==========================================================
     # A2 profiling finding: warehouse join columns contained nulls and inconsistent blanks.
     # Transformation: create normalized join keys so dimension joins are null-safe.
+=======
+    # create normalized join keys — fills nulls/blanks with sentinel values so the joins work cleanly
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_norm = df_time \
         .withColumn("J_CRASH_TIME", coalesce(trim(col("CRASH TIME")), lit("UNKNOWN_TIME"))) \
         .withColumn("J_BOROUGH", coalesce(trim(col("BOROUGH")), lit("UNKNOWN_BOROUGH"))) \
@@ -256,6 +335,7 @@ def main():
         .withColumn("J_FACTOR_4", coalesce(trim(col("CONTRIBUTING FACTOR VEHICLE 4")), lit("UNKNOWN_FACTOR"))) \
         .withColumn("J_FACTOR_5", coalesce(trim(col("CONTRIBUTING FACTOR VEHICLE 5")), lit("UNKNOWN_FACTOR")))
 
+<<<<<<< HEAD
     # Optimization: cache df_norm because it is reused to build multiple dimension tables and fact base.
     df_norm.cache()
     _, cache_materialize_time = time_count(df_norm, "Cached normalized rows")
@@ -263,6 +343,12 @@ def main():
     # ==========================================================
     # STEP 8: BUILD DIM_DATE
     # ==========================================================
+=======
+    # cache here since df_norm gets reused to build all 4 dims + the fact base
+    df_norm.cache()
+    _, cache_materialize_time = time_count(df_norm, "Cached normalized rows")
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_date_dim = df_norm.groupBy(
         col("CRASH_DATE_PARSED").alias("crash_date"),
         col("J_CRASH_TIME").alias("j_crash_time")
@@ -288,9 +374,12 @@ def main():
     df_date_dim.cache()
     dim_date_count, dim_date_time = time_count(df_date_dim, "dim_date rows")
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 9: BUILD DIM_LOCATION
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_location_dim = df_norm.groupBy(
         col("J_BOROUGH").alias("j_borough"),
         col("J_ZIP_CODE").alias("j_zip_code"),
@@ -321,9 +410,12 @@ def main():
     df_location_dim.cache()
     dim_location_count, dim_location_time = time_count(df_location_dim, "dim_location rows")
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 10: BUILD DIM_VEHICLE
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_vehicle_dim = df_norm.groupBy(
         col("J_VEHICLE_1").alias("j_vehicle_1"),
         col("J_VEHICLE_2").alias("j_vehicle_2"),
@@ -350,9 +442,12 @@ def main():
     df_vehicle_dim.cache()
     dim_vehicle_count, dim_vehicle_time = time_count(df_vehicle_dim, "dim_vehicle rows")
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 11: BUILD DIM_FACTOR
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_factor_dim = df_norm.groupBy(
         col("J_FACTOR_1").alias("j_factor_1"),
         col("J_FACTOR_2").alias("j_factor_2"),
@@ -379,9 +474,12 @@ def main():
     df_factor_dim.cache()
     dim_factor_count, dim_factor_time = time_count(df_factor_dim, "dim_factor rows")
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 12: PREPARE FACT BASE
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_fact_base = df_norm.select(
         col("COLLISION_ID").cast("long").alias("collision_id"),
         col("CRASH_DATE_PARSED"),
@@ -417,10 +515,14 @@ def main():
 
     fact_base_count, fact_base_time = time_count(df_fact_base, "fact base rows")
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 13: JOIN FACT TO DIMENSIONS
     # Optimization: broadcast dimension tables because they are smaller than the fact base.
     # ==========================================================
+=======
+    # broadcast all 4 dims — they're small enough to fit in memory on each executor
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     join_start = time.perf_counter()
 
     df_fact = df_fact_base.join(
@@ -487,7 +589,11 @@ def main():
     fact_duplicate_rows = fact_count - fact_base_count
     duplicate_collision_ids = fact_count - fact_distinct_collision_count
 
+<<<<<<< HEAD
     print_section("STEP 10 - FACT_CRASH")
+=======
+    print_section("step 10 - fact_crash")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("fact base rows", fact_base_count)
     print_kv("fact_crash rows", fact_count)
     print_kv("fact join/build time", f"{join_elapsed:.4f} sec")
@@ -499,7 +605,11 @@ def main():
     print_kv("NULL vehicle_key rows", null_vehicle_key_count)
     print_kv("NULL factor_key rows", null_factor_key_count)
 
+<<<<<<< HEAD
     # Validate warehouse key quality and prevent silent submission of bad fact rows.
+=======
+    # make sure nothing slipped through — all keys should resolve cleanly
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     assert null_collision_id_count == 0, "Validation failed: collision_id has nulls"
     assert null_date_key_count == 0, "Validation failed: date_key has nulls"
     assert null_location_key_count == 0, "Validation failed: location_key has nulls"
@@ -508,12 +618,17 @@ def main():
     assert fact_duplicate_rows == 0, "Validation failed: fact row count inflated after joins"
     assert duplicate_collision_ids == 0, "Validation failed: duplicate collision_id values exist"
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 14: WRITE OPTIMIZED PARQUET OUTPUTS
     # Optimization: write the fact table partitioned by year and month to support
     # faster time-based Spark SQL filtering in M3.
     # ==========================================================
     print_section("STEP 11 - WRITE OPTIMIZED PARQUET TO HDFS")
+=======
+    # write everything out — fact table is partitioned by year+month for faster M3 queries
+    print_section("step 11 - writing optimized parquet to HDFS")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("dim_date path", DIM_DATE_PATH)
     print_kv("dim_location path", DIM_LOCATION_PATH)
     print_kv("dim_vehicle path", DIM_VEHICLE_PATH)
@@ -548,7 +663,11 @@ def main():
     print_kv("Write status", "SUCCESS")
     print_kv("Write time", f"{write_elapsed:.4f} sec")
 
+<<<<<<< HEAD
     print_section("FINAL OPTIMIZATION SUMMARY")
+=======
+    print_section("all done! summary:")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Raw rows", raw_row_count)
     print_kv("Rows after dedup", dedup_row_count)
     print_kv("Rows after date cleaning", rows_after_date_clean)

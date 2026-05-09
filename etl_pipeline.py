@@ -15,9 +15,13 @@ DIM_FACTOR_PATH = PROCESSED_BASE_PATH + "dim_factor/"
 
 
 def print_section(title: str) -> None:
+<<<<<<< HEAD
     print("\n" + "=" * 70)
     print(title)
     print("=" * 70)
+=======
+    print(f"\n{title}")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
 
 
 def print_kv(label: str, value) -> None:
@@ -31,12 +35,18 @@ def main():
 
     spark.sparkContext.setLogLevel("ERROR")
 
+<<<<<<< HEAD
     print_section("M2 ETL PIPELINE STARTED")
     print_kv("Raw path", RAW_PATH)
 
     # ==========================================================
     # STEP 1: READ RAW DATA
     # ==========================================================
+=======
+    print_section("starting ETL pipeline...")
+    print_kv("Raw path", RAW_PATH)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_raw = spark.read.csv(
         RAW_PATH,
         header=True,
@@ -45,14 +55,21 @@ def main():
 
     raw_row_count = df_raw.count()
 
+<<<<<<< HEAD
     print_section("STEP 1 - RAW DATA SUMMARY")
+=======
+    print_section("step 1 - raw data")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Read status", "SUCCESS")
     print_kv("Raw row count", raw_row_count)
     print_kv("Column count", len(df_raw.columns))
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 2: REMOVE NULL/BLANK COLLISION_ID + DEDUPLICATE
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_id_clean = df_raw.filter(
         col("COLLISION_ID").isNotNull() &
         (trim(col("COLLISION_ID")) != "")
@@ -64,16 +81,23 @@ def main():
     dedup_row_count = df_dedup.count()
     duplicates_removed = df_id_clean.count() - dedup_row_count
 
+<<<<<<< HEAD
     print_section("STEP 2 - ID CLEANING + DEDUPLICATION")
+=======
+    print_section("step 2 - dedup")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Rows before", raw_row_count)
     print_kv("Null/blank COLLISION_ID removed", null_collision_id_removed)
     print_kv("Rows after ID cleaning", df_id_clean.count())
     print_kv("Rows after dedup", dedup_row_count)
     print_kv("Duplicates removed", duplicates_removed)
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 3: CLEAN COORDINATES
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_coords = df_dedup \
         .withColumn("LATITUDE_DBL", col("LATITUDE").cast("double")) \
         .withColumn("LONGITUDE_DBL", col("LONGITUDE").cast("double"))
@@ -118,14 +142,21 @@ def main():
             ).otherwise(col("LONGITUDE_DBL"))
         )
 
+<<<<<<< HEAD
     print_section("STEP 3 - COORDINATE CLEANING")
+=======
+    print_section("step 3 - coordinates")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Zero coord rows found", zero_coord_count)
     print_kv("Latitude OOR rows found", lat_oor_count)
     print_kv("Longitude OOR rows found", lon_oor_count)
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 4: DATE CLEANING
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_dates = df_coords.withColumn(
         "CRASH_DATE_PARSED",
         to_date(col("CRASH DATE"), "MM/dd/yyyy")
@@ -135,6 +166,7 @@ def main():
     df_dates = df_dates.filter(col("CRASH_DATE_PARSED").isNotNull())
     rows_after_date_clean = df_dates.count()
 
+<<<<<<< HEAD
     print_section("STEP 4 - DATE CLEANING")
     print_kv("Invalid date rows removed", invalid_date_count)
     print_kv("Rows after date cleaning", rows_after_date_clean)
@@ -142,6 +174,12 @@ def main():
     # ==========================================================
     # STEP 5: CAST METRICS + FLAGS
     # ==========================================================
+=======
+    print_section("step 4 - dates")
+    print_kv("Invalid date rows removed", invalid_date_count)
+    print_kv("Rows after date cleaning", rows_after_date_clean)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     injury_cols = [
         "NUMBER OF PERSONS INJURED",
         "NUMBER OF PERSONS KILLED",
@@ -179,6 +217,7 @@ def main():
     pdo_count = df_flags.filter(col("property_damage_only") == True).count()
     outlier_count = df_flags.filter(col("injury_count_flagged") == True).count()
 
+<<<<<<< HEAD
     print_section("STEP 5 - FLAGS")
     print_kv("PDO rows flagged", pdo_count)
     print_kv("Outlier rows flagged", outlier_count)
@@ -186,6 +225,12 @@ def main():
     # ==========================================================
     # STEP 6: TIME SUPPORT
     # ==========================================================
+=======
+    print_section("step 5 - flags")
+    print_kv("PDO rows flagged", pdo_count)
+    print_kv("Outlier rows flagged", outlier_count)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_time = df_flags.withColumn(
         "CRASH_TIME_FILLED",
         coalesce(trim(col("CRASH TIME")), lit("00:00"))
@@ -197,9 +242,12 @@ def main():
         to_timestamp(col("CRASH_TS_STR"), "MM/dd/yyyy H:mm")
     )
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 7: NORMALIZED JOIN COLUMNS
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_norm = df_time \
         .withColumn("J_CRASH_TIME", coalesce(trim(col("CRASH TIME")), lit("UNKNOWN_TIME"))) \
         .withColumn("J_BOROUGH", coalesce(trim(col("BOROUGH")), lit("UNKNOWN_BOROUGH"))) \
@@ -218,9 +266,12 @@ def main():
         .withColumn("J_FACTOR_4", coalesce(trim(col("CONTRIBUTING FACTOR VEHICLE 4")), lit("UNKNOWN_FACTOR"))) \
         .withColumn("J_FACTOR_5", coalesce(trim(col("CONTRIBUTING FACTOR VEHICLE 5")), lit("UNKNOWN_FACTOR")))
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 8: BUILD DIM_DATE (UNIQUE ON NORMALIZED JOIN KEY)
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_date_dim = df_norm.groupBy(
         col("CRASH_DATE_PARSED").alias("crash_date"),
         col("J_CRASH_TIME").alias("j_crash_time")
@@ -245,12 +296,18 @@ def main():
 
     dim_date_count = df_date_dim.count()
 
+<<<<<<< HEAD
     print_section("STEP 6 - DIM_DATE")
     print_kv("dim_date rows", dim_date_count)
 
     # ==========================================================
     # STEP 9: BUILD DIM_LOCATION (UNIQUE ON NORMALIZED JOIN KEY)
     # ==========================================================
+=======
+    print_section("step 6 - dim_date")
+    print_kv("dim_date rows", dim_date_count)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_location_dim = df_norm.groupBy(
         col("J_BOROUGH").alias("j_borough"),
         col("J_ZIP_CODE").alias("j_zip_code"),
@@ -280,12 +337,18 @@ def main():
 
     dim_location_count = df_location_dim.count()
 
+<<<<<<< HEAD
     print_section("STEP 7 - DIM_LOCATION")
     print_kv("dim_location rows", dim_location_count)
 
     # ==========================================================
     # STEP 10: BUILD DIM_VEHICLE (UNIQUE ON NORMALIZED JOIN KEY)
     # ==========================================================
+=======
+    print_section("step 7 - dim_location")
+    print_kv("dim_location rows", dim_location_count)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_vehicle_dim = df_norm.groupBy(
         col("J_VEHICLE_1").alias("j_vehicle_1"),
         col("J_VEHICLE_2").alias("j_vehicle_2"),
@@ -311,12 +374,18 @@ def main():
 
     dim_vehicle_count = df_vehicle_dim.count()
 
+<<<<<<< HEAD
     print_section("STEP 8 - DIM_VEHICLE")
     print_kv("dim_vehicle rows", dim_vehicle_count)
 
     # ==========================================================
     # STEP 11: BUILD DIM_FACTOR (UNIQUE ON NORMALIZED JOIN KEY)
     # ==========================================================
+=======
+    print_section("step 8 - dim_vehicle")
+    print_kv("dim_vehicle rows", dim_vehicle_count)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_factor_dim = df_norm.groupBy(
         col("J_FACTOR_1").alias("j_factor_1"),
         col("J_FACTOR_2").alias("j_factor_2"),
@@ -342,12 +411,18 @@ def main():
 
     dim_factor_count = df_factor_dim.count()
 
+<<<<<<< HEAD
     print_section("STEP 9 - DIM_FACTOR")
     print_kv("dim_factor rows", dim_factor_count)
 
     # ==========================================================
     # STEP 12: PREPARE FACT BASE
     # ==========================================================
+=======
+    print_section("step 9 - dim_factor")
+    print_kv("dim_factor rows", dim_factor_count)
+
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_fact_base = df_norm.select(
         col("COLLISION_ID").cast("long").alias("collision_id"),
         col("CRASH_DATE_PARSED"),
@@ -381,9 +456,12 @@ def main():
 
     fact_base_count = df_fact_base.count()
 
+<<<<<<< HEAD
     # ==========================================================
     # STEP 13: JOIN FACT TO DIMENSIONS
     # ==========================================================
+=======
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     df_fact = df_fact_base.join(
         df_date_dim,
         (df_fact_base["CRASH_DATE_PARSED"] == df_date_dim["crash_date"]) &
@@ -443,7 +521,11 @@ def main():
     fact_duplicate_rows = fact_count - fact_base_count
     duplicate_collision_ids = fact_count - fact_distinct_collision_count
 
+<<<<<<< HEAD
     print_section("STEP 10 - FACT_CRASH")
+=======
+    print_section("step 10 - fact_crash")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("fact base rows", fact_base_count)
     print_kv("fact_crash rows", fact_count)
     print_kv("fact row inflation", fact_duplicate_rows)
@@ -454,6 +536,7 @@ def main():
     print_kv("NULL vehicle_key rows", null_vehicle_key_count)
     print_kv("NULL factor_key rows", null_factor_key_count)
 
+<<<<<<< HEAD
     print_section("FACT_CRASH SAMPLE")
     df_fact.show(5, truncate=False, vertical=True)
 
@@ -461,6 +544,12 @@ def main():
     # STEP 14: WRITE PARQUET OUTPUTS
     # ==========================================================
     print_section("STEP 11 - WRITE PARQUET TO HDFS")
+=======
+    print_section("fact_crash sample rows")
+    df_fact.show(5, truncate=False, vertical=True)
+
+    print_section("step 11 - writing parquet to HDFS")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("dim_date path", DIM_DATE_PATH)
     print_kv("dim_location path", DIM_LOCATION_PATH)
     print_kv("dim_vehicle path", DIM_VEHICLE_PATH)
@@ -481,7 +570,11 @@ def main():
 
     print_kv("Write status", "SUCCESS")
 
+<<<<<<< HEAD
     print_section("FINAL ETL SUMMARY")
+=======
+    print_section("ETL done! summary:")
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
     print_kv("Raw rows", raw_row_count)
     print_kv("Rows after dedup", dedup_row_count)
     print_kv("Rows after date cleaning", rows_after_date_clean)

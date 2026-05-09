@@ -1,1 +1,25 @@
+<<<<<<< HEAD
 data/*.csv
+=======
+# dataset - too large for github (538MB)
+data/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# logs
+*.log
+
+# hadoop temp files
+*.crc
+_SUCCESS
+
+# windows
+Thumbs.db
+desktop.ini
+>>>>>>> 719ebb8ff6546f1ac52364f4efcb21a959902c4d
